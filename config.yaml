@@ -1,0 +1,49 @@
+project:
+  name: "cot_vs_direct_clinical"
+  input_dir: "data"
+  output_dir: "outputs"
+
+paths:
+  data_csv: "data/clinical_qa.csv"
+  results_csv: "outputs/results.csv"
+  summary_csv: "outputs/summary.csv"
+  plots_dir: "outputs/plots"
+
+models:
+  # Primary biomedical model; no Llama dependency
+  primary: "BioMistral/BioMistral-7B"
+  # Optional generalist baseline (set use_baseline_model: true to enable)
+  baseline: "Qwen/Qwen2.5-7B-Instruct"
+  device: "cuda"             # your preferred default
+
+inference:
+  max_new_tokens: 128
+  temperature_direct: 0.2
+  temperature_cot: 0.7
+  cot_self_consistency_k: 0   # set to 5 to enable voting for CoT
+
+experiment:
+  methods: ["direct", "cot"]  # fixed for this project
+  force_citation: true        # enforce [ID:{context_id}] to score groundedness
+  abstain_phrase: "Not in context."
+  use_baseline_model: false   # flip to true to also run the baseline model
+
+# Locked metrics/plots for THIS project (we won't drift)
+metrics:
+  em: true
+  f1: true
+  groundedness: true
+  abstain_rate: true
+  hallucination_rate: true
+  tokens: true
+  latency_p50_p95: true
+  accuracy_per_100_tokens: true
+  reasoning_coverage_concision: true
+
+plots:
+  accuracy_bar: true
+  tokens_bar: true
+  accuracy_vs_tokens_frontier: true
+  grounded_vs_hallucination: true
+  latency_p50_p95_bars: true
+  reasoning_coverage_bar: true
