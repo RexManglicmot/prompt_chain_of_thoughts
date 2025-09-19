@@ -1,0 +1,11 @@
+# Venv
+venv_prompt_chain_of_thoughts
+
+# env
+.env
+
+# Folders
+pics/
+
+# Files
+__pycache__

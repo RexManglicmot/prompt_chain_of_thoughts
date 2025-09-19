@@ -1,0 +1,16 @@
+# config + env
+pyyaml
+python-dotenv
+
+# data handling
+pandas
+datasets
+
+# plotting
+matplotlib
+
+# huggingface local inference
+transformers
+accelerate
+huggingface_hub
+torch         # GPU acceleration (CUDA)
