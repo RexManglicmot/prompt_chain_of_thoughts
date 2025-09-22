@@ -1,9 +1,10 @@
 # Chain-of-Thought for PubMedQA
 
-> CoT prompting improves accuracy by +13 percentage points compared to direct answering on the PubMedQA dataset.
+> CoT prompting improves accuracy by **+13 percentage points** compared to direct answering on the PubMedQA dataset.
 
 ## Inspiration
-Prompt engineering was concept I wanted to learn more about. I took a small course on Coursera on different techniques of prompt engineering, and I wanted to implement such into my own interests and my own project particularly into the healthcare, biomed, and public health space.  Particulary, Chain-of-Thought.
+I wanted to deepen my understanding of prompt engineering, so I completed a short Coursera course covering various techniques. To put these concepts into practice, I decided to apply them to my own areas of interest—healthcare, biomedical research, and public health—with a particular focus on the Chain-of-Thought approach.
+
 
 ## Introduction
 Chain-of-Thought (CoT) prompting is a form of prompt engineering where the model is guided to show its reasoning and **generate intermediate reasoning steps** before giving a final answer. This approach can **boost accuracy and interpretability, and thought processes**. In this project, I compare CoT prompting against direct questioning on a clinical QA task with yes/no/maybe labels. 
@@ -12,14 +13,14 @@ The goal is to test whether the added reasoning improves outcomes, and to weigh 
 
 
 ## Dataset(PubMedQA)
-This project uses the PubMedQA-Labeled dataset, which contains biomedical research `questions` paired with abstracts (`context`) and gold labels (`yes`, `no`, or `maybe`). I sampled 1,000 questions, each with a reference answer and supporting context.
+This project uses the [PubMedQA-Labeled dataset](https://huggingface.co/datasets/bigbio/pubmed_qa), which contains biomedical research `questions` paired with abstracts (`context`) and gold labels (`yes`, `no`, or `maybe`). I sampled 1,000 questions, each with a reference answer and supporting context.
 
 - **Direct Answering**: The LLM is prompted to provide a single direct answer (yes, no, maybe) without showing reasoning.
 
 - **Chain-of-Thought (CoT) Answering**: The LLM is prompted to reason step by step before producing the final answer (yes, no, maybe). A 1-shot example is provided for each choice, guiding the model toward structured reasoning.
 
 ## Models
-We use `BioMistral` from HuggingFace, a large language model fine-tuned for biomedical text understanding. It was chosen because it is specifically adapted to the biomedical research domain, making it more reliable at handling PubMed abstracts compared to general-purpose LLMs. Using BioMistral ensures that both Direct and CoT answering are grounded in domain-specific knowledge rather than generic reasoning.
+We use **`BioMistral`** from [HuggingFace](https://huggingface.co/BioMistral/BioMistral-7B), a large language model fine-tuned for biomedical text understanding. It was chosen because it is specifically adapted to the biomedical research domain, making it more reliable at handling PubMed abstracts compared to general-purpose LLMs. Using BioMistral ensures that both Direct and CoT answering are grounded in domain-specific knowledge rather than generic reasoning.
 
 
 ## Workflow
@@ -51,7 +52,8 @@ Outputs
 
 
 ## Results: Tables
-Performance:
+
+**Performance:**
 
 | method | EM (%) | yes_correct | no_correct | maybe_correct | latency_ms_mean | tokens_out_mean | model_raw_word_avg |
 | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -60,9 +62,8 @@ Performance:
 
 *CoT delivers a clear accuracy lift: 63.2% vs 50.1% EM (+13.1 pts). It roughly doubles “yes” wins (357 vs 186) but is weaker on “no” (275 vs 315), and neither method lands “maybe” here. The trade-off is cost: CoT averages ~1.74 s latency and ~76 tokens/words per output versus Direct’s ~54 ms and ~1 token/word—meaning CoT is far more accurate but much heavier.*
 
-McNemar:
-
-**McNemar’s test** evaluates whether two classifiers differ in accuracy on the same items, using only the discordant pairs—instances where one method is correct and the other is wrong.
+**McNemar Test:**
+McNemar’s test evaluates whether two classifiers differ in accuracy on the same items, using only the discordant pairs—instances where one method is correct and the other is wrong.
 
 |  | Direct correct | Direct wrong |
 | --- | --- | --- |
@@ -70,9 +71,14 @@ McNemar:
 | CoT wrong | 76 | 292 |
 | Totals | 501 | 499 |
 
+
 **McNemar (CC)**: b=207, c=76, χ²=59.717, p=1.07783e-13
 
-*From the 2×2 table, the discordant counts are b = 207 (CoT correct, Direct wrong) and c = 76 (Direct correct, CoT wrong). Under the null of marginal homogeneity (no systematic difference), b and c should be roughly equal. The continuity-corrected chi-square is χ² = 59.717 with p ≈ 1.08×10⁻¹³, indicating a highly significant deviation from equality: CoT wins about 73% of disagreements (207/283). The discordant odds ratio is b/c = 2.72, with an approximate 95% CI [2.09, 3.54] (log-OR ± 1.96·√(1/b+1/c)), showing that when the methods disagree on the same question, CoT is about 2–3.5× more likely than Direct to be the one that’s correct. Note that McNemar ignores ties (both correct or both wrong), so this result cleanly isolates CoT’s advantage specifically on contested items.*
+*From the 2×2 table, the discordant counts are b = 207 (CoT correct, Direct wrong) and c = 76 (Direct correct, CoT wrong). Under the null of marginal homogeneity (no systematic difference), b and c should be roughly equal. 
+
+The continuity-corrected chi-square is χ² = 59.717 with p ≈ 1.08×10⁻¹³, indicating a highly significant deviation from equality: CoT wins about 73% of disagreements (207/283). The discordant odds ratio is b/c = 2.72, with an approximate 95% CI [2.09, 3.54] (log-OR ± 1.96·√(1/b+1/c)), showing that when the methods disagree on the same question, CoT is about 2–3.5× more likely than Direct to be the one that’s correct. 
+
+Note that McNemar ignores ties (both correct or both wrong), so this result cleanly isolates CoT’s advantage specifically on contested items.*
 
 ## Results: Visuals 
 
@@ -86,18 +92,18 @@ McNemar:
 ![Latency](outputs/plots/latency_p50_p95.png) 
 *This latency plot highlights the efficiency trade-off between methods. Direct answers are nearly instantaneous (p50 ≈ 53 ms, p95 ≈ 61 ms), while CoT responses are much slower (p50 ≈ 1.1 s, p95 ≈ 5.9 s) due to longer reasoning chains.*
 
-*the p95 tail for CoT is extreme: it stretches into the multi-second range (≈ 5.9 s), more than 100× slower than direct answers. This heavy tail means that while most CoT responses fall around 1 s, a significant fraction take several seconds, which could be unacceptable in real-time clinical QA settings. In contrast, direct answers remain tightly bounded (p95 only 61 ms), showing far less variability.*
+*The p95 tail for CoT is extreme: it stretches into the multi-second range (≈ 5.9 s), more than 100× slower than direct answers. This heavy tail means that while most CoT responses fall around 1 sec, a significant fraction take several seconds, which could be unacceptable in real-time clinical QA settings. In contrast, direct answers remain tightly bounded (p95 only 61 ms), showing far less variability.*
 
 *This shows that while CoT improves accuracy, it comes at a substantial cost in response time.*
 
 ![Reasoning Length](outputs/plots/cot_reason_len_vs_correct.png)
-*This plot shows that reasoning length does not strongly separate correct from incorrect CoT answers. Both groups have nearly identical medians (~46 words), meaning longer chains of thought don’t reliably translate to higher accuracy. However, the spread is wide: some incorrect answers ramble to 300+ words, while many correct answers stay concise. This suggests quality of reasoning matters more than length — verbosity alone doesn’t guarantee correctness.*
+*This boxplot shows that reasoning length does not strongly separate correct from incorrect CoT answers. Both groups have nearly identical medians (~46 words), meaning longer chains of thought don’t reliably translate to higher accuracy. However, the spread is wide: some incorrect answers ramble to 300+ words, while many correct answers stay concise. This suggests quality of reasoning matters more than length — verbosity alone doesn’t guarantee correctness.*
 
 ![token distribution](outputs/plots/tokens_boxplot.png)
-*This plot shows the huge token efficiency gap between direct answers and CoT. Direct responses are nearly free, with a median of just 1 token, while CoT requires about 51 tokens on average and sometimes exceeds 300+. The wide spread for CoT highlights its verbosity cost, reinforcing that its accuracy gains come with a significant trade-off in efficiency.*
+*This boxplot plot shows the huge token efficiency gap between direct answers and CoT. Direct responses are nearly free, with a median of just 1 token, while CoT requires about 50 tokens on average and sometimes exceeds 300+. The wide spread for CoT highlights its verbosity cost, reinforcing that its accuracy gains come with a significant trade-off in efficiency.*
 
 ![Wins/Losses](outputs/plots/wins_losses_by_gold.png)
-*This plot shows how CoT wins and losses break down by gold label. CoT performs strongly on “yes” questions (199 wins vs 34 losses), but struggles on “no” questions where it loses more often than it wins (42 vs 13). This suggests CoT reasoning is especially beneficial for affirmative cases but less reliable for negative ones.*
+*This stacked bar chart shows how CoT wins and losses break down by gold label. CoT performs strongly on “yes” questions (197 wins vs 26 losses), but struggles on “no” questions where it loses more often than it wins (50 vs 10). Both methods scored zero in the `maybe_correct` category as noted the absense of bars. However, this chart suggests CoT reasoning is especially beneficial for affirmative cases but less reliable for negative ones.*
 
 ## Next Steps
  - Implement self-consistency with CoT (sampling multiple reasoning paths and majority-voting the final answer) to reduce truncation and rambling errors.
