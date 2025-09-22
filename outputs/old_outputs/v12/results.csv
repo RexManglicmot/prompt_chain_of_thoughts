@@ -1,0 +1,221 @@
+id,method,gold_answer,model_raw,model_answer,correct_em,f1,grounded,abstained,hallucinated,tokens_out,latency_ms
+1,direct,yes,Yes [PubMedQA-26348845].,yes,1,1.0,0,0,0,2,773
+1,cot,yes,Final Answer: Yes,yes,1,1.0,0,0,0,3,109
+2,direct,no,Yes [ID:PubMedQA-10973547].,yes,0,0.0,1,0,0,2,321
+2,cot,no,Final Answer: Yes,yes,0,0.0,0,0,0,3,109
+3,direct,yes,Yes [ID:PubMedQA-26163474].,yes,1,1.0,1,0,0,2,320
+3,cot,yes,Final Answer: no [ID:PubMedQA-26163474].,no,0,0.0,1,0,0,4,366
+4,direct,yes,Yes [ID:PubMedQA-24374414].,yes,1,1.0,1,0,0,2,320
+4,cot,yes,Not in context.,not in context,0,0.0,0,1,0,3,108
+5,direct,yes,Not in context.,not in context,0,0.0,0,1,0,3,96
+5,cot,yes,Final Answer: No,no,0,0.0,0,0,0,3,99
+6,direct,yes,Yes [ID:PubMedQA-23495128].,yes,1,1.0,1,0,0,2,311
+6,cot,yes,Final Answer: No.,no,0,0.0,0,0,0,3,115
+7,direct,no,yes [ID:PubMedQA-17192736],yes,0,0.0,1,0,0,2,319
+7,cot,no,Reasoning:,not in context,0,0.0,0,1,0,1,107
+8,direct,yes,Yes [ID:PubMedQA-12163782].,yes,1,1.0,1,0,0,2,322
+8,cot,yes,Final Answer:,not in context,0,0.0,0,1,0,2,94
+9,direct,yes,Yes [ID:PubMedQA-9582182].,yes,1,1.0,1,0,0,2,296
+9,cot,yes,Final Answer: Yes.,yes,1,1.0,0,0,0,3,115
+10,direct,yes,Yes [ID:PubMedQA-25588461].,yes,1,1.0,1,0,0,2,312
+10,cot,yes,Not in context.,not in context,0,0.0,0,1,0,3,99
+11,direct,yes,Yes [PubMedQA-23453079].,yes,1,1.0,0,0,0,2,293
+11,cot,yes,Final Answer: No [ID:PubMedQA-23453079].,no,0,0.0,1,0,0,4,365
+12,direct,yes,Yes [ID:PubMedQA-14518645].,yes,1,1.0,1,0,0,2,313
+12,cot,yes,Final Answer: No.,no,0,0.0,0,0,0,3,110
+13,direct,yes,Yes [ID:PubMedQA-21084567].,yes,1,1.0,1,0,0,2,307
+13,cot,yes,Final Answer: Not in context.,not in context,0,0.0,0,1,0,5,145
+14,direct,yes,Yes [ID:PubMedQA-11601252].,yes,1,1.0,1,0,0,2,312
+14,cot,yes,Final Answer: Yes,yes,1,1.0,0,0,0,3,99
+15,direct,yes,Yes [ID:PubMedQA-20577124].,yes,1,1.0,1,0,0,2,320
+15,cot,yes,Final Answer: no [ID:PubMedQA-20577124],no,0,0.0,1,0,0,4,366
+16,direct,no,Yes [ID:PubMedQA-16647887].,yes,0,0.0,1,0,0,2,313
+16,cot,no,Final Answer: Yes.,yes,0,0.0,0,0,0,3,116
+17,direct,yes,Not in context.,not in context,0,0.0,0,1,0,3,108
+17,cot,yes,Not in context.,not in context,0,0.0,0,1,0,3,107
+18,direct,yes,Yes [PubMedQA-18670651].,yes,1,1.0,0,0,0,2,290
+18,cot,yes,Final Answer:,not in context,0,0.0,0,1,0,2,92
+19,direct,no,Yes [ID:PubMedQA-15137012].,yes,0,0.0,1,0,0,2,311
+19,cot,no,Reasoning:,not in context,0,0.0,0,1,0,1,101
+20,direct,yes,Not in context.,not in context,0,0.0,0,1,0,3,124
+20,cot,yes,Final Answer: Yes [ID:PubMedQA-11380492].,yes,1,1.0,1,0,0,4,383
+21,direct,no,Not in context.,not in context,0,0.0,0,1,0,3,109
+21,cot,no,Final Answer: Not in context.,not in context,0,0.0,0,1,0,5,153
+22,direct,yes,Yes [ID:PubMedQA-12846929].,yes,1,1.0,1,0,0,2,311
+22,cot,yes,Final Answer: No [ID:PubMedQA-12846929].,no,0,0.0,1,0,0,4,365
+23,direct,yes,Yes [ID:PubMedQA-18948835].,yes,1,1.0,1,0,0,2,312
+23,cot,yes,Final Answer: yes [PubMedQA-18948835].,yes,1,1.0,0,0,0,4,334
+24,direct,no,Yes [PubMedQA-23052500].,yes,0,0.0,0,0,0,2,289
+24,cot,no,Final Answer: Yes,yes,0,0.0,0,0,0,3,107
+25,direct,no,Yes [ID:PubMedQA-25488308].,yes,0,0.0,1,0,0,2,319
+25,cot,no,Yes,yes,0,0.0,0,0,0,1,63
+26,direct,maybe,Yes [ID:PubMedQA-24946973].,yes,0,0.0,1,0,0,2,319
+26,cot,maybe,Final Answer: Yes,yes,0,0.0,0,0,0,3,108
+27,direct,yes,Yes [PubMedQA-27456836].,yes,1,1.0,0,0,0,2,290
+27,cot,yes,Final Answer: not in context,not in context,0,0.0,0,1,0,5,139
+28,direct,yes,Yes [ID:PubMedQA-17244100].,yes,1,1.0,1,0,0,2,311
+28,cot,yes,Q: Can patient coaching reduce racial/ethnic disparities in cancer pain control?,not in context,0,0.0,0,1,0,11,303
+29,direct,yes,Yes [ID:PubMedQA-23347337].,yes,1,1.0,1,0,0,2,319
+29,cot,yes,Final Answer: Yes,yes,1,1.0,0,0,0,3,107
+30,direct,yes,Yes [ID:PubMedQA-24098953].,yes,1,1.0,1,0,0,2,311
+30,cot,yes,Final Answer:,not in context,0,0.0,0,1,0,2,84
+31,direct,no,Not in context.,not in context,0,0.0,0,1,0,3,107
+31,cot,no,Final Answer: Yes,yes,0,0.0,0,0,0,3,107
+32,direct,yes,Yes [ID:PubMedQA-12913878].,yes,1,1.0,1,0,0,2,307
+32,cot,yes,Final Answer: Not in context.,not in context,0,0.0,0,1,0,5,144
+33,direct,yes,Yes [ID:PubMedQA-16097998].,yes,1,1.0,1,0,0,2,307
+33,cot,yes,Final Answer: Not in context.,not in context,0,0.0,0,1,0,5,144
+34,direct,no,Yes [ID:PubMedQA-10593212].,yes,0,0.0,1,0,0,2,313
+34,cot,no,Not in context.,not in context,0,0.0,0,1,0,3,96
+35,direct,yes,Not in context.,not in context,0,0.0,0,1,0,3,107
+35,cot,yes,Final Answer:,not in context,0,0.0,0,1,0,2,92
+36,direct,yes,Yes [ID:PubMedQA-8910148].,yes,1,1.0,1,0,0,2,304
+36,cot,yes,Final Answer: Not in context.,not in context,0,0.0,0,1,0,5,153
+37,direct,no,Not in context.,not in context,0,0.0,0,1,0,3,99
+37,cot,no,Q: Delayed diagnosis of anorectal malformations: are current guidelines sufficient?,not in context,0,0.0,0,1,0,10,342
+38,direct,no,Yes [ID:PubMedQA-15052394].,yes,0,0.0,1,0,0,2,311
+38,cot,no,Not in context.,not in context,0,0.0,0,1,0,3,106
+39,direct,no,Not in context.,not in context,0,0.0,0,1,0,3,122
+39,cot,no,Final Answer: Yes [ID:PubMedQA-18439500].,yes,0,0.0,1,0,0,4,382
+40,direct,yes,Yes [ID:PubMedQA-27491658].,yes,1,1.0,1,0,0,2,305
+40,cot,yes,Final Answer: No,no,0,0.0,0,0,0,3,92
+41,direct,no,Yes [ID:PubMedQA-16962519].,yes,0,0.0,1,0,0,2,319
+41,cot,no,Final Answer: Not in context.,not in context,0,0.0,0,1,0,5,152
+42,direct,yes,Yes [ID:PubMedQA-9199905].,yes,1,1.0,1,0,0,2,304
+42,cot,yes,Final Answer: Not in context.,not in context,0,0.0,0,1,0,5,152
+43,direct,yes,Yes [ID:PubMedQA-14745753].,yes,1,1.0,1,0,0,2,312
+43,cot,yes,Final Answer: Not in context.,not in context,0,0.0,0,1,0,5,141
+44,direct,yes,Not in context.,not in context,0,0.0,0,1,0,3,99
+44,cot,yes,Final Answer: No [ID:PubMedQA-23506394].,no,0,0.0,1,0,0,4,364
+45,direct,yes,Not in context.,not in context,0,0.0,0,1,0,3,108
+45,cot,yes,Final Answer: No [ID:PubMedQA-20064872].,no,0,0.0,1,0,0,4,367
+46,direct,yes,Yes [ID:PubMedQA-22683044].,yes,1,1.0,1,0,0,2,318
+46,cot,yes,Final Answer: No [ID:PubMedQA-22683044].,no,0,0.0,1,0,0,4,364
+47,direct,yes,Not in context.,not in context,0,0.0,0,1,0,3,106
+47,cot,yes,Reasoning:,not in context,0,0.0,0,1,0,1,106
+48,direct,yes,Not in context.,not in context,0,0.0,0,1,0,3,101
+48,cot,yes,Final Answer:,not in context,0,0.0,0,1,0,2,80
+49,direct,yes,Yes [ID:PubMedQA-22117569].,yes,1,1.0,1,0,0,2,307
+49,cot,yes,Yes [ID:PubMedQA-22117569].,yes,1,1.0,1,0,0,2,310
+50,direct,yes,Yes [ID:PubMedQA-10811329].,yes,1,1.0,1,0,0,2,318
+50,cot,yes,Yes.,yes,1,1.0,0,0,0,1,76
+51,direct,yes,Not in context.,not in context,0,0.0,0,1,0,3,106
+51,cot,yes,Final Answer: No.,no,0,0.0,0,0,0,3,120
+52,direct,yes,Not in context.,not in context,0,0.0,0,1,0,3,99
+52,cot,yes,Final Answer: Not in context.,not in context,0,0.0,0,1,0,5,150
+53,direct,yes,Yes [ID:PubMedQA-24014276].,yes,1,1.0,1,0,0,2,318
+53,cot,yes,Final Answer: Not in context.,not in context,0,0.0,0,1,0,5,152
+54,direct,yes,Yes [ID:PubMedQA-26561905].,yes,1,1.0,1,0,0,2,310
+54,cot,yes,Final Answer:,not in context,0,0.0,0,1,0,2,84
+55,direct,yes,Not in context.,not in context,0,0.0,0,1,0,3,106
+55,cot,yes,Not in context.,not in context,0,0.0,0,1,0,3,106
+56,direct,no,Yes [ID:PubMedQA-7482275].,yes,0,0.0,1,0,0,2,295
+56,cot,no,Final Answer: yes,yes,0,0.0,0,0,0,3,105
+57,direct,yes,Yes [ID:PubMedQA-23072266].,yes,1,1.0,1,0,0,2,319
+57,cot,yes,Final Answer:,not in context,0,0.0,0,1,0,2,92
+58,direct,yes,Yes [ID:PubMedQA-25432938].,yes,1,1.0,1,0,0,2,306
+58,cot,yes,"Reasoning:The authors of this study used a dataset from Chile between the years 2000 and 2012 to determine the effectiveness of the Chilean traffic law reform on reducing traffic fatalities and severe injuries. The authors used regression analysis to study the impact of the enactment of the traffic law reform on traffic fatalities and severe injuries. They also studied the impact of police traffic enforcement on these outcomes.The authors found that the enactment of the traffic law reform in interaction with number of traffic tickets per police officer was significantly associated with a decrease in traffic fatalities and severe injuries. They also found that police traffic enforcement reduced traffic fatalities by 59% and severe injuries by 37%.The authors used data from a single country, Chile, and the intervention being studied was specific to Chile. Therefore, it is difficult to generalize these findings to other countries. However, the authors did use robust regression analysis and a unique dataset with assembled information from public institutions. Therefore, their findings may be applicable to other countries.",not in context,0,0.0,0,1,0,172,3327
+59,direct,no,Not in context.,not in context,0,0.0,0,1,0,3,99
+59,cot,no,Final Answer: Not in context.,not in context,0,0.0,0,1,0,5,143
+60,direct,yes,Yes [ID:PubMedQA-15208005].,yes,1,1.0,1,0,0,2,306
+60,cot,yes,Final Answer: No.,no,0,0.0,0,0,0,3,114
+61,direct,yes,Yes [ID:PubMedQA-10759659].,yes,1,1.0,1,0,0,2,304
+61,cot,yes,Not in context.,not in context,0,0.0,0,1,0,3,99
+62,direct,maybe,Yes [ID:PubMedQA-25277731].,yes,0,0.0,1,0,0,2,303
+62,cot,maybe,"Yes. The article talks about the fact that sternal fractures are rare, and not about the reasons for this rarity. It is not discussed whether the rarity is due to the fact that they are not frequent or because they are not detected.",yes,0,0.0,0,0,0,43,803
+63,direct,yes,Yes [ID:PubMedQA-26818046].,yes,1,1.0,1,0,0,2,319
+63,cot,yes,Final Answer: No.,no,0,0.0,0,0,0,3,120
+64,direct,yes,Yes [ID:PubMedQA-15065192].,yes,1,1.0,1,0,0,2,309
+64,cot,yes,Yes. Three-dimensional ultrasound-validated large-core needle biopsy of the breast is a reliable method for the histological assessment of breast lesions. [ID:PubMedQA-15065192].,yes,1,1.0,1,0,0,21,830
+65,direct,yes,Yes [ID:PubMedQA-24352924].,yes,1,1.0,1,0,0,2,309
+65,cot,yes,Not in context.,not in context,0,0.0,0,1,0,3,105
+66,direct,no,Not in context.,not in context,0,0.0,0,1,0,3,105
+66,cot,no,Final Answer: yes,yes,0,0.0,0,0,0,3,106
+67,direct,no,Not in context.,not in context,0,0.0,0,1,0,3,104
+67,cot,no,Q: Do the complications of endovenous laser ablation of small saphenous varicose veins include paresthesia?,not in context,0,0.0,0,1,0,15,481
+68,direct,yes,Yes [ID:PubMedQA-25675614].,yes,1,1.0,1,0,0,2,309
+68,cot,yes,Final Answer: No [ID:PubMedQA-25675614].,no,0,0.0,1,0,0,4,354
+69,direct,maybe,Yes.,yes,0,0.0,0,0,0,1,61
+69,cot,maybe,Not in context.,not in context,0,0.0,0,1,0,3,92
+70,direct,yes,Not in context.,not in context,0,0.0,0,1,0,3,98
+70,cot,yes,Final Answer: No,no,0,0.0,0,0,0,3,105
+71,direct,no,Yes [ID:PubMedQA-21823940].,yes,0,0.0,1,0,0,2,309
+71,cot,no,Final Answer: Not in context.,not in context,0,0.0,0,1,0,5,150
+72,direct,yes,Yes [ID:PubMedQA-10331115].,yes,1,1.0,1,0,0,2,310
+72,cot,yes,Final Answer: No,no,0,0.0,0,0,0,3,94
+73,direct,no,Not in context.,not in context,0,0.0,0,1,0,3,104
+73,cot,no,Final Answer: Yes [ID:PubMedQA-24684514].,yes,0,0.0,1,0,0,4,361
+74,direct,yes,Not in context.,not in context,0,0.0,0,1,0,3,99
+74,cot,yes,Final Answer: Yes,yes,1,1.0,0,0,0,3,94
+75,direct,no,Not in context.,not in context,0,0.0,0,1,0,3,98
+75,cot,no,Final Answer: Yes,yes,0,0.0,0,0,0,3,105
+76,direct,no,Not in context.,not in context,0,0.0,0,1,0,3,98
+76,cot,no,Not in context.,not in context,0,0.0,0,1,0,3,104
+77,direct,no,Not in context.,not in context,0,0.0,0,1,0,3,97
+77,cot,no,"Reasoning: The study shows that 8 of 10 patients with complete response (CR) had local recurrence within 3.7 to 8.8 months. Even though these patients did not undergo surgery, they were still alive without cancer after 37 and 58 months. This suggests that CR does not guarantee a lack of local recurrence.",not in context,0,0.0,0,1,0,52,1207
+78,direct,no,Not in context.,not in context,0,0.0,0,1,0,3,106
+78,cot,no,Final Answer: No,no,1,1.0,0,0,0,3,106
+79,direct,yes,Not in context.,not in context,0,0.0,0,1,0,3,105
+79,cot,yes,Final Answer: No,no,0,0.0,0,0,0,3,105
+80,direct,yes,Yes [ID:PubMedQA-9550200].,yes,1,1.0,1,0,0,2,284
+80,cot,yes,Final Answer: maybe,maybe,0,0.0,0,0,0,3,92
+81,direct,yes,Not in context.,not in context,0,0.0,0,1,0,3,105
+81,cot,yes,Reasoning: The total cost and length of stay were both higher for children's teaching hospitals compared to non-children's teaching hospitals. The odds of complications were higher for children's teaching hospitals compared to non-children's teaching hospitals.,not in context,0,0.0,0,1,0,35,851
+82,direct,no,Not in context.,not in context,0,0.0,0,1,0,3,94
+82,cot,no,Final Answer: No,no,1,1.0,0,0,0,3,97
+83,direct,yes,Yes [ID:PubMedQA-22532370].,yes,1,1.0,1,0,0,2,309
+83,cot,yes,Final Answer: Not in context.,not in context,0,0.0,0,1,0,5,144
+84,direct,yes,Yes [ID:PubMedQA-22188074].,yes,1,1.0,1,0,0,2,315
+84,cot,yes,Maybe.,maybe,0,0.0,0,0,0,1,75
+85,direct,yes,Not in context.,not in context,0,0.0,0,1,0,3,93
+85,cot,yes,Final Answer: no,no,0,0.0,0,0,0,3,98
+86,direct,yes,Yes [ID:PubMedQA-18041059].,yes,1,1.0,1,0,0,2,316
+86,cot,yes,Final Answer: No,no,0,0.0,0,0,0,3,106
+87,direct,yes,Yes [ID:PubMedQA-21550158].,yes,1,1.0,1,0,0,2,316
+87,cot,yes,Q: Can autologous platelet-rich plasma gel enhance healing after surgical extraction of mandibular third molars?,not in context,0,0.0,0,1,0,15,455
+88,direct,no,Yes [ID:PubMedQA-21849531].,yes,0,0.0,1,0,0,2,309
+88,cot,no,Yes [ID:PubMedQA-21849531].,yes,0,0.0,1,0,0,2,315
+89,direct,yes,Yes [ID:PubMedQA-10430303].,yes,1,1.0,1,0,0,2,308
+89,cot,yes,Final Answer: Yes.,yes,1,1.0,0,0,0,3,114
+90,direct,maybe,Yes [ID:PubMedQA-24336869].,yes,0,0.0,1,0,0,2,316
+90,cot,maybe,Final Answer: Yes.,yes,0,0.0,0,0,0,3,120
+91,direct,no,Not in context.,not in context,0,0.0,0,1,0,3,104
+91,cot,no,Final Answer: Yes,yes,0,0.0,0,0,0,3,105
+92,direct,yes,Not in context.,not in context,0,0.0,0,1,0,3,99
+92,cot,yes,Reasoning:,not in context,0,0.0,0,1,0,1,93
+93,direct,yes,Not in context.,not in context,0,0.0,0,1,0,3,105
+93,cot,yes,Reasoning:,not in context,0,0.0,0,1,0,1,106
+94,direct,yes,Yes [ID:PubMedQA-18179827].,yes,1,1.0,1,0,0,2,308
+94,cot,yes,Final Answer: not in context.,not in context,0,0.0,0,1,0,5,150
+95,direct,no,Not in context.,not in context,0,0.0,0,1,0,3,106
+95,cot,no,Final Answer: Not in context.,not in context,0,0.0,0,1,0,5,150
+96,direct,yes,Yes [ID:PubMedQA-18388848].,yes,1,1.0,1,0,0,2,308
+96,cot,yes,Final Answer: Yes,yes,1,1.0,0,0,0,3,98
+97,direct,no,Yes [ID:PubMedQA-24625433].,yes,0,0.0,1,0,0,2,315
+97,cot,no,Final Answer: yes [ID:PubMedQA-24625433].,yes,0,0.0,1,0,0,4,361
+98,direct,yes,Not in context.,not in context,0,0.0,0,1,0,3,105
+98,cot,yes,Final Answer: No [ID:PubMedQA-27592038].,no,0,0.0,1,0,0,4,360
+99,direct,yes,Yes [ID:PubMedQA-22453060].,yes,1,1.0,1,0,0,2,316
+99,cot,yes,"First, think step by step under a section titled 'Reasoning:'.",not in context,0,0.0,0,1,0,10,270
+100,direct,yes,Not in context.,not in context,0,0.0,0,1,0,3,105
+100,cot,yes,Final Answer: maybe,maybe,0,0.0,0,0,0,3,106
+101,direct,not in context,Not in context.,not in context,1,1.0,0,1,0,3,98
+101,cot,not in context,Final Answer: Not in context.,not in context,1,1.0,0,1,0,5,128
+102,direct,not in context,Not in context.,not in context,1,1.0,0,1,0,3,82
+102,cot,not in context,Final Answer: Yes,yes,0,0.0,0,0,1,3,83
+103,direct,not in context,Not in context.,not in context,1,1.0,0,1,0,3,82
+103,cot,not in context,Final Answer: Not in context.,not in context,1,1.0,0,1,0,5,131
+104,direct,not in context,Not in context.,not in context,1,1.0,0,1,0,3,82
+104,cot,not in context,Final Answer: No [ID:Decoy-4].,no,0,0.0,1,0,0,4,202
+105,direct,not in context,Not in context.,not in context,1,1.0,0,1,0,3,82
+105,cot,not in context,Final Answer: Not in context.,not in context,1,1.0,0,1,0,5,129
+106,direct,not in context,Not in context.,not in context,1,1.0,0,1,0,3,82
+106,cot,not in context,Final Answer: Not in context.,not in context,1,1.0,0,1,0,5,128
+107,direct,not in context,Not in context.,not in context,1,1.0,0,1,0,3,82
+107,cot,not in context,Final Answer: No [ID:Decoy-7].,no,0,0.0,1,0,0,4,202
+108,direct,not in context,Not in context.,not in context,1,1.0,0,1,0,3,82
+108,cot,not in context,Final Answer: Not in context.,not in context,1,1.0,0,1,0,5,128
+109,direct,not in context,Not in context.,not in context,1,1.0,0,1,0,3,82
+109,cot,not in context,Final Answer: Not in context.,not in context,1,1.0,0,1,0,5,128
+110,direct,not in context,Not in context.,not in context,1,1.0,0,1,0,3,83
+110,cot,not in context,Not in context.,not in context,1,1.0,0,1,0,3,83

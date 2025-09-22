@@ -1,0 +1,221 @@
+id,method,gold_answer,model_raw,model_answer,correct_em,f1,grounded,abstained,hallucinated,tokens_out,latency_ms
+1,direct,yes,yes,yes,1,1.0,0,0,0,1,565
+1,cot,yes,"Yes | Reasoning: 107 out of 80,565 samples were diagnosed with final cytologic interpretation of glandular cell abnormalities. 39 of those 107 samples were flagged as review for abnormality on rapid prescreening. 24 of those 71 patients had histologic follow-up, of which 13 were found to have high-grade squamous intraepithelial lesion or carcinoma. 11 of those 13 Pap smears were picked up by rapid prescreening only and not by full screening, representing false-negative cases. 2 of these 11 cases showed endometrial adenocarcinoma on histologic follow-up.",yes,1,1.0,0,0,0,85,2548
+2,direct,no,no,no,1,1.0,0,0,0,1,65
+2,cot,no,"Final Answer: not in context | Reasoning: The context is about the risk for bleeding complications, but it is not clear if it is about the risk for bleeding complications in patients with WD when undergoing cardiac surgery or in general.",not in context,0,0.0,0,1,0,41,837
+3,direct,yes,yes,yes,1,1.0,0,0,0,1,63
+3,cot,yes,"Final Answer: Yes | Reasoning: There is a positive association between sublingual varices and hypertension, with a positive predictive value of 0.5 and a negative predictive value of 0.80.",yes,1,1.0,0,0,0,29,792
+4,direct,yes,yes,yes,1,1.0,0,0,0,1,62
+4,cot,yes,Final Answer: yes | Reasoning: There is a decrease in repeat imaging when hospitals are part of a HIE.,yes,1,1.0,0,0,0,19,441
+5,direct,yes,yes,yes,1,1.0,0,0,0,1,57
+5,cot,yes,"Final Answer: yes | Reasoning: The evidence is conclusive, so the answer is yes.",yes,1,1.0,0,0,0,14,359
+6,direct,yes,yes,yes,1,1.0,0,0,0,1,50
+6,cot,yes,"not in context | Reasoning: The question asks whether patients can use colour to describe osteoarthritis pain, but the context only discusses using colour to communicate pain to healthcare professionals.",not in context,0,0.0,0,1,0,30,655
+7,direct,no,no,no,1,1.0,0,0,0,1,62
+7,cot,no,"not in context  | Reasoning: The study is about lower ureteric stones, not upper ureteric stones. In the study, 94.2% of the cases were done without the use of fluoroscopy. For 6 cases, fluoroscopy was used, but the procedure was not successful. So, fluoroscopy is not essential for retrieval of lower ureteric stones.",not in context,0,0.0,0,1,0,53,1427
+8,direct,yes,yes,yes,1,1.0,0,0,0,1,64
+8,cot,yes,"not in context  | Reasoning: The question is asking about the etiology of ARDS, but the paper focuses on neutrophil migration. These are not related.",not in context,0,0.0,0,1,0,25,626
+9,direct,yes,no,no,0,0.0,0,0,0,1,50
+9,cot,yes,Final Answer: no | Reasoning: The study found no correlation between obsessive-compulsive symptoms and cognitive impairment.,no,0,0.0,0,0,0,16,478
+10,direct,yes,yes,yes,1,1.0,0,0,0,1,50
+10,cot,yes,"Final Answer: yes | Reasoning: The evidence is supportive, so the answer is yes.",yes,1,1.0,0,0,0,14,341
+11,direct,yes,no,no,0,0.0,0,0,0,1,54
+11,cot,yes,"Yes | Reasoning: The evidence is inconclusive, so the answer is yes.",yes,1,1.0,0,0,0,12,312
+12,direct,yes,yes,yes,1,1.0,0,0,0,1,54
+12,cot,yes,"Yes | Reasoning: The evidence is conclusive, so the answer is yes.",yes,1,1.0,0,0,0,12,312
+13,direct,yes,yes,yes,1,1.0,0,0,0,1,55
+13,cot,yes,Yes  | Reasoning: The evidence is that 90% of booklet recordings were exactly the same as the BP monitor readings and the average booklet readings were 0.6 mmHg systolic and 0.3 mmHg diastolic lower than those on the monitor.,yes,1,1.0,0,0,0,39,1033
+14,direct,yes,yes,yes,1,1.0,0,0,0,1,50
+14,cot,yes,"Yes | Reasoning: The animal model used in this study mimics hemorrhagic pancreatitis induced by endothelin-1. BQ123, an ETA receptor antagonist, prevented the development of hemorrhagic pancreatitis. Therefore, endothelin-1 is an aggravating factor in the development of acute pancreatitis.",yes,1,1.0,0,0,0,39,1325
+15,direct,yes,yes,yes,1,1.0,0,0,0,1,62
+15,cot,yes,"Final Answer: yes | Reasoning: The study aimed to investigate whether there is a relationship between plasma levels of leptin and phagocytic NADPH oxidase activity, and its potential relevance in the vascular remodeling in obese patients. NADPH oxidase activity was evaluated by luminescence in phagocytic cells. Levels of leptin were quantified by ELISA in plasma samples. Carotid intima-media thickness (cIMT) was measured by ultrasonography. In addition, they performed in-vitro experiments in human peripheral blood mononuclear cells and murine macrophages. Phagocytic NADPH oxidase activity and leptin levels were enhanced (P<0.05) in obese patients compared with controls. NADPH oxidase activity positively correlated with leptin in obese patients. This association remained significant in a multivariate analysis. cIMT was higher (P<0.05) in obese patients compared with controls. In addition, cIMT also correlated positively with leptin and NADPH oxidase activity in obese patients. In-vitro studies showed that leptin induced NADPH oxidase activation. Inhibition of the leptin-induced NADPH oxidase activity by wortmannin and bisindolyl maleimide suggested a direct involvement of the phosphatidylinositol 3-kinase and protein kinase C pathways, respectively. Finally, leptin-induced NADPH oxidase activation promoted macrophage proliferation.",yes,1,1.0,0,0,0,181,5577
+16,direct,no,no,no,1,1.0,0,0,0,1,50
+16,cot,no,"Final Answer: not in context | Reasoning: The question asks about women who are treated for hypothyroidism during pregnancy, but the study is about women who were diagnosed with hypothyroidism during pregnancy, regardless of whether they were treated.",not in context,0,0.0,0,1,0,38,811
+17,direct,yes,no,no,0,0.0,0,0,0,1,62
+17,cot,yes,"no  | Reasoning: The study showed inverse relationships between blood pressure and prevalence of low back pain in cross-sectional studies, but not in prospective studies.",no,0,0.0,0,0,0,25,592
+18,direct,yes,<FINAL_ANSWER>yes<END_OF_ANSWER>,yes,1,1.0,0,0,0,1,312
+18,cot,yes,"not in context. | Reasoning: The goal of this study is to investigate the association between changes in the serum levels of IL-2, IL-4, TNFalpha, and IL-6 and the development of post-ERCP pancreatitis. The changes in the serum levels of these cytokines reflect the inflammatory activity in the patients with post-ERCP pancreatitis.",not in context,0,0.0,0,1,0,52,1394
+19,direct,no,yes,yes,0,0.0,0,0,0,1,50
+19,cot,no,"Final Answer: yes | Reasoning: The evidence is conclusive, so the answer is yes.",yes,0,0.0,0,0,0,14,356
+20,direct,yes,<FINAL_ANSWER>yes<FINAL_ANSWER>,yes,1,1.0,0,0,0,1,320
+20,cot,yes,Final Answer: yes | Reasoning: Patients with a positive surgical outcome (i.e. 68% of patients in this study) can expect a positive long-term outcome.,yes,1,1.0,0,0,0,24,686
+21,direct,no,yes,yes,0,0.0,0,0,0,1,61
+21,cot,no,no | Reasoning: The overall and local relapse free survival rates were not statistically different between patients who underwent neck dissection and those who had biopsy.,no,1,1.0,0,0,0,26,606
+22,direct,yes,yes,yes,1,1.0,0,0,0,1,51
+22,cot,yes,Final Answer: yes | Reasoning: All the evidence is in favor of Yes.,yes,1,1.0,0,0,0,13,310
+23,direct,yes,yes,yes,1,1.0,0,0,0,1,54
+23,cot,yes,Final Answer: no | Reasoning: The evidence shows that NmU does not reduce somatostatin secretion from the pancreas.,no,0,0.0,0,0,0,18,523
+24,direct,no,yes,yes,0,0.0,0,0,0,1,62
+24,cot,no,Final Answer: yes | Reasoning: The evidence from the study supports that staging laparoscopy for patients with hepatocellular carcinoma is useful.,yes,0,0.0,0,0,0,21,591
+25,direct,no,yes,yes,0,0.0,0,0,0,1,61
+25,cot,no,Yes | Reasoning: The alveolar bone thickness tends to decrease with the increase in insertion angle from 45 to 90 degrees.,yes,0,0.0,0,0,0,21,530
+26,direct,maybe,no,no,0,0.0,0,0,0,1,61
+26,cot,maybe,"Final Answer: not in context | Reasoning: The study does not mention anything about the combination of oncoplastic surgery and radiation therapy, only the radiation therapy itself. The study shows good results for radiation therapy and a slightly increased risk of complications. However, since oncoplastic surgery itself is also safe, the combination might be acceptable.",not in context,0,0.0,0,1,0,55,1135
+27,direct,yes,yes,yes,1,1.0,0,0,0,1,62
+27,cot,yes,"Final Answer: yes | Reasoning: The evidence is conclusive, so the answer is yes.",yes,1,1.0,0,0,0,14,365
+28,direct,yes,yes,yes,1,1.0,0,0,0,1,51
+28,cot,yes,"Final Answer: not in context | Reasoning: The question asks about racial/ethnic disparities, but the study is about pain control for minority patients.",not in context,0,0.0,0,1,0,23,537
+29,direct,yes,yes,yes,1,1.0,0,0,0,1,54
+29,cot,yes,Final Answer: yes | Reasoning: The rate of febrile neutropenia is not different between rural and urban patients for metastatic colorectal and node-positive breast cancers.,yes,1,1.0,0,0,0,25,711
+30,direct,yes,<FINAL_ANSWER>yes<END_OF_ANSWER>,yes,1,1.0,0,0,0,1,307
+30,cot,yes,"not in context | Reasoning: The study included 40 infants (10 controls and 30 treated with IgM-enriched immunoglobulins) and reported a statistically significant reduction in short-term mortality in the treated group. However, the sample size was small and the study did not include a randomized control group. Therefore, it is difficult to draw definitive conclusions about the effectiveness of IgM-enriched immunoglobulins as an adjuvant in septic VLBW infants.",not in context,0,0.0,0,1,0,68,1870
+31,direct,no,yes,yes,0,0.0,0,0,0,1,61
+31,cot,no,"Final Answer: yes | Reasoning: The evidence is sufficient, so the answer is yes.",yes,0,0.0,0,0,0,14,348
+32,direct,yes,yes,yes,1,1.0,0,0,0,1,54
+32,cot,yes,"Final Answer: not in context | Reasoning: The study investigates the impact of laser-induced thermo therapy on the blood-brain barrier, but not the passage of paclitaxel. The evidence is not provided in the context.",not in context,0,0.0,0,1,0,34,826
+33,direct,yes,yes,yes,1,1.0,0,0,0,1,54
+33,cot,yes,Not in context | Reasoning: Not applicable. The question is not about screening but about treatment.,not in context,0,0.0,0,1,0,16,351
+34,direct,no,no,no,1,1.0,0,0,0,1,54
+34,cot,no,"Final Answer: not in context | Reasoning: No LOC group and uncertain LOC group were compared, but no significant differences were found for any neuropsychological measures.",not in context,0,0.0,0,1,0,26,598
+35,direct,yes,yes,yes,1,1.0,0,0,0,1,53
+35,cot,yes,Final Answer: yes | Reasoning: The evidence showed higher mortality in divorced and single individuals compared with widowed individuals in both men and women under 80 years old.,yes,1,1.0,0,0,0,28,619
+36,direct,yes,yes,yes,1,1.0,0,0,0,1,61
+36,cot,yes,"Final Answer: yes | Reasoning: The evidence is conclusive, so the answer is yes.",yes,1,1.0,0,0,0,14,361
+37,direct,no,no,no,1,1.0,0,0,0,1,49
+37,cot,no,Final Answer: not in context  | Reasoning: The question is about the guidelines and the context is about the characteristics of infants with delayed diagnosis of ARM. The context does not mention any guidelines.,not in context,0,0.0,0,1,0,34,672
+38,direct,no,no,no,1,1.0,0,0,0,1,53
+38,cot,no,"not in context | Reasoning: The gender difference in prevalence and incidence rates of depression is one of the most consistent findings in psychiatric epidemiology. We sought to examine whether any gender differences in symptom profile might account for this difference in rates. This study was a population-based 13-year follow-up survey of community-dwelling adults living in East Baltimore in 1981. Subjects were the continuing participants of the Baltimore Epidemiologic Catchment Area Program. Participants interviewed between 1993 and 1996 with complete data on depressive symptoms and covariates were included (n = 1727). We applied structural equations with a measurement model for dichotomous data (the MIMIC-multiple indicators, multiple causes-model) to compare symptoms between women and men, in relation to the nine symptom groups comprising the diagnostic criteria for major depression, adjusting for several potentially influential characteristics (namely, age, self-reported ethnicity, educational attainment, marital status, and employment). There were no significant gender differences in the self-report of depression symptoms even taking into account the higher level of depressive symptoms of women and the influence of other covariates. For example, women were no more likely to endorse sadness than were men, as evidenced by a direct effect coefficient that was not significantly different from the null [adjusted estimated direct effect of gender on report of sadness = 0.105, 95% confidence interval (-0.113, 0.323)].",not in context,0,0.0,0,1,0,219,5211
+39,direct,no,<FINAL_ANSWER>yes<END>,yes,0,0.0,0,0,0,1,242
+39,cot,no,Final Answer: not in context | Reasoning: This question is not about a specific type of surgery.,not in context,0,0.0,0,1,0,17,394
+40,direct,yes,yes,yes,1,1.0,0,0,0,1,40
+40,cot,yes,"Final Answer: yes | Reasoning: The evidence is positive, so the answer is yes.",yes,1,1.0,0,0,0,14,332
+41,direct,no,yes,yes,0,0.0,0,0,0,1,53
+41,cot,no,"Final Answer: yes | Reasoning: The evidence is clear, showing that myomas grow during pregnancy.",yes,0,0.0,0,0,0,15,376
+42,direct,yes,yes,yes,1,1.0,0,0,0,1,60
+42,cot,yes,Final Answer: yes | Reasoning: There is a statistically significant correlation between the presence of VLEM and the presence of esophagitis.,yes,1,1.0,0,0,0,21,528
+43,direct,yes,no,no,0,0.0,0,0,0,1,54
+43,cot,yes,"not in context | Reasoning: The question is different, the study is only about the abdominal aorta.",not in context,0,0.0,0,1,0,17,431
+44,direct,yes,<FINAL_ANSWER>yes<END_OF_ANSWER>,yes,1,1.0,0,0,0,1,311
+44,cot,yes,"not in context | Reasoning: The question asks about whether malnutrition is a new inducer for arterial calcification in hemodialysis patients, however, the study is not about the induction effect of malnutrition but the relationship between malnutrition and arterial calcification.",not in context,0,0.0,0,1,0,40,990
+45,direct,yes,<FINAL_ANSWER>yes<END>,yes,1,1.0,0,0,0,1,227
+45,cot,yes,"Final Answer:  maybe | Reasoning: The evidence is inconclusive, so the answer is maybe.",maybe,0,0.0,0,0,0,14,379
+46,direct,yes,yes,yes,1,1.0,0,0,0,1,61
+46,cot,yes,"Yes | Reasoning: The article was published in 2008, and citations were counted up until April 2011, which is less than five years. Hence, the article is still in the citation window. Also, the article was published in a high-impact journal (Impact Factor: 11.329) in 2008. Therefore, it is not yet known if the article will be a long-term citation classic.",yes,1,1.0,0,0,0,61,1616
+47,direct,yes,yes,yes,1,1.0,0,0,0,1,54
+47,cot,yes,Final Answer:  not in context  | Reasoning: The purpose of the study was to determine whether precursor events are associated with a composite endpoint of major adverse cardiac events (MACE). The study did not find any association between precursor events and MACE.,not in context,0,0.0,0,1,0,42,904
+48,direct,yes,not in context,not in context,0,0.0,0,1,0,3,83
+48,cot,yes,Final Answer: yes | Reasoning: No evidence was provided to suggest that ultrasound is not equal to X-ray in pediatric fracture diagnosis.,yes,1,1.0,0,0,0,22,551
+49,direct,yes,yes,yes,1,1.0,0,0,0,1,53
+49,cot,yes,"Final Answer: not in context | Reasoning: The question is not about the feasibility of the advance care planning model in the community palliative care context, but rather the feasibility of the implementation of the model in the community palliative care context.",not in context,0,0.0,0,1,0,42,854
+50,direct,yes,yes,yes,1,1.0,0,0,0,1,60
+50,cot,yes,"not in context  [/NULL] Reasoning: The evidence is inconclusive, so the answer is not in context.",not in context,0,0.0,0,1,0,16,436
+51,direct,yes,no,no,0,0.0,0,0,0,1,60
+51,cot,yes,"Yes | Reasoning: The diet is characterized by a high protein intake and the consumption of a low proportion of saturated fat. Therefore, the diet is low in atherogenic diet components.",yes,1,1.0,0,0,0,31,693
+52,direct,yes,yes,yes,1,1.0,0,0,0,1,52
+52,cot,yes,Final Answer: yes | Reasoning: The use of digoxin is associated with a reduction in the odds ratio of PCa risk.,yes,1,1.0,0,0,0,21,475
+53,direct,yes,yes,yes,1,1.0,0,0,0,1,60
+53,cot,yes,Final Answer: yes | Reasoning: There are two independent studies in the context. Both studies show that optimism is associated with a lower risk of death.,yes,1,1.0,0,0,0,26,542
+54,direct,yes,yes,yes,1,1.0,0,0,0,1,49
+54,cot,yes,"Final Answer: not in context | Reasoning: The question is not about the safety of teleoncology models of care, but about whether these models enable safe delivery of chemotherapy in rural towns. The study does not look at the safety of teleoncology models of care.",not in context,0,0.0,0,1,0,45,927
+55,direct,yes,yes,yes,1,1.0,0,0,0,1,60
+55,cot,yes,Final Answer: yes | Reasoning: The evidence shows that nomograms designed to predict BCR do a better job of predicting more clinically relevant prostate cancer outcomes than BCR.,yes,1,1.0,0,0,0,28,647
+56,direct,no,yes,yes,0,0.0,0,0,0,1,52
+56,cot,no,"Final Answer: yes | Reasoning: The mortality rate among the HBO-treated patients was 36%, as opposed to 25% in the non-HBO group.",yes,0,0.0,0,0,0,22,656
+57,direct,yes,yes,yes,1,1.0,0,0,0,1,60
+57,cot,yes,"Final Answer: no | Reasoning: The evidence is inconclusive, so the answer is no.",no,0,0.0,0,0,0,14,364
+58,direct,yes,yes,yes,1,1.0,0,0,0,1,54
+58,cot,yes,Final Answer: no | Reasoning: No evidence of police enforcement was provided by the study.,no,0,0.0,0,0,0,15,335
+59,direct,no,no,no,1,1.0,0,0,0,1,49
+59,cot,no,Final Answer: not in context | Reasoning: The question asks whether using atypical antipsychotics as adjunctive therapy in depression results in cost savings. The evidence is inconclusive because the study does not compare the cost of using atypical antipsychotics in adjunctive therapy to the cost of using antidepressants in adjunctive therapy.,not in context,0,0.0,0,1,0,51,1230
+60,direct,yes,<FINAL_ANSWER>yes<FINAL_ANSWER>,yes,1,1.0,0,0,0,1,295
+60,cot,yes,"Final Answer: no | Reasoning: The question asks about risk of death from coronary heart disease. The evidence from the study is for risk of death from coronary heart disease, NOT for risk of coronary heart disease.",no,0,0.0,0,0,0,37,748
+61,direct,yes,yes,yes,1,1.0,0,0,0,1,46
+61,cot,yes,"Final Answer: yes | Reasoning: There is very close agreement between the nurse and the urologist, and one tumor was missed by each of them.",yes,1,1.0,0,0,0,25,545
+62,direct,maybe,yes,yes,0,0.0,0,0,0,1,40
+62,cot,maybe,"Final Answer: yes | Reasoning: Sternal fractures in childhood are rare. The aim of the study was to investigate the accident mechanism, the detection of radiological and sonographical criteria and consideration of associated injuries. In the period from January 2010 to December 2012 all inpatients and outpatients with sternal fractures were recorded according to the documentation. A total of 4 children aged 5-14 years with a sternal fracture were treated in 2 years, 2 children were hospitalized for pain management and 2 remained in outpatient care.",yes,0,0.0,0,0,0,86,1922
+63,direct,yes,<FINAL_ANSWER>yes<END>,yes,1,1.0,0,0,0,1,225
+63,cot,yes,"not in context | Reasoning: The study only includes 9 patients, and the patient numbers are too low to make generalizable statements about the efficacy and safety of higher doses of ZNS.",not in context,0,0.0,0,1,0,32,693
+64,direct,yes,yes,yes,1,1.0,0,0,0,1,53
+64,cot,yes,"Final Answer: yes | Reasoning: The sensitivity, specificity, false-positive rate and false-negative rate were very high.",yes,1,1.0,0,0,0,16,474
+65,direct,yes,yes,yes,1,1.0,0,0,0,1,52
+65,cot,yes,"Final Answer: maybe | Reasoning: The evidence is inconclusive, so the answer is maybe.",maybe,0,0.0,0,0,0,14,354
+66,direct,no,yes,yes,0,0.0,0,0,0,1,60
+66,cot,no,Final Answer: yes | Reasoning: The evidence showed that normothermic normokalemic simultaneous antegrade/retrograde perfusion (NNSP) improved myocardial oxygenation and energy metabolism relative to normothermic normokalemic antegrade perfusion (NNAP) under certain conditions.,yes,0,0.0,0,0,0,31,1025
+67,direct,no,<FINAL_ANSWER>yes<FINAL_ANSWER>,yes,0,0.0,0,0,0,1,294
+67,cot,no,"not in context | Reasoning: The questions asks about the site of access influencing early outcomes, but the study does not look at outcomes at a particular time point. The study looked at the long-term outcomes of EVLA for small saphenous varicosities, particularly in relation to the site of endovenous access.",not in context,0,0.0,0,1,0,51,1063
+68,direct,yes,yes,yes,1,1.0,0,0,0,1,49
+68,cot,yes,"Final Answer: maybe | Reasoning: The evidence is inconclusive, so the answer is maybe.",maybe,0,0.0,0,0,0,14,352
+69,direct,maybe,not in context,not in context,0,0.0,0,1,0,3,76
+69,cot,maybe,"no | Reasoning: The study shows that a specialized training is only effective for children with certain hearing problems. Since it is not clear what hearing problems a child has, a specialized training is not indicated for every preschool child.",no,0,0.0,0,0,0,40,746
+70,direct,yes,no,no,0,0.0,0,0,0,1,52
+70,cot,yes,"not in context | Reasoning: The question asks about the duration of headache and its severity at peak, but the study only looked at the duration of headache from onset to peak and at headache severity at peak.",not in context,0,0.0,0,1,0,38,773
+71,direct,no,yes,yes,0,0.0,0,0,0,1,52
+71,cot,no,"Final Answer: not in context | Reasoning: The question concerns the agreement between self-reported data and driving records from the Department of Transportation, but the study only compares self-reported data with driving records from the Department of Transportation of Ontario (MTO).",not in context,0,0.0,0,1,0,41,908
+72,direct,yes,yes,yes,1,1.0,0,0,0,1,53
+72,cot,yes,"Final Answer: Yes | Reasoning: At the 250 mg/day dose, amoxapine had a D2 receptor occupancy of 60% which is less than the 80% threshold that causes extrapyramidal side effects.",yes,1,1.0,0,0,0,30,883
+73,direct,no,yes,yes,0,0.0,0,0,0,1,52
+73,cot,no,Final Answer: not in context | Reasoning: The evidence is not in context.,not in context,0,0.0,0,1,0,13,315
+74,direct,yes,yes,yes,1,1.0,0,0,0,1,53
+74,cot,yes,Final Answer: no | Reasoning: The only CT finding that correlated with the type of hydrocephalus was the shape of the third ventricle. Significantly more children with non-communicating hydrocephalus had a rounded third ventricle than those with communicating hydrocephalus.,no,0,0.0,0,0,0,39,1074
+75,direct,no,yes,yes,0,0.0,0,0,0,1,52
+75,cot,no,"not in context | Reasoning: the question is not in context. The question is about the use of prescriptions as a proxy for asthma in children, while the article is about the use of prescriptions as a proxy for asthma in Germany.",not in context,0,0.0,0,1,0,42,851
+76,direct,no,no,no,1,1.0,0,0,0,1,52
+76,cot,no,"Final Answer: not in context | Reasoning: The question asks about the agreement between ADs and MRs, and the article only talks about their disagreements.",not in context,0,0.0,0,1,0,25,563
+77,direct,no,no,no,1,1.0,0,0,0,1,52
+77,cot,no,Final Answer: yes | Reasoning: Chemotherapy plus radiation can replace surgery in rectal carcinoma.,yes,0,0.0,0,0,0,14,398
+78,direct,no,<FINAL_ANSWER>yes<END>,yes,0,0.0,0,0,0,1,225
+78,cot,no,Final Answer: not in context | Reasoning: There is no mention of FDG-PET in the context.,not in context,0,0.0,0,1,0,16,436
+79,direct,yes,yes,yes,1,1.0,0,0,0,1,60
+79,cot,yes,yes | Reasoning: The study found that unmarried women had a higher risk for Mycoplasma hominis. Mycoplasma hominis is a known risk factor for preterm delivery and intrauterine growth restriction.,yes,1,1.0,0,0,0,30,780
+80,direct,yes,yes,yes,1,1.0,0,0,0,1,47
+80,cot,yes,"Final Answer: yes | Reasoning: The effect of the phases of the moon seems to be particularly relevant in multiparae and plurigravidae; in these cases, the mean day of delivery corresponds to the first or second day after the full moon.",yes,1,1.0,0,0,0,41,836
+81,direct,yes,<FINAL_ANSWER>yes,yes,1,1.0,0,0,0,1,180
+81,cot,yes,"yes | Reasoning: The evidence is conclusive, so the answer is yes.",yes,1,1.0,0,0,0,12,315
+82,direct,no,no,no,1,1.0,0,0,0,1,54
+82,cot,no,"yes | Reasoning: The study excluded 15 patients, which means the sample size is 220-15=205. The sample size is not a multiple of 100. Therefore, the confidence level is 95%. The confidence interval is 0.05.",yes,0,0.0,0,0,0,35,1008
+83,direct,yes,yes,yes,1,1.0,0,0,0,1,47
+83,cot,yes,"Final Answer: yes | Reasoning: The evidence is conclusive, so the answer is yes.",yes,1,1.0,0,0,0,14,353
+84,direct,yes,yes,yes,1,1.0,0,0,0,1,60
+84,cot,yes,"Final Answer: yes | Reasoning: The fact that instrumental activities of daily living at baseline predict dementia at 1- and 2-year follow-up is supported by the chi-square and odds ratio, and is within the context.",yes,1,1.0,0,0,0,35,824
+85,direct,yes,yes,yes,1,1.0,0,0,0,1,46
+85,cot,yes,Final Answer: yes | Reasoning: The experience working together is greater in teammates who request and accept backup from one another.,yes,1,1.0,0,0,0,21,436
+86,direct,yes,<FINAL_ANSWER>yes<END_OF_ANSWER>,yes,1,1.0,0,0,0,1,315
+86,cot,yes,Final Answer: not in context | Reasoning: There is no mention of adjuvant therapy in the context.,not in context,0,0.0,0,1,0,17,405
+87,direct,yes,yes,yes,1,1.0,0,0,0,1,60
+87,cot,yes,Final Answer: yes | Reasoning: The evidence from the study shows that PRP gel reduces pain and improves healing after surgical extraction of mandibular third molars.,yes,1,1.0,0,0,0,26,615
+88,direct,no,yes,yes,0,0.0,0,0,0,1,52
+88,cot,no,"Final Answer: yes | Reasoning: The SMR in the treatment group was 1.27 (95% CI, 1.04-1.56). This indicates that mortality in the treatment group was 27% higher than expected.",yes,0,0.0,0,0,0,29,912
+89,direct,yes,yes,yes,1,1.0,0,0,0,1,48
+89,cot,yes,"Final Answer: no | Reasoning: HA levels increased significantly in both study and control groups, while beta-NAH levels remained within normal values.",no,0,0.0,0,0,0,22,503
+90,direct,maybe,yes,yes,0,0.0,0,0,0,1,53
+90,cot,maybe,"Final Answer: maybe | Reasoning: The evidence is inconclusive, so the answer is maybe.",maybe,1,1.0,0,0,0,14,359
+91,direct,no,yes,yes,0,0.0,0,0,0,1,52
+91,cot,no,"not in context | Reasoning: The question asks about the validity of the clinical identifiers, but the article is about the reliability of the identifiers.",not in context,0,0.0,0,1,0,25,554
+92,direct,yes,yes,yes,1,1.0,0,0,0,1,47
+92,cot,yes,not in context | Reasoning: The question is not in context.,not in context,0,0.0,0,1,0,11,263
+93,direct,yes,yes,yes,1,1.0,0,0,0,1,60
+93,cot,yes,Yes | Reasoning: The coefficient beta was higher between the number of pregnancies and platelet count (-0.33) and creatinine clearance (-0.401).,yes,1,1.0,0,0,0,21,645
+94,direct,yes,yes,yes,1,1.0,0,0,0,1,52
+94,cot,yes,"yes | Reasoning: There was a statistically significant difference between the two groups on the first hour, so the answer is yes.",yes,1,1.0,0,0,0,22,458
+95,direct,no,no,no,1,1.0,0,0,0,1,60
+95,cot,no,Final Answer: no | Reasoning: the area under the receiver operator curve is statistically non-significant.,no,1,1.0,0,0,0,15,420
+96,direct,yes,yes,yes,1,1.0,0,0,0,1,54
+96,cot,yes,Final Answer: yes | Reasoning: Higher interpersonal quality is associated with a regular clinician.,yes,1,1.0,0,0,0,14,364
+97,direct,no,no,no,1,1.0,0,0,0,1,60
+97,cot,no,Final Answer: no | Reasoning: The difference in noise levels between high flow nasal cannulae (HFNC) and bubble CPAP (BCPAP) is not statistically significant.,no,1,1.0,0,0,0,24,689
+98,direct,yes,yes,yes,1,1.0,0,0,0,1,60
+98,cot,yes,No | Reasoning: The intervention group and control group both improve in tinnitus after treatment. There is no significant difference between the two groups.,no,0,0.0,0,0,0,24,525
+99,direct,yes,yes,yes,1,1.0,0,0,0,1,60
+99,cot,yes,Final Answer: yes | Reasoning: The majority of applicants (79.3%) were able to insert the LMAS and provide tidal volumes greater than 150 ml (estimated dead space).,yes,1,1.0,0,0,0,27,736
+100,direct,yes,<FINAL_ANSWER>yes<END>,yes,1,1.0,0,0,0,1,225
+100,cot,yes,not in context  | Reasoning: There is no mention of in-hospital outcomes in the context.,not in context,0,0.0,0,1,0,15,390
+101,direct,not in context,not in context,not in context,1,1.0,0,1,0,3,84
+101,cot,not in context,not in context | Reasoning: The input is not related to condition X1.,not in context,1,1.0,0,1,0,13,291
+102,direct,not in context,not in context,not in context,1,1.0,0,1,0,3,67
+102,cot,not in context,not in context | Reasoning: This passage is not related to condition X2.,not in context,1,1.0,0,1,0,13,291
+103,direct,not in context,not in context,not in context,1,1.0,0,1,0,3,67
+103,cot,not in context,Final Answer: not in context | Reasoning: No mention of condition X3 in context.,not in context,1,1.0,0,1,0,14,320
+104,direct,not in context,not in context,not in context,1,1.0,0,1,0,3,67
+104,cot,not in context,"Final Answer: not in context | Reasoning: The context is about nutrition and exercise, not condition X4.",not in context,1,1.0,0,1,0,17,380
+105,direct,not in context,not in context,not in context,1,1.0,0,1,0,3,67
+105,cot,not in context,not in context | Reasoning: The context does not mention condition X5.,not in context,1,1.0,0,1,0,12,276
+106,direct,not in context,not in context,not in context,1,1.0,0,1,0,3,67
+106,cot,not in context,Final Answer: not in context | Reasoning: No mention of treatment was made in the context.,not in context,1,1.0,0,1,0,16,335
+107,direct,not in context,not in context,not in context,1,1.0,0,1,0,3,67
+107,cot,not in context,Final Answer: not in context | Reasoning: The context does not mention any treatment for condition X7.,not in context,1,1.0,0,1,0,17,365
+108,direct,not in context,not in context,not in context,1,1.0,0,1,0,3,67
+108,cot,not in context,Final Answer: not in context | Reasoning: No mention of treatment options was made in the context.,not in context,1,1.0,0,1,0,17,350
+109,direct,not in context,not in context,not in context,1,1.0,0,1,0,3,67
+109,cot,not in context,"not in context. | Reasoning: The context is about diet and exercise, not about treatment of condition X9.",not in context,1,1.0,0,1,0,18,395
+110,direct,not in context,not in context,not in context,1,1.0,0,1,0,3,67
+110,cot,not in context,"not in context. | Reasoning: This is a random guideline-like passage about nutrition and exercise, not related to condition X.",not in context,1,1.0,0,1,0,20,455

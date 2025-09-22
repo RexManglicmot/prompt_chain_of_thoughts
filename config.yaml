@@ -11,15 +11,19 @@ paths:
 
 models:
   # Primary biomedical model; no Llama dependency
-  primary: "BioMistral/BioMistral-7B"
+  primary: "BioMistral/BioMistral-7B" # BioMistral/BioMistral-7B" # "microsoft/BioGPT-Large"
   # Optional generalist baseline (set use_baseline_model: true to enable)
   baseline: "Qwen/Qwen2.5-7B-Instruct"
   device: "cuda"             # your preferred default
 
 inference:
   max_new_tokens: 128
-  temperature_direct: 0.2
-  temperature_cot: 0.7
+  # added 9/19
+  max_new_tokens_direct: 50 # was 16
+  max_new_tokens_cot: 384 #150 # was 384 # was 256 # was 128
+  # END
+  temperature_direct: 0.2 #0.0 #was 0.2 
+  temperature_cot: 0.2 # 0.85 # was0.2 #was 0.7
   cot_self_consistency_k: 0   # set to 5 to enable voting for CoT
 
 experiment:

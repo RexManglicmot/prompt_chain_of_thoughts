@@ -1,0 +1,221 @@
+id,method,gold_answer,model_raw,model_answer,correct_em,f1,grounded,abstained,hallucinated,tokens_out,latency_ms
+1,direct,yes,Yes [ID:PubMedQA-26348845].,yes,1,1.0,1,0,0,2,818
+1,cot,yes,Final Answer: Not in context.,not in context,0,0.0,0,1,0,5,153
+2,direct,no,Yes [ID:PubMedQA-10973547].,yes,0,0.0,1,0,0,2,323
+2,cot,no,Final Answer: Yes [ID:PubMedQA-10973547].,yes,0,0.0,1,0,0,4,367
+3,direct,yes,Yes [ID:PubMedQA-26163474].,yes,1,1.0,1,0,0,2,320
+3,cot,yes,Reasoning:,not in context,0,0.0,0,1,0,1,123
+4,direct,yes,Not in context.,not in context,0,0.0,0,1,0,3,108
+4,cot,yes,"Context: Broad-based electronic health information exchange (HIE), in which patients' clinical data follow them between care delivery settings, is expected to produce large quality gains and cost savings. Although these benefits are assumed to result from reducing redundant care, there is limited supporting empirical evidence. To evaluate whether HIE adoption is associated with decreases in repeat imaging in emergency departments (EDs).",not in context,0,0.0,0,1,0,61,1279
+5,direct,yes,Not in context.,not in context,0,0.0,0,1,0,3,97
+5,cot,yes,The promise of specialty pharmaceuticals: are they worth the price?,not in context,0,0.0,0,1,0,10,262
+6,direct,yes,Not in context.,not in context,0,0.0,0,1,0,3,99
+6,cot,yes,Final Answer: Not in context.,not in context,0,0.0,0,1,0,5,145
+7,direct,no,Yes [ID:PubMedQA-17192736].,yes,0,0.0,1,0,0,2,320
+7,cot,no,Final Answer: Fluoroscopy is not essential for retrieval of lower ureteric stones.,not in context,0,0.0,0,1,0,12,381
+8,direct,yes,Yes [ID:PubMedQA-12163782].,yes,1,1.0,1,0,0,2,322
+8,cot,yes,Final Answer: Not in context.,not in context,0,0.0,0,1,0,5,156
+9,direct,yes,Yes [ID:PubMedQA-9582182].,yes,1,1.0,1,0,0,2,296
+9,cot,yes,Not in context.,not in context,0,0.0,0,1,0,3,99
+10,direct,yes,Not in context.,not in context,0,0.0,0,1,0,3,99
+10,cot,yes,"The aim of the study is to identify electrophysiological parameters which might potentially express the presence of residual networks sustaining fragmentary behavioral patterns, even when no conscious behavior can be observed. The researchers enrolled 25 severe DOC patients, following post-anoxic or traumatic brain injury and 20 healthy individuals (HC) as control group. Baseline electrophysiological evaluation evidenced, in comparison to HC, a partial preservation of cortical effective connectivity and excitability in clinically defined MCS, whereas these components were absent in clinically defined UWS. Then, the researchers applied an anodal transcranial direct current stimulation (a-tDCS) protocol over the orbitofrontal cortex. a-tDCS was able to boost cortical connectivity and excitability in all HC, MCS, and to unmask such excitability/connectivity in some UWS patients.",no,0,0.0,0,0,0,120,3080
+11,direct,yes,Yes [ID:PubMedQA-23453079].,yes,1,1.0,1,0,0,2,320
+11,cot,yes,"Final Answer: No, not in context.",not in context,0,0.0,0,1,0,6,183
+12,direct,yes,Not in context.,not in context,0,0.0,0,1,0,3,101
+12,cot,yes,Reasoning: The question asks if there are any common factors amenable to prevention. The context mentions a retrospective survey of 268 young men aged 15-39 years who died in Merseyside and Cheshire during 1995. The most common cause of death was poisoning by alcohol and drugs. A high proportion of cases were unemployed. Cases were also more likely to be single compared to the general population. Self-destructive behavior was evident in 77% of deaths.,not in context,0,0.0,0,1,0,74,1735
+13,direct,yes,Yes [ID:PubMedQA-21084567].,yes,1,1.0,1,0,0,2,308
+13,cot,yes,Final Answer: Yes [ID:PubMedQA-21084567].,yes,1,1.0,1,0,0,4,353
+14,direct,yes,Yes [ID:PubMedQA-11601252].,yes,1,1.0,1,0,0,2,311
+14,cot,yes,Not in context.,not in context,0,0.0,0,1,0,3,99
+15,direct,yes,Yes [ID:PubMedQA-20577124].,yes,1,1.0,1,0,0,2,320
+15,cot,yes,Final Answer: Not in context.,not in context,0,0.0,0,1,0,5,153
+16,direct,no,Not in context.,not in context,0,0.0,0,1,0,3,100
+16,cot,no,Final Answer: Not in context.,not in context,0,0.0,0,1,0,5,158
+17,direct,yes,Not in context.,not in context,0,0.0,0,1,0,3,107
+17,cot,yes,"The answer to the question is not in the context. The context discusses the association between low blood pressure and chronic low back pain. High blood pressure does not relate to low back pain, so it is not related to chronic low back pain either.",not in context,0,0.0,0,1,0,45,806
+18,direct,yes,Yes [PubMedQA-18670651].,yes,1,1.0,0,0,0,2,289
+18,cot,yes,"To investigate the association between early changes (within 24 hours) in the serum interleukin (IL)-2, IL-4, tumor necrosis factor (TNF)alpha, and IL-6 levels and the development of post-ERCP pancreatitis.",not in context,0,0.0,0,1,0,29,1001
+19,direct,no,Yes [ID:PubMedQA-15137012].,yes,0,0.0,1,0,0,2,311
+19,cot,no,"Final Answer: Ovarian torsion in children: is oophorectomy necessary? No, oophorectomy is not necessary. [ID:PubMedQA-15137012]",no,1,1.0,1,0,0,15,765
+20,direct,yes,Not in context.,not in context,0,0.0,0,1,0,3,122
+20,cot,yes,Final Answer: The 95% confidence interval of the mean is 10.8 ± 3.5 years. [ID:PubMedQA-11380492],not in context,0,0.0,1,1,0,15,717
+21,direct,no,Yes [PubMedQA-17274051].,yes,0,0.0,0,0,0,2,290
+21,cot,no,Final Answer: Not in context.,not in context,0,0.0,0,1,0,5,152
+22,direct,yes,Yes [ID:PubMedQA-12846929].,yes,1,1.0,1,0,0,2,311
+22,cot,yes,"Final Answer: No, at follow-up assessment there was no significant difference between patient groups nor did any consistent pattern emerge. [ID:PubMedQA-12846929]",no,0,0.0,1,0,0,21,674
+23,direct,yes,Yes [ID:PubMedQA-18948835].,yes,1,1.0,1,0,0,2,311
+23,cot,yes,Final Answer: Somatostatin does not confer insulinostatic effects of neuromedin u in the rat pancreas. Not in context.,not in context,0,0.0,0,1,0,18,523
+24,direct,no,Yes [PubMedQA-23052500].,yes,0,0.0,0,0,0,2,288
+24,cot,no,Final Answer: Yes.,yes,0,0.0,0,0,0,3,121
+25,direct,no,Yes [ID:PubMedQA-25488308].,yes,0,0.0,1,0,0,2,319
+25,cot,no,"The proper angle of miniscrew insertion is important for cortical anchorage, patient safety, and biomechanical control. The purposes of this study are to report the alveolar process thickness and inter-radicular space in the posterior region of the mandible, to assess the impact of different miniscrew insertion angle protocols, and to identify differences between the genders or types of malocclusion.",not in context,0,0.0,0,1,0,59,1384
+26,direct,maybe,Yes [ID:PubMedQA-24946973].,yes,0,0.0,1,0,0,2,318
+26,cot,maybe,Final Answer: Yes [ID:PubMedQA-24946973].,yes,0,0.0,1,0,0,4,364
+27,direct,yes,Yes [ID:PubMedQA-27456836].,yes,1,1.0,1,0,0,2,320
+27,cot,yes,Final Answer: Yes [ID:PubMedQA-27456836].,yes,1,1.0,1,0,0,4,365
+28,direct,yes,Yes [ID:PubMedQA-17244100].,yes,1,1.0,1,0,0,2,310
+28,cot,yes,Q: Can patient coaching reduce racial/ethnic disparities in cancer pain control?,not in context,0,0.0,0,1,0,11,295
+29,direct,yes,Yes [ID:PubMedQA-23347337].,yes,1,1.0,1,0,0,2,318
+29,cot,yes,Final Answer: Yes [ID:PubMedQA-23347337].,yes,1,1.0,1,0,0,4,365
+30,direct,yes,Yes [ID:PubMedQA-24098953].,yes,1,1.0,1,0,0,2,310
+30,cot,yes,Final Answer: Not in context.,not in context,0,0.0,0,1,0,5,144
+31,direct,no,Yes [ID:PubMedQA-25274085].,yes,0,0.0,1,0,0,2,318
+31,cot,no,Final Answer: Not in context.,not in context,0,0.0,0,1,0,5,152
+32,direct,yes,Yes [ID:PubMedQA-12913878].,yes,1,1.0,1,0,0,2,306
+32,cot,yes,"Final Answer: LITT induces an opening of the BBB as demonstrated by locoregional extravasation of Evans blue, C3C, fibrinogen, and IgM. HPLC proved the passage of paclitaxel across the disrupted BBB. [ID:PubMedQA-12913878]",not in context,0,0.0,1,1,0,32,1215
+33,direct,yes,Yes [ID:PubMedQA-16097998].,yes,1,1.0,1,0,0,2,307
+33,cot,yes,Yes. A total of 96% of screen-detected and 93% of symptom-detected coeliac patients adhered to a strict or fairly strict gluten-free diet.,yes,1,1.0,0,0,0,22,700
+34,direct,no,Not in context.,not in context,0,0.0,0,1,0,3,100
+34,cot,no,"The patients who had experienced traumatic LOC did not perform more poorly on neuropsychological testing than those with no LOC or uncertain LOC. All three groups demonstrated mildly decreased performance on formal tests of speed of information processing, attentional process, and memory.",no,1,1.0,0,0,0,42,917
+35,direct,yes,Not in context.,not in context,0,0.0,0,1,0,3,106
+35,cot,yes,Final Answer: Not in context.,not in context,0,0.0,0,1,0,5,150
+36,direct,yes,Not in context.,not in context,0,0.0,0,1,0,3,107
+36,cot,yes,Final Answer: Not in context.,not in context,0,0.0,0,1,0,5,151
+37,direct,no,Yes [ID:PubMedQA-20337874].,yes,0,0.0,1,0,0,2,310
+37,cot,no,Q: Delayed diagnosis of anorectal malformations: are current guidelines sufficient?,not in context,0,0.0,0,1,0,10,340
+38,direct,no,Not in context.,not in context,0,0.0,0,1,0,3,98
+38,cot,no,Not in context.,not in context,0,0.0,0,1,0,3,98
+39,direct,no,Not in context.,not in context,0,0.0,0,1,0,3,120
+39,cot,no,Final Answer: No [ID:PubMedQA-18439500].,no,1,1.0,1,0,0,4,378
+40,direct,yes,Yes [ID:PubMedQA-27491658].,yes,1,1.0,1,0,0,2,303
+40,cot,yes,Yes.,yes,1,1.0,0,0,0,1,62
+41,direct,no,Yes [ID:PubMedQA-16962519].,yes,0,0.0,1,0,0,2,317
+41,cot,no,Final Answer: Not in context.,not in context,0,0.0,0,1,0,5,150
+42,direct,yes,Yes [ID:PubMedQA-9199905].,yes,1,1.0,1,0,0,2,301
+42,cot,yes,Not in context.,not in context,0,0.0,0,1,0,3,105
+43,direct,yes,Yes [ID:PubMedQA-14745753].,yes,1,1.0,1,0,0,2,310
+43,cot,yes,Final Answer: The SNR and CNR of the abdominal aorta and the common iliac artery in the 0.5 mL/second groups were statistically significantly lower than those in the 1 mL/second groups.,not in context,0,0.0,0,1,0,31,825
+44,direct,yes,Yes [ID:PubMedQA-23506394].,yes,1,1.0,1,0,0,2,310
+44,cot,yes,"The authors found that the levels of serum albumin were negatively associated with calcification score and the expressions of BMP2 and MGP. While MQSGA score, serum phosphorus and calcium × phosphorus product showed positive relationships with calcification score and the expressions of BMP2 and MGP.",not in context,0,0.0,0,1,0,45,1157
+45,direct,yes,Yes [ID:PubMedQA-20064872].,yes,1,1.0,1,0,0,2,318
+45,cot,yes,"The article describes a study conducted to identify the baseline features of PMR that may predict the duration of steroid therapy, relapses, and the development of GCA later on. The authors conclude that an elevated plasma viscosity is independently associated with a reduced probability of stopping steroids within 5 years.",not in context,0,0.0,0,1,0,50,1015
+46,direct,yes,Yes [ID:PubMedQA-22683044].,yes,1,1.0,1,0,0,2,317
+46,cot,yes,"Final Answer: Yes, open access publishing increases the impact of scientific articles [ID:PubMedQA-22683044].",yes,1,1.0,1,0,0,13,513
+47,direct,yes,Not in context.,not in context,0,0.0,0,1,0,3,105
+47,cot,yes,Final Answer: Yes [PubMedQA-23870157].,yes,1,1.0,0,0,0,4,331
+48,direct,yes,Not in context.,not in context,0,0.0,0,1,0,3,99
+48,cot,yes,Final Answer: Not in context.,not in context,0,0.0,0,1,0,5,143
+49,direct,yes,Yes [ID:PubMedQA-22117569].,yes,1,1.0,1,0,0,2,305
+49,cot,yes,Is an advance care planning model feasible in community palliative care?,not in context,0,0.0,0,1,0,11,259
+50,direct,yes,Yes [ID:PubMedQA-10811329].,yes,1,1.0,1,0,0,2,317
+50,cot,yes,Final Answer: Yes [ID:PubMedQA-10811329].,yes,1,1.0,1,0,0,4,362
+51,direct,yes,Yes [ID:PubMedQA-23224030].,yes,1,1.0,1,0,0,2,317
+51,cot,yes,Final Answer: Not in context.,not in context,0,0.0,0,1,0,5,151
+52,direct,yes,Not in context.,not in context,0,0.0,0,1,0,3,98
+52,cot,yes,Q: Is digoxin use for cardiovascular disease associated with risk of prostate cancer?,not in context,0,0.0,0,1,0,13,340
+53,direct,yes,Yes [ID:PubMedQA-24014276].,yes,1,1.0,1,0,0,2,317
+53,cot,yes,Final Answer: Optimism and survival: does an optimistic outlook predict better survival at advanced ages?,not in context,0,0.0,0,1,0,15,361
+54,direct,yes,Yes [ID:PubMedQA-26561905].,yes,1,1.0,1,0,0,2,309
+54,cot,yes,Reasoning: Does the study include the same number of patients from TCC and Mt Isa?,not in context,0,0.0,0,1,0,15,353
+55,direct,yes,Yes [ID:PubMedQA-23806388].,yes,1,1.0,1,0,0,2,316
+55,cot,yes,Final Answer: Not in context.,not in context,0,0.0,0,1,0,5,150
+56,direct,no,Yes [ID:PubMedQA-7482275].,yes,0,0.0,1,0,0,2,294
+56,cot,no,Is necrotizing fasciitis an indication for hyperbaric oxygenation therapy?,not in context,0,0.0,0,1,0,9,308
+57,direct,yes,Yes [ID:PubMedQA-23072266].,yes,1,1.0,1,0,0,2,317
+57,cot,yes,Final Answer: True [ID:PubMedQA-23072266],not in context,0,0.0,1,1,0,4,363
+58,direct,yes,Not in context.,not in context,0,0.0,0,1,0,3,94
+58,cot,yes,Final Answer: Not in context.,not in context,0,0.0,0,1,0,5,139
+59,direct,no,Not in context.,not in context,0,0.0,0,1,0,3,97
+59,cot,no,Final Answer: Not in context.,not in context,0,0.0,0,1,0,5,142
+60,direct,yes,Not in context.,not in context,0,0.0,0,1,0,3,95
+60,cot,yes,The Omega-3 Index: a new risk factor for death from coronary heart disease?,not in context,0,0.0,0,1,0,13,320
+61,direct,yes,Yes [ID:PubMedQA-10759659].,yes,1,1.0,1,0,0,2,302
+61,cot,yes,"Reasoning: Is the phrase ""nurse cystoscopist"" in the context?",not in context,0,0.0,0,1,0,9,346
+62,direct,maybe,Yes [ID:PubMedQA-25277731].,yes,0,0.0,1,0,0,2,303
+62,cot,maybe,Reasoning: Is sternal fracture in growing children rare?,not in context,0,0.0,0,1,0,8,242
+63,direct,yes,Yes [ID:PubMedQA-26818046].,yes,1,1.0,1,0,0,2,315
+63,cot,yes,PubMedQA-26818046: 55% of 9 patients had efficacy of >50% seizure reduction.,not in context,0,0.0,0,1,0,11,572
+64,direct,yes,Yes [ID:PubMedQA-15065192].,yes,1,1.0,1,0,0,2,309
+64,cot,yes,Final Answer: Yes [PubMedQA-15065192].,yes,1,1.0,0,0,0,4,323
+65,direct,yes,Yes [ID:PubMedQA-24352924].,yes,1,1.0,1,0,0,2,308
+65,cot,yes,Not in context.,not in context,0,0.0,0,1,0,3,98
+66,direct,no,Yes [PubMedQA-17462393].,yes,0,0.0,0,0,0,2,285
+66,cot,no,"Final Answer: In hypertrophied pig hearts, normothermic normokalemic simultaneous antegrade/retrograde perfusion did not improve myocardial oxygenation and energy metabolism relative to normothermic normokalemic antegrade perfusion.",not in context,0,0.0,0,1,0,25,878
+67,direct,no,Yes [ID:PubMedQA-22504515].,yes,0,0.0,1,0,0,2,315
+67,cot,no,Q: Endovenous laser ablation in the treatment of small saphenous varicose veins: does site of access influence early outcomes?,not in context,0,0.0,0,1,0,19,495
+68,direct,yes,Yes [ID:PubMedQA-25675614].,yes,1,1.0,1,0,0,2,308
+68,cot,yes,"Final Answer: Yes, it can be relied upon for assessment of blood glucose level. [ID:PubMedQA-25675614]",yes,1,1.0,1,0,0,15,596
+69,direct,maybe,Not in context.,not in context,0,0.0,0,1,0,3,91
+69,cot,maybe,Final Answer: No [ID:PubMedQA-18235194].,no,0,0.0,1,0,0,4,345
+70,direct,yes,Not in context.,not in context,0,0.0,0,1,0,3,98
+70,cot,yes,Final Answer: Not in context.,not in context,0,0.0,0,1,0,5,143
+71,direct,no,Yes [ID:PubMedQA-21823940].,yes,0,0.0,1,0,0,2,308
+71,cot,no,Final Answer: Not in context.,not in context,0,0.0,0,1,0,5,143
+72,direct,yes,Yes [PubMedQA-10331115].,yes,1,1.0,0,0,0,2,279
+72,cot,yes,Final Answer: Yes [ID:PubMedQA-10331115].,yes,1,1.0,1,0,0,4,354
+73,direct,no,Not in context.,not in context,0,0.0,0,1,0,3,104
+73,cot,no,Final Answer: Not in context.,not in context,0,0.0,0,1,0,5,150
+74,direct,yes,Not in context.,not in context,0,0.0,0,1,0,3,99
+74,cot,yes,Final Answer: Not in context.,not in context,0,0.0,0,1,0,5,144
+75,direct,no,Not in context.,not in context,0,0.0,0,1,0,3,98
+75,cot,no,Not in context.,not in context,0,0.0,0,1,0,3,97
+76,direct,no,Not in context.,not in context,0,0.0,0,1,0,3,98
+76,cot,no,Final Answer: Poor [ID:PubMedQA-22972546].,not in context,0,0.0,1,1,0,4,353
+77,direct,no,Not in context.,not in context,0,0.0,0,1,0,3,97
+77,cot,no,Final Answer: No [ID:PubMedQA-12095973].,no,1,1.0,1,0,0,4,353
+78,direct,no,Yes [ID:PubMedQA-15703931].,yes,0,0.0,1,0,0,2,316
+78,cot,no,Final Answer: Not in context.,not in context,0,0.0,0,1,0,5,151
+79,direct,yes,Yes [ID:PubMedQA-12913347].,yes,1,1.0,1,0,0,2,315
+79,cot,yes,Final Answer: Yes [ID:PubMedQA-12913347].,yes,1,1.0,1,0,0,4,360
+80,direct,yes,Yes [PubMedQA-9550200].,yes,1,1.0,0,0,0,2,255
+80,cot,yes,Final Answer: Not in context.,not in context,0,0.0,0,1,0,5,135
+81,direct,yes,Not in context.,not in context,0,0.0,0,1,0,3,106
+81,cot,yes,"Final Answer: The CTHs had significantly higher risk-adjusted total cost and LOS per tonsillectomy compared with NCTHs and NTHs ($9423.34/2.8 days, $6250.78/2.11 days, and $5905.10/2.08 days, respectively; P<.001). The CTHs had higher odds of complications compared with NCTHs (odds ratio [OR], 1.48; 95% CI, 1.15-1.91; P = .002) but not when compared with NTHs (OR, 1.19; 95% CI, 0.89-1.59; P = .23). The CTHs were significantly more likely to care for patients with comorbidities (P<.001).",not in context,0,0.0,0,1,0,75,3178
+82,direct,no,Yes [ID:PubMedQA-22186742].,yes,0,0.0,1,0,0,2,304
+82,cot,no,Final Answer: No. Not in context.,no,1,1.0,0,0,0,6,169
+83,direct,yes,Yes [ID:PubMedQA-22532370].,yes,1,1.0,1,0,0,2,308
+83,cot,yes,Final Answer: Not in context.,not in context,0,0.0,0,1,0,5,143
+84,direct,yes,Yes [ID:PubMedQA-22188074].,yes,1,1.0,1,0,0,2,315
+84,cot,yes,Not in context.,not in context,0,0.0,0,1,0,3,105
+85,direct,yes,Yes [ID:PubMedQA-19653482].,yes,1,1.0,1,0,0,2,302
+85,cot,yes,"The context provides multiple factors that might affect the likelihood of requesting and accepting backup from teammates in an air traffic control team. These factors include knowledge consensus, perceived team efficacy, and the amount of experience working with a teammate. The context suggests that the more experience teammates have working together, the more likely they are to request and accept backup from one another.",not in context,0,0.0,0,1,0,64,1173
+86,direct,yes,Yes [ID:PubMedQA-18041059].,yes,1,1.0,1,0,0,2,315
+86,cot,yes,Final Answer: 0.57% [ID:PubMedQA-18041059].,not in context,0,0.0,1,1,0,4,435
+87,direct,yes,Yes [ID:PubMedQA-21550158].,yes,1,1.0,1,0,0,2,315
+87,cot,yes,"PubMedQA-21550158: Socket healing was assessed radiographically by allocating scores for lamina dura, overall density, and trabecular pattern.",not in context,0,0.0,0,1,0,17,691
+88,direct,no,Yes [ID:PubMedQA-21849531].,yes,0,0.0,1,0,0,2,308
+88,cot,no,Not in context.,not in context,0,0.0,0,1,0,3,99
+89,direct,yes,Not in context.,not in context,0,0.0,0,1,0,3,99
+89,cot,yes,Final Answer: Yes [PubMedQA-10430303].,yes,1,1.0,0,0,0,4,323
+90,direct,maybe,Yes [ID:PubMedQA-24336869].,yes,0,0.0,1,0,0,2,315
+90,cot,maybe,1. We want to know if routinely collected ambulance data about assaults can contribute to reduction in community violence. [ID:PubMedQA-24336869],not in context,0,0.0,1,1,0,20,690
+91,direct,no,Not in context.,not in context,0,0.0,0,1,0,3,105
+91,cot,no,Final Answer: Not in context.,not in context,0,0.0,0,1,0,5,150
+92,direct,yes,Not in context.,not in context,0,0.0,0,1,0,3,99
+92,cot,yes,Final Answer: Not in context.,not in context,0,0.0,0,1,0,5,144
+93,direct,yes,Not in context.,not in context,0,0.0,0,1,0,3,105
+93,cot,yes,Final Answer: Not in context.,not in context,0,0.0,0,1,0,5,150
+94,direct,yes,Yes [ID:PubMedQA-18179827].,yes,1,1.0,1,0,0,2,308
+94,cot,yes,Final Answer: Not in context.,not in context,0,0.0,0,1,0,5,143
+95,direct,no,Not in context.,not in context,0,0.0,0,1,0,3,105
+95,cot,no,"Reasoning:The aim of this study was to examine the presence of BD in patients with isolated severe TBI, and to assess if it correlates with the outcomes in these patients. BD on admission had a statistically significant negative correlation with GCS on presentation and Revised Trauma Score (RTS). However, there was no statistically significant difference in means of BD between survivors and non survivors.Area under receiver operator curve (ROC) for BD as a predictor of mortality statistically non-significant.Final Answer: Not in context [PubMedQA-26079501]",not in context,0,0.0,0,1,0,83,2042
+96,direct,yes,Not in context.,not in context,0,0.0,0,1,0,3,97
+96,cot,yes,Final Answer: Yes. [ID:PubMedQA-18388848],yes,1,1.0,1,0,0,4,367
+97,direct,no,Yes [ID:PubMedQA-24625433].,yes,0,0.0,1,0,0,2,315
+97,cot,no,"The title of this PubMed abstract is ""High flow nasal cannulae are not noisier than bubble continuous positive airway pressure for preterm infants"" [ID:PubMedQA-24625433]. The study described in this abstract finds that HFNC and BCPAP are similar in terms of noise production, with BCPAP producing slightly louder noises than HFNC at low frequencies.",not in context,0,0.0,1,1,0,53,1440
+98,direct,yes,Yes [ID:PubMedQA-27592038].,yes,1,1.0,1,0,0,2,315
+98,cot,yes,Final Answer: No [ID:PubMedQA-27592038].,no,0,0.0,1,0,0,4,360
+99,direct,yes,Yes [ID:PubMedQA-22453060].,yes,1,1.0,1,0,0,2,315
+99,cot,yes,"Final Answer: No, it is not mentioned in the text that the LMAS was inserted inverted or twisted.",no,0,0.0,0,0,0,18,406
+100,direct,yes,Yes [PubMedQA-24671913].,yes,1,1.0,0,0,0,2,285
+100,cot,yes,Final Answer: Not in context.,not in context,0,0.0,0,1,0,5,150
+101,direct,not in context,Not in context.,not in context,1,1.0,0,1,0,3,98
+101,cot,not in context,"Reasoning: I read the context. I am a clinical assistant. I am programmed to give information on the basis of medical evidence. I am not programmed to provide information on conditions. However, I can provide general information about condition X1. Not in context.",not in context,1,1.0,0,1,0,43,857
+102,direct,not in context,Not in context.,not in context,1,1.0,0,1,0,3,82
+102,cot,not in context,"Reasoning: First, identify the condition. Then, find information about the treatment. Check whether the information is for the condition. The condition is not specified. Not in context.",not in context,1,1.0,0,1,0,27,574
+103,direct,not in context,Not in context.,not in context,1,1.0,0,1,0,3,82
+103,cot,not in context,Not in context.,not in context,1,1.0,0,1,0,3,83
+104,direct,not in context,Not in context.,not in context,1,1.0,0,1,0,3,82
+104,cot,not in context,Reasoning:,not in context,1,1.0,0,1,0,1,83
+105,direct,not in context,Not in context.,not in context,1,1.0,0,1,0,3,82
+105,cot,not in context,Final Answer: Not in context.,not in context,1,1.0,0,1,0,5,127
+106,direct,not in context,Not in context.,not in context,1,1.0,0,1,0,3,82
+106,cot,not in context,Not in context.,not in context,1,1.0,0,1,0,3,83
+107,direct,not in context,Not in context.,not in context,1,1.0,0,1,0,3,82
+107,cot,not in context,Not in context.,not in context,1,1.0,0,1,0,3,83
+108,direct,not in context,Not in context.,not in context,1,1.0,0,1,0,3,82
+108,cot,not in context,Final Answer: Not in context.,not in context,1,1.0,0,1,0,5,127
+109,direct,not in context,Not in context.,not in context,1,1.0,0,1,0,3,82
+109,cot,not in context,Final Answer: Not in context.,not in context,1,1.0,0,1,0,5,127
+110,direct,not in context,Not in context.,not in context,1,1.0,0,1,0,3,83
+110,cot,not in context,Final Answer: Not in context.,not in context,1,1.0,0,1,0,5,128

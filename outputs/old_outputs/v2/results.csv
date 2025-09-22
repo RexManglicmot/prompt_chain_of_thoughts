@@ -1,0 +1,221 @@
+id,method,gold_answer,model_answer,correct_em,f1,grounded,abstained,hallucinated,tokens_out,latency_ms
+1,direct,yes,36.4% [ID:PubMedQA-26348845],0,0.0,1,0,0,2,885
+1,cot,yes,107 samples [ID:PubMedQA-26348845].,0,0.0,1,0,0,3,367
+2,direct,no,,0,0.0,0,0,0,0,49
+2,cot,no,,0,0.0,0,0,0,0,47
+3,direct,yes,,0,0.0,0,0,0,0,47
+3,cot,yes,"1. In the context, the sublingual varices are defined as enlarged blood vessels under the tongue, caused by hypertension, smoking, or aging.2. The null hypothesis is that there is no connection between sublingual varices and hypertension.3. The experiment tests whether the null hypothesis is true or false.4. The data used are the patients in the study: 431 patients with sublingual varices, and 431 patients without sublingual varices.5. The outcome is whether each patient has hypertension or not.6. The statistical test",0,0.0,0,0,0,80,1977
+4,direct,yes,,0,0.0,0,0,0,0,47
+4,cot,yes,9.7% | 8.7% | 13%,0,0.0,0,0,0,5,273
+5,direct,yes,,0,0.0,0,0,0,0,41
+5,cot,yes,✗Not in context.,0,0.0,0,0,0,3,141
+6,direct,yes,,0,0.0,0,0,0,0,35
+6,cot,yes,,0,0.0,0,0,0,0,38
+7,direct,no,,0,0.0,0,0,0,0,47
+7,cot,no,94.2% [ID:PubMedQA-17192736].,0,0.0,1,0,0,2,379
+8,direct,yes,,0,0.0,0,0,0,0,48
+8,cot,yes,,0,0.0,0,0,0,0,48
+9,direct,yes,,0,0.0,0,0,0,0,35
+9,cot,yes,90-R obsessive-compulsive dimension does not identify cognitive impairments.,0,0.0,0,0,0,8,340
+10,direct,yes,,0,0.0,0,0,0,0,35
+10,cot,yes,,0,0.0,0,0,0,0,38
+11,direct,yes,,0,0.0,0,0,0,0,39
+11,cot,yes,2.,0,0.0,0,0,0,1,77
+12,direct,yes,,0,0.0,0,0,0,0,39
+12,cot,yes,77% of cases were single.,0,0.0,0,0,0,5,161
+13,direct,yes,,0,0.0,0,0,0,0,40
+13,cot,yes,1.1 mmHg systolic and 0.6 mmHg diastolic.,0,0.0,0,0,0,7,337
+14,direct,yes,,0,0.0,0,0,0,0,35
+14,cot,yes,,0,0.0,0,0,0,0,38
+15,direct,yes,,0,0.0,0,0,0,0,47
+15,cot,yes,....,0,0.0,0,0,0,1,62
+16,direct,no,,0,0.0,0,0,0,0,39
+16,cot,no,419/20499 = 2.1%,0,0.0,0,0,0,3,266
+17,direct,yes,,0,0.0,0,0,0,0,46
+17,cot,yes,✖ Not in context.,0,0.0,0,0,0,4,154
+18,direct,yes,"24 hours after ERCP, IL-4 is lower in the patients with post-ERCP pancreatitis than in those without pancreatitis. [ID:PubMedQA-18670651]",0,0.0,1,0,0,19,804
+18,cot,yes,"24 hours after ERCP, there is lower level of IL-4 in the patients with pancreatitis than those without pancreatitis.",0,0.0,0,0,0,19,516
+19,direct,no,,0,0.0,0,0,0,0,35
+19,cot,no,17 of the 19 had oophorectomy.,0,0.0,0,0,0,6,250
+20,direct,yes,,0,0.0,0,0,0,0,62
+20,cot,yes,6-week postoperative urine free cortisol levels [ID:PubMedQA-11380492].,0,0.0,1,0,0,7,519
+21,direct,no,64.8% vs 67.6% [ID:PubMedQA-17274051],0,0.0,1,0,0,4,485
+21,cot,no,26% of patients had N1.,0,0.0,0,0,0,5,183
+22,direct,yes,,0,0.0,0,0,0,0,38
+22,cot,yes,57% of patients were of lower socioeconomic status [ID:PubMedQA-12846929].,0,0.0,1,0,0,9,492
+23,direct,yes,,0,0.0,0,0,0,0,38
+23,cot,yes,,0,0.0,0,0,0,0,39
+24,direct,no,7% [ID:PubMedQA-23052500],0,0.0,1,0,0,2,334
+24,cot,no,"7% (95% CI, 3-17%) | 27% (95% CI, 11-52%)",0,0.0,0,0,0,9,561
+25,direct,no,3.31 mm [ID:PubMedQA-25488308],0,0.0,1,0,0,3,379
+25,cot,no,8.41 mm [ID:PubMedQA-25488308],0,0.0,1,0,0,3,379
+26,direct,maybe,,0,0.0,0,0,0,0,47
+26,cot,maybe,maybe [ID:PubMedQA-24946973].,0,0.6666666666666666,1,0,0,2,319
+27,direct,yes,27456836,0,0.0,0,0,0,1,168
+27,cot,yes,"3,638",0,0.0,0,0,0,1,123
+28,direct,yes,,0,0.0,0,0,0,0,38
+28,cot,yes,32.2% of patients had pain control misconceptions.,0,0.0,0,0,0,7,250
+29,direct,yes,,0,0.0,0,0,0,0,39
+29,cot,yes,121 patients were included.,0,0.0,0,0,0,4,152
+30,direct,yes,250 mg/kg/day iv for three days [ID:PubMedQA-24098953].,0,0.0,1,0,0,7,474
+30,cot,yes,1498/1500 (99.9%),0,0.0,0,0,0,2,265
+31,direct,no,,0,0.0,0,0,0,0,47
+31,cot,no,"313 SNP scores were available. The univariate Cox regression coefficient was 0.232 (st.dev. 0.058) and 0.151 (st.dev. 0.060) for BRCA1 and BRCA2 carriers, respectively. The estimated Harrell's concordance index (1 - c-index) was 0.213 (st.dev. 0.017) for BRCA1 carriers and 0.207 (st.dev. 0.0",0,0.0,0,0,0,43,1969
+32,direct,yes,,0,0.0,0,0,0,0,40
+32,cot,yes,2017/01/18 11:17:29,0,0.0,0,0,0,2,321
+33,direct,yes,,0,0.0,0,0,0,0,35
+33,cot,yes,93% of screen-detected and 93% of symptom-detected coeliac patients adhered to a strict or fairly strict gluten-free diet.,0,0.0,0,0,0,18,608
+34,direct,no,,0,0.0,0,0,0,0,40
+34,cot,no,26826 patients.,0,0.0,0,0,0,2,146
+35,direct,yes,,0,0.0,0,0,0,0,39
+35,cot,yes,3.9999999999999996.,0,0.0,0,0,0,1,332
+36,direct,yes,,0,0.0,0,0,0,0,46
+36,cot,yes,,0,0.0,0,0,0,0,45
+37,direct,no,29% [ID:PubMedQA-20337874],0,0.0,1,0,0,2,336
+37,cot,no,86% of the patients with delayed diagnosis of anorectal malformations presented with obstructive symptoms.,0,0.0,0,0,0,14,400
+38,direct,no,0 | Not in context.,0,0.0,0,0,0,5,129
+38,cot,no,,0,0.0,0,0,0,0,39
+39,direct,no,227.74 g [ID:PubMedQA-18439500],0,0.0,1,0,0,3,425
+39,cot,no,,0,0.0,0,0,0,0,61
+40,direct,yes,,0,0.0,0,0,0,0,32
+40,cot,yes,.......[ID:PubMedQA-27491658].,0,0.0,1,0,0,1,319
+41,direct,no,,0,0.0,0,0,0,0,46
+41,cot,no,,0,0.0,0,0,0,0,44
+42,direct,yes,,0,0.0,0,0,0,0,44
+42,cot,yes,,0,0.0,0,0,0,0,44
+43,direct,yes,,0,0.0,0,0,0,0,38
+43,cot,yes,0.5 mL/second half-dose contrast-enhanced three-dimensional MR angiography is sufficient for the abdominal aorta and pelvis.,0,0.0,0,0,0,15,582
+44,direct,yes,66.18% [ID:PubMedQA-23506394].,0,0.0,1,0,0,2,386
+44,cot,yes,14 (not in context),0,0.0,0,0,0,4,145
+45,direct,yes,20064872,0,0.0,0,0,0,1,169
+45,cot,yes,2019-05-28T20:59:14.964000+00:00[ID:PubMedQA-20064872],0,0.0,1,0,0,1,790
+46,direct,yes,3.618,0,0.0,0,0,0,1,121
+46,cot,yes,,0,0.0,0,0,0,0,46
+47,direct,yes,33% vs 24% [ID:PubMedQA-23870157],0,0.0,1,0,0,4,415
+47,cot,yes,,0,0.0,0,0,0,0,46
+48,direct,yes,,0,0.0,0,0,0,0,38
+48,cot,yes,"41 out of 130 fractures are missed by ultrasound, whereas only 148 out of 248 fractures are missed by X-ray. Ultrasound also misses 41 out of 51 fractures with dislocation. X-ray misses 18 out of 51 fractures with dislocation. The difference in the number of missed fractures between ultrasound and X-ray is 29. The difference in the number of missed fractures with dislocation between ultrasound and X-ray is 23. Both differences are quite",0,0.0,0,0,0,73,1955
+49,direct,yes,,0,0.0,0,0,0,0,40
+49,cot,yes,2007-2009,0,0.0,0,0,0,1,169
+50,direct,yes,99mTc leukocyte scintigraphy and SBFT studies are useful in children suspected of having inflammatory bowel disease. [ID:PubMedQA-10811329],0,0.0,1,0,0,17,801
+50,cot,yes,99mTc leukocyte scintigraphy and small bowel follow through studies are useful in children suspected of having inflammatory bowel disease.,0,0.0,0,0,0,19,590
+51,direct,yes,,0,0.0,0,0,0,0,46
+51,cot,yes,34% of people with type 1 diabetes do not consume high atherogenic diet in Europe.,0,0.0,0,0,0,15,377
+52,direct,yes,,0,0.0,0,0,0,0,38
+52,cot,yes,✗ [ID:PubMedQA-24318956].,0,0.0,1,0,0,2,339
+53,direct,yes,24014276,0,0.0,0,0,0,1,167
+53,cot,yes,"2.239 deaths (99%) in the 1905 cohort survey, out of 2262 subjects.",0,0.0,0,0,0,12,515
+54,direct,yes,,0,0.0,0,0,0,0,35
+54,cot,yes,,0,0.0,0,0,0,0,37
+55,direct,yes,,0,0.0,0,0,0,0,44
+55,cot,yes,,0,0.0,0,0,0,0,45
+56,direct,no,,0,0.0,0,0,0,0,37
+56,cot,no,36%,0,0.0,0,0,0,1,82
+57,direct,yes,,0,0.0,0,0,0,0,45
+57,cot,yes,34.4% [ID:PubMedQA-23072266],0,0.0,1,0,0,2,379
+58,direct,yes,,0,0.0,0,0,0,0,40
+58,cot,yes,94% chance of no | 6% chance of yes [ID:PubMedQA-25432938].,0,0.19999999999999998,1,0,0,10,486
+59,direct,no,,0,0.0,0,0,0,0,34
+59,cot,no,,0,0.0,0,0,0,0,37
+60,direct,yes,8.0% [ID:PubMedQA-15208005].,0,0.0,1,0,0,2,357
+60,cot,yes,8 | 4 | 9 | 5,0,0.0,0,0,0,7,186
+61,direct,yes,,0,0.0,0,0,0,0,31
+61,cot,yes,✓ [ID:PubMedQA-10759659],0,0.0,1,0,0,2,303
+62,direct,maybe,,0,0.0,0,0,0,0,32
+62,cot,maybe,,0,0.0,0,0,0,0,31
+63,direct,yes,37% of patients were treated with high doses of ZNS. [ID:PubMedQA-26818046],0,0.0,1,0,0,11,527
+63,cot,yes,55% | 37% | 55% | Not in context.,0,0.0,0,0,0,9,318
+64,direct,yes,3D ultrasound-validated large-core needle biopsy is a reliable method for the histological assessment of breast lesions. [ID:PubMedQA-15065192],0,0.0,1,0,0,17,732
+64,cot,yes,3D ultrasound-validated large-core needle biopsy (LCNB) is a reliable method for the histological assessment of breast lesions.,0,0.0,0,0,0,17,551
+65,direct,yes,"10.0% of the time, the ultrasound methodology underestimated the pin protrusion length by an average of 10 percent over the range of 5 to 18 mm. [ID:PubMedQA-24352924]",0,0.0,1,0,0,27,959
+65,cot,yes,10%,0,0.0,0,0,0,1,83
+66,direct,no,,0,0.0,0,0,0,0,45
+66,cot,no,4,0,0.0,0,0,0,1,60
+67,direct,no,,0,0.0,0,0,0,0,37
+67,cot,no,198328,0,0.0,0,0,0,1,134
+68,direct,yes,256 mg/dl [ID:PubMedQA-25675614].,0,0.0,1,0,0,3,381
+68,cot,yes,2.1 million cases of TB were reported in 2015.,0,0.0,0,0,0,9,294
+69,direct,maybe,,0,0.0,0,0,0,0,32
+69,cot,maybe,,0,0.0,0,0,0,0,30
+70,direct,yes,,0,0.0,0,0,0,0,37
+70,cot,yes,"182 patients reported 970 migraine episodes, 620 of which were treated before headaches progressed to peak.",0,0.0,0,0,0,16,475
+71,direct,no,,0,0.0,0,0,0,0,38
+71,cot,no,,0,0.0,0,0,0,0,37
+72,direct,yes,,0,0.0,0,0,0,0,38
+72,cot,yes,,0,0.0,0,0,0,0,38
+73,direct,no,,0,0.0,0,0,0,0,37
+73,cot,no,0.10 [ID:PubMedQA-24684514].,0,0.0,1,0,0,2,360
+74,direct,yes,3rd ventricle shape [ID:PubMedQA-14968373].,0,0.0,1,0,0,4,385
+74,cot,yes,100% [ID:PubMedQA-14968373],0,0.0,1,0,0,2,355
+75,direct,no,,0,0.0,0,0,0,0,37
+75,cot,no,10.9% of boys and 4.6% of girls had been diagnosed with asthma in the GEK [ID:PubMedQA-20187289].,0,0.0,1,0,0,16,701
+76,direct,no,,0,0.0,0,0,0,0,38
+76,cot,no,0.26.,0,0.0,0,0,0,1,113
+77,direct,no,,0,0.0,0,0,0,0,37
+77,cot,no,19.2% [ID:PubMedQA-12095973].,0,0.0,1,0,0,2,369
+78,direct,no,,0,0.0,0,0,0,0,46
+78,cot,no,0,0,0.0,0,0,0,1,61
+79,direct,yes,,0,0.0,0,0,0,0,44
+79,cot,yes,40 out of 196 pregnant women studied were unmarried.,0,0.0,0,0,0,9,285
+80,direct,yes,,0,0.0,0,0,0,0,30
+80,cot,yes,83 | 373 | 30 | 163 | 91 | 225 | 292 | 431 | 299 | 484 | 223 | 449 | 109 | 144 | 138 | 154 | 62 | 181 | 280 | 127 | 132 | 250 | 508 | 229 | 268 | 196 | 16,0,0.0,0,0,0,53,1943
+81,direct,yes,,0,0.0,0,0,0,0,45
+81,cot,yes,1) CTHs have higher risk-adjusted total cost and LOS per tonsillectomy compared with NCTHs and NTHs. 2) CTHs have higher odds of complications compared with NCTHs. 3) CTHs were significantly more likely to care for patients with comorbidities. [ID:PubMedQA-26701174].,0,0.0,1,0,0,39,1375
+82,direct,no,32% of patients had polyps. [ID:PubMedQA-22186742],0,0.0,1,0,0,6,430
+82,cot,no,32% of patients with acute diverticulitis had polyps. [ID:PubMedQA-22186742],0,0.0,1,0,0,9,545
+83,direct,yes,,0,0.0,0,0,0,0,33
+83,cot,yes,35 young obese males and 23 age-matched healthy male volunteers were recruited into the study.,0,0.0,0,0,0,15,384
+84,direct,yes,2.20 [ID:PubMedQA-22188074].,0,0.0,1,0,0,2,361
+84,cot,yes,"24.4% of the participants with IADL disabilities at baseline developed dementia at 1-year follow-up, versus 16.7% of the participants without IADL disabilities. At 2-year follow-up, 100 of the 481 participants developed dementia, of whom 24.4% had IADL disabilities at baseline.",0,0.0,0,0,0,40,1371
+85,direct,yes,,0,0.0,0,0,0,0,31
+85,cot,yes,,0,0.0,0,0,0,0,32
+86,direct,yes,0.52%[ID:PubMedQA-18041059],0,0.0,1,0,0,1,376
+86,cot,yes,0.52%|132 patients|Yes|PubMedQA-18041059,0,0.0,0,0,0,2,437
+87,direct,yes,,0,0.0,0,0,0,0,46
+87,cot,yes,30.0% of the patients in the PRP group had better bone density at 2 months.,0,0.0,0,0,0,15,376
+88,direct,no,,0,0.0,0,0,0,0,37
+88,cot,no,0.89 [ID:PubMedQA-21849531].,0,0.0,1,0,0,2,353
+89,direct,yes,,0,0.0,0,0,0,0,32
+89,cot,yes,"1. In the context, the question is about the influence of a procedure on cells.2. The procedure is the laparoscopic cholecystectomy.3. The function of the cells is the activity of the peri-sinusoidal cells.4. The increase of HA serum levels is not related to the function of the peri-sinusoidal cells.5. The normal beta-NAH levels are not an indication of a normal function of the peri-sinusoidal cells.6. The increase of AST and ALT in the study group is not an",0,0.0,0,0,0,78,1949
+90,direct,maybe,,0,0.0,0,0,0,0,44
+90,cot,maybe,12-month descriptive study and analysis of spatiotemporal clusters of police and emergency calls for service using hotspots methodology and assessing the degree of incident overlap.,0,0.0,0,0,0,25,631
+91,direct,no,,0,0.0,0,0,0,0,37
+91,cot,no,16 of 64 participants (25%) demonstrated a PAR.,0,0.0,0,0,0,8,270
+92,direct,yes,,0,0.0,0,0,0,0,38
+92,cot,yes,✗,0,0.0,0,0,0,1,83
+93,direct,yes,33/2878 [ID:PubMedQA-12221908],0,0.0,1,0,0,2,406
+93,cot,yes,127,0,0.0,0,0,0,1,90
+94,direct,yes,,0,0.0,0,0,0,0,37
+94,cot,yes,,0,0.0,0,0,0,0,37
+95,direct,no,,0,0.0,0,0,0,0,44
+95,cot,no,20 18.5.,0,0.0,0,0,0,2,165
+96,direct,yes,,0,0.0,0,0,0,0,34
+96,cot,yes,95% of the patients who had a regular clinician were male.,0,0.0,0,0,0,11,262
+97,direct,no,,0,0.0,0,0,0,0,45
+97,cot,no,3000 (PubMedQA-24625433),0,0.0,0,0,0,2,329
+98,direct,yes,24% [ID:PubMedQA-27592038].,0,0.0,1,0,0,2,344
+98,cot,yes,24% [ID:PubMedQA-27592038].,0,0.0,1,0,0,2,344
+99,direct,yes,4 diagram manual enable laypersons to operate the Laryngeal Mask Supreme [ID:PubMedQA-22453060].,0,0.0,1,0,0,12,556
+99,cot,yes,96.7% [ID:PubMedQA-22453060],0,0.0,1,0,0,2,376
+100,direct,yes,24671913 | Not in context.,0,0.0,0,0,0,5,240
+100,cot,yes,,0,0.0,0,0,0,0,45
+101,direct,not in context,,0,0.0,0,0,1,0,40
+101,cot,not in context,,0,0.0,0,0,1,0,23
+102,direct,not in context,,0,0.0,0,0,1,0,22
+102,cot,not in context,✗,0,0.0,0,0,1,1,67
+103,direct,not in context,,0,0.0,0,0,1,0,22
+103,cot,not in context,,0,0.0,0,0,1,0,22
+104,direct,not in context,,0,0.0,0,0,1,0,22
+104,cot,not in context,,0,0.0,0,0,1,0,22
+105,direct,not in context,,0,0.0,0,0,1,0,22
+105,cot,not in context,,0,0.0,0,0,1,0,22
+106,direct,not in context,,0,0.0,0,0,1,0,22
+106,cot,not in context,,0,0.0,0,0,1,0,22
+107,direct,not in context,,0,0.0,0,0,1,0,22
+107,cot,not in context,,0,0.0,0,0,1,0,22
+108,direct,not in context,,0,0.0,0,0,1,0,22
+108,cot,not in context,,0,0.0,0,0,1,0,22
+109,direct,not in context,,0,0.0,0,0,1,0,22
+109,cot,not in context,,0,0.0,0,0,1,0,22
+110,direct,not in context,,0,0.0,0,0,1,0,22
+110,cot,not in context,----,0,0.0,0,0,1,1,38

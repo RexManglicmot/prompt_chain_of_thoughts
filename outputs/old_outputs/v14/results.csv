@@ -1,0 +1,221 @@
+id,method,gold_answer,model_raw,model_answer,correct_em,f1,grounded,abstained,hallucinated,tokens_out,latency_ms
+1,direct,yes,Yes [ID:PubMedQA-26348845].,yes,1,1.0,1,0,0,2,832
+1,cot,yes,"In the study by Ishizu et al., rapid prescreening (RPS) detected glandular cell abnormalities with a sensitivity of 36.4% (39/107). However, the sensitivity of FS for detecting glandular cell abnormalities was not reported in this study, so it is unclear how the sensitivity of RPS compared to that of FS.",not in context,0,0.0,0,1,0,50,1366
+2,direct,no,Yes [ID:PubMedQA-10973547].,yes,0,0.0,1,0,0,2,324
+2,cot,no,"PubMedQA-10973547: We see that the study is a case-control study. It compares ten patients with WD with five matched patients without WD who underwent cardiac surgery with extracorporeal circulation. The patients with WD had a significantly lower platelet count than the patients without WD, and the WD patients also received more platelet concentrates. However, the number of bleeding complications was the same in both groups.",not in context,0,0.0,0,1,0,65,1625
+3,direct,yes,Yes [PubMedQA-26163474].,yes,1,1.0,0,0,0,2,293
+3,cot,yes,Reasoning: Not in context.,not in context,0,0.0,0,1,0,4,169
+4,direct,yes,Yes [ID:PubMedQA-24374414].,yes,1,1.0,1,0,0,2,321
+4,cot,yes,Q: Does health information exchange reduce redundant imaging?,not in context,0,0.0,0,1,0,8,244
+5,direct,yes,Not in context.,not in context,0,0.0,0,1,0,3,107
+5,cot,yes,Not in context.,not in context,0,0.0,0,1,0,3,101
+6,direct,yes,Not in context.,not in context,0,0.0,0,1,0,3,100
+6,cot,yes,"PubMedQA-23495128. The aim of the present study was to explore patients' views on the acceptability and feasibility of using colour to describe osteoarthritis pain, and whether colour could be used to communicate pain to healthcare professionals. Six group interviews were conducted with 17 patients with knee OA. Discussion topics included first impressions about using colour to describe pain, whether participants could associate their pain with colour, how colours related to changes to intensity and different pain qualities, and whether they could envisage using colour to describe pain to healthcare professionals. The group interviews indicated that, although the idea of using colour was generally acceptable, it did not suit all participants as a way of describing their pain. The majority of participants chose red to describe high-intensity pain; the reasons given were because red symbolized inflammation, fire, anger and the stop signal in a traffic light system. Colours used to describe the absence of pain were chosen because of their association with positive emotional feelings, such as purity, calmness and happiness. A range of colours was chosen to represent changes in pain intensity. Aching pain was consistently identified as being associated with colours such as grey or black, whereas sharp pain was described using a wider selection of colours. The majority of participants thought that they would be able to use colour to describe their pain to healthcare professionals, although issues around the interpretability and standardization of colour were raised.",not in context,0,0.0,0,1,0,239,4609
+7,direct,no,Yes.,yes,0,0.0,0,0,0,1,79
+7,cot,no,Yes [ID:PubMedQA-17192736].,yes,0,0.0,1,0,0,2,320
+8,direct,yes,Yes [ID:PubMedQA-12163782].,yes,1,1.0,1,0,0,2,323
+8,cot,yes,"The study examines the ability of neutrophils isolated over the first 24 hours after major trauma to migrate in response to interleukin-8. Neutrophils are isolated from the peripheral blood of patients admitted after major trauma. The neutrophils count in each specimen is measured, and the number of neutrophils migrating across porous tissue culture inserts in response to defined concentrations of interleukin-8 (0, 10, 30, and 100 ng/mL) is quantitated by peroxidase assay. The study hypothesized that enhanced interleukin-8-mediated neutrophil migratory activity in the early postinjury phase, before the development of acute respiratory distress syndrome (ARDS), may be a crucial factor in the etiology of ARDS.",not in context,0,0.0,0,1,0,105,2930
+9,direct,yes,Yes [ID:PubMedQA-9582182].,yes,1,1.0,1,0,0,2,297
+9,cot,yes,Not in context.,not in context,0,0.0,0,1,0,3,96
+10,direct,yes,Not in context.,not in context,0,0.0,0,1,0,3,100
+10,cot,yes,Not in context.,not in context,0,0.0,0,1,0,3,96
+11,direct,yes,Yes [PubMedQA-23453079].,yes,1,1.0,0,0,0,2,282
+11,cot,yes,Not in context.,not in context,0,0.0,0,1,0,3,100
+12,direct,yes,Yes [ID:PubMedQA-14518645].,yes,1,1.0,1,0,0,2,315
+12,cot,yes,Q: Injury and poisoning mortality among young men--are there any common factors amenable to prevention?,not in context,0,0.0,0,1,0,15,405
+13,direct,yes,Yes [ID:PubMedQA-21084567].,yes,1,1.0,1,0,0,2,308
+13,cot,yes,"To assess the reliability of home blood pressure (BP) recording in hypertensive patients who had suffered a recent stroke or transient ischaemic attack. Thirty-nine stroke patients (mean age 73 years) randomized to the intervention arm of a trial of home BP monitoring were included. Following instruction by a research nurse, patients recorded their BPs at home and documented them in a booklet over the next year. The booklet readings over a month were compared with the actual readings downloaded from the BP monitor and were checked for errors or selective bias in recording. A total of 1027 monitor and 716 booklet readings were recorded. Ninety per cent of booklet recordings were exactly the same as the monitor readings. Average booklet readings were 0.6 mmHg systolic [95% confidence interval (95% CI) -0.6 to 1.8] and 0.3 mmHg diastolic (95% CI -0.3 to 0.8) lower than those on the monitor. [ID:PubMedQA-21084567]",not in context,0,0.0,1,1,0,149,3882
+14,direct,yes,Yes [ID:PubMedQA-11601252].,yes,1,1.0,1,0,0,2,312
+14,cot,yes,Endothelin-1 is an aggravating factor in the development of acute pancreatitis [ID: PubMedQA-11601252].,not in context,0,0.0,0,1,0,13,611
+15,direct,yes,Yes [ID:PubMedQA-20577124].,yes,1,1.0,1,0,0,2,320
+15,cot,yes,Not in context.,not in context,0,0.0,0,1,0,3,107
+16,direct,no,Yes [ID:PubMedQA-16647887].,yes,0,0.0,1,0,0,2,312
+16,cot,no,"No, there is no association between treated hypothyroidism and pregnancy complications. [ID:PubMedQA-16647887].",no,1,1.0,1,0,0,12,555
+17,direct,yes,Not in context.,not in context,0,0.0,0,1,0,3,107
+17,cot,yes,Not in context.,not in context,0,0.0,0,1,0,3,107
+18,direct,yes,Yes.,yes,1,1.0,0,0,0,1,77
+18,cot,yes,The levels of IL-4 at 24 hours after ERCP were significantly lower in the patients with post-ERCP pancreatitis than in those without pancreatitis. [ID: PubMedQA-18670651].,not in context,0,0.0,0,1,0,25,881
+19,direct,no,Yes [ID:PubMedQA-15137012].,yes,0,0.0,1,0,0,2,311
+19,cot,no,Not in context. [ID:PubMedQA-15137012],not in context,0,0.0,1,1,0,4,353
+20,direct,yes,Not in context.,not in context,0,0.0,0,1,0,3,122
+20,cot,yes,Not in context.,not in context,0,0.0,0,1,0,3,122
+21,direct,no,Yes [ID:PubMedQA-17274051].,yes,0,0.0,1,0,0,2,319
+21,cot,no,Not in context.,not in context,0,0.0,0,1,0,3,107
+22,direct,yes,Yes [ID:PubMedQA-12846929].,yes,1,1.0,1,0,0,2,311
+22,cot,yes,"Yes, it seems that there are differences in quality of life between patients of different socioeconomic status at baseline. The paper states that ""Of these, physical mobility (P = 0.05), energy (P = 0.01), role functioning (P = 0.04), physical functioning (P = 0.03), and breathlessness (P = 0.02) were significant at baseline."" [ID:PubMedQA-12846929].",yes,1,1.0,1,0,0,54,1692
+23,direct,yes,Yes [ID:PubMedQA-18948835].,yes,1,1.0,1,0,0,2,311
+23,cot,yes,"Yes [ID:PubMedQA-18948835]. The statement in the second paragraph of the abstract that ""NmU reduces insulin secretion from isolated pancreatic islets"" suggests that somatostatin does not confer insulinostatic effects of neuromedin u in the rat pancreas because neuromedin u is causing insulin reduction, and we are testing the effect of somatostatin, which is supposed to have insulinostatic effects.",yes,1,1.0,1,0,0,57,1646
+24,direct,no,Yes [PubMedQA-23052500].,yes,0,0.0,0,0,0,2,289
+24,cot,no,Is staging laparoscopy in patients with hepatocellular carcinoma useful?,not in context,0,0.0,0,1,0,9,350
+25,direct,no,Yes [ID:PubMedQA-25488308].,yes,0,0.0,1,0,0,2,319
+25,cot,no,PubMedQA-25488308.,not in context,0,0.0,0,1,0,1,257
+26,direct,maybe,Not in context.,not in context,0,0.0,0,1,0,3,106
+26,cot,maybe,No. [ID:PubMedQA-24946973].,no,0,0.0,1,0,0,2,350
+27,direct,yes,Yes.,yes,1,1.0,0,0,0,1,76
+27,cot,yes,"Yes, Electrochemiluminescence (ECL) assays improve prediction of time to type 1 diabetes in autoantibody-positive TrialNet subjects [PubMedQA-27456836].",yes,1,1.0,0,0,0,17,836
+28,direct,yes,Yes [ID:PubMedQA-17244100].,yes,1,1.0,1,0,0,2,311
+28,cot,yes,Yes [ID:PubMedQA-17244100].,yes,1,1.0,1,0,0,2,310
+29,direct,yes,Yes [ID:PubMedQA-23347337].,yes,1,1.0,1,0,0,2,319
+29,cot,yes,Yes [PubMedQA-23347337]. The study compared the adverse events and dose intensities of 70 urban and 51 rural patients who received intensive chemotherapy for breast and colorectal cancers at the Townsville Cancer Centre [PubMedQA-23347337]. The study showed that the rate of febrile neutropenia was 9.3% versus 7.4% (P = 0.56) for urban versus rural patients. The rate of diarrhea was 20% versus 19% (P = 0.66) for urban versus rural patients. The rate of vomiting was 20% versus 11% (P = 0.11) for urban versus rural patients. Only two patients were transferred to Townsville for admission. No toxic death occurred in either group [PubMedQA-23347337].,yes,1,1.0,0,0,0,103,3263
+30,direct,yes,Yes [ID:PubMedQA-24098953].,yes,1,1.0,1,0,0,2,311
+30,cot,yes,Is IgM-enriched immunoglobulins an effective adjuvant in septic VLBW infants?,not in context,0,0.0,0,1,0,10,487
+31,direct,no,Yes.,yes,0,0.0,0,0,0,1,75
+31,cot,no,PubMedQA-25274085,not in context,0,0.0,0,1,0,1,241
+32,direct,yes,Yes [ID:PubMedQA-12913878].,yes,1,1.0,1,0,0,2,306
+32,cot,yes,Q: Locoregional opening of the rodent blood-brain barrier for paclitaxel using Nd:YAG laser-induced thermo therapy: a new concept of adjuvant glioma therapy?,not in context,0,0.0,0,1,0,22,734
+33,direct,yes,Yes [ID:PubMedQA-16097998].,yes,1,1.0,1,0,0,2,307
+33,cot,yes,Yes [ID:PubMedQA-16097998].,yes,1,1.0,1,0,0,2,311
+34,direct,no,Not in context.,not in context,0,0.0,0,1,0,3,99
+34,cot,no,Not in context.,not in context,0,0.0,0,1,0,3,98
+35,direct,yes,Yes [ID:PubMedQA-22012962].,yes,1,1.0,1,0,0,2,316
+35,cot,yes,"The study found that there were gender differences in mortality risks for married, widowed, divorced and single individuals. The benefit of being married was stronger for men than for women. For men, the highest mortality risk was observed for 45-64-year-old divorced and single men living alone. In women of the same age, the highest mortality risk was observed for single women living with a partner.",not in context,0,0.0,0,1,0,65,1369
+36,direct,yes,Yes [ID:PubMedQA-8910148].,yes,1,1.0,1,0,0,2,304
+36,cot,yes,"The study investigates the correlation between left ventricular function in brain-dead potential heart donors, as measured by transesophageal echocardiography (TEE), and the performance of the transplanted heart.",not in context,0,0.0,0,1,0,27,772
+37,direct,no,Yes [ID:PubMedQA-20337874].,yes,0,0.0,1,0,0,2,310
+37,cot,no,PubMedQA-20337874.,not in context,0,0.0,0,1,0,1,246
+38,direct,no,Yes [ID:PubMedQA-15052394].,yes,0,0.0,1,0,0,2,310
+38,cot,no,"No, the study found no evidence to support the idea that higher rates of depression in women are accounted for by differential symptom reporting. The study found no significant gender differences in the self-report of depression symptoms, even after adjusting for other covariates such as age, self-reported ethnicity, educational attainment, marital status, and employment. For example, women were no more likely to endorse sadness than were men, as evidenced by a direct effect coefficient that was not significantly different from the null [adjusted estimated direct effect of gender on report of sadness = 0.105, 95% confidence interval (-0.113, 0.323)].",no,1,1.0,0,0,0,99,2322
+39,direct,no,Yes [ID:PubMedQA-18439500].,yes,0,0.0,1,0,0,2,334
+39,cot,no,No. The study shows that the weight and size of removed myomas were proportionately larger in groups in which larger myomas or more myomas were removed or the modified technique was performed as compared with their corresponding study group.,no,1,1.0,0,0,0,39,740
+40,direct,yes,Not in context.,not in context,0,0.0,0,1,0,3,93
+40,cot,yes,"No, predilatation in transcatheter aortic valve implantation cannot be omitted. The aim of the study was to see whether or not balloon predilatation is necessary in transcatheter aortic valve replacement (TAVI). Sixty consecutive TAVI patients were randomized to the standard procedure or to a protocol where balloon predilatation was omitted. There were no significant differences between the groups regarding early hemodynamic results or complication rates.",no,0,0.0,0,0,0,65,1639
+41,direct,no,Yes [PubMedQA-16962519].,yes,0,0.0,0,0,0,2,286
+41,cot,no,"Yes, uterine myomas do grow during pregnancy, with the majority of myomas becoming larger during the first half of pregnancy (up until 19 weeks). The mean percentage of increase in uterine myomas between the first and second study periods is 69%+/-11%. However, most of the myomas become smaller during the last quarter of pregnancy (31 weeks to term), with 75% of myomas becoming smaller between the second and third study periods. The mean percentage of decrease in uterine myomas between the second and third study periods is 30%+/-3% [ID:PubMedQA-16962519].",yes,0,0.0,1,0,0,89,2282
+42,direct,yes,Yes [ID:PubMedQA-9199905].,yes,1,1.0,1,0,0,2,301
+42,cot,yes,Not in context.,not in context,0,0.0,0,1,0,3,105
+43,direct,yes,Not in context.,not in context,0,0.0,0,1,0,3,99
+43,cot,yes,"Yes, half-dose contrast-enhanced three-dimensional MR angiography is sufficient for the abdominal aorta and pelvis.",yes,1,1.0,0,0,0,14,521
+44,direct,yes,Yes [ID:PubMedQA-23506394].,yes,1,1.0,1,0,0,2,309
+44,cot,yes,Not in context.,not in context,0,0.0,0,1,0,3,98
+45,direct,yes,Yes [ID:PubMedQA-20064872].,yes,1,1.0,1,0,0,2,317
+45,cot,yes,"No, the prognosis of polymyalgia rheumatica cannot be predicted at disease onset, because the study conducted by the authors only followed up the patients for 5 years. However, based on their findings, the authors hypothesized that the prognosis of polymyalgia rheumatica may be influenced by the use of steroids and the severity of the disease at onset, which is in line with other studies on the topic. [ID:PubMedQA-20064872].",no,0,0.0,1,0,0,68,1821
+46,direct,yes,Yes [ID:PubMedQA-22683044].,yes,1,1.0,1,0,0,2,317
+46,cot,yes,Not in context.,not in context,0,0.0,0,1,0,3,105
+47,direct,yes,Yes [ID:PubMedQA-23870157].,yes,1,1.0,1,0,0,2,316
+47,cot,yes,"Yes [ID:PubMedQA-23870157]. The question asks whether the presence of intraoperative precursor events is associated with postoperative major adverse events. The intraoperative precursor events are listed as: bleeding, difficulty weaning from cardiopulmonary bypass, repair or regrafting, and incomplete revascularization or repair. The study reports that the incidence of the primary outcome of postoperative major adverse events was higher in patients who experienced any of the precursor events than in patients who did not experience any of the precursor events (33% vs. 24%, P=.015). Therefore, the presence of any of these precursor events during the surgery is associated with a higher rate of postoperative major adverse events.",yes,1,1.0,1,0,0,105,2655
+48,direct,yes,Not in context.,not in context,0,0.0,0,1,0,3,100
+48,cot,yes,Not in context.,not in context,0,0.0,0,1,0,3,98
+49,direct,yes,Yes [ID:PubMedQA-22117569].,yes,1,1.0,1,0,0,2,310
+49,cot,yes,"Yes, an advance care planning model is feasible in community palliative care. The article describes a study that conducted a baseline audit of staff and clients and analyzed relevant documents (client records, policies, procedures and quality improvement strategies) pre-implementation and post-implementation and conducted key informant interviews (n=9) in three community palliative care services. The study found that it was feasible to embed the Model into the organizational structures of the three community palliative care services.",yes,1,1.0,0,0,0,75,1587
+50,direct,yes,Yes [ID:PubMedQA-10811329].,yes,1,1.0,1,0,0,2,316
+50,cot,yes,Yes [ID:PubMedQA-10811329].,yes,1,1.0,1,0,0,2,315
+51,direct,yes,Not in context.,not in context,0,0.0,0,1,0,3,105
+51,cot,yes,"Reasoning: The paper mentions that ""Individuals with type 1 diabetes have a high risk of developing cardiovascular diseases, and it has been reported that they consume a high atherogenic diet"". So, the correct answer is Yes.",yes,1,1.0,0,0,0,36,844
+52,direct,yes,Yes [PubMedQA-24318956].,yes,1,1.0,0,0,0,2,280
+52,cot,yes,PubMedQA-24318956 [ID:PubMedQA-24318956],not in context,0,0.0,1,1,0,2,490
+53,direct,yes,Yes [ID:PubMedQA-24014276].,yes,1,1.0,1,0,0,2,316
+53,cot,yes,Q: Optimism and survival: does an optimistic outlook predict better survival at advanced ages?,not in context,0,0.0,0,1,0,14,346
+54,direct,yes,Yes [ID:PubMedQA-26561905].,yes,1,1.0,1,0,0,2,308
+54,cot,yes,NOT in context.,not in context,0,0.0,0,1,0,3,94
+55,direct,yes,Not in context.,not in context,0,0.0,0,1,0,3,105
+55,cot,yes,"Yes, all the nomograms designed to predict BCR do a better job of predicting more clinically relevant prostate cancer outcomes than BCR. This is because the nomograms are designed to predict PCSM and aggressive BCR, not just BCR. [ID:PubMedQA-23806388].",yes,1,1.0,1,0,0,39,1127
+56,direct,no,Yes [ID:PubMedQA-7482275].,yes,0,0.0,1,0,0,2,294
+56,cot,no,Q: Necrotizing fasciitis: an indication for hyperbaric oxygenation therapy?,not in context,0,0.0,0,1,0,9,338
+57,direct,yes,Yes [ID:PubMedQA-23072266].,yes,1,1.0,1,0,0,2,316
+57,cot,yes,"Yes [ID:PubMedQA-23072266]. The prevalence of overall CAM use (22 therapies comparable between both survey years) increased from 26.9% in 2002 to 30.6% in 2007. Adults with functional limitations that included changing and maintaining body position experienced an increase in CAM use between 2002 and 2007 (31.1%-35.0%). The use of deep breathing exercises was the most prevalent CAM therapy in both 2002 and 2007 and increased significantly during this period (from 17.9% to 19.9%). The use of meditation, massage, and yoga also increased significantly from 2002 and 2007 (11.0%-13.5%, p<0.01; 7.0%-10.9%, p<0.0001; and 5.1% to 6.6%, p<0.05, respectively), while the use of the Atkins diet decreased (2.2%-1.4%, p<0.01) [PubMedQA-23072266].",yes,1,1.0,1,0,0,108,4326
+58,direct,yes,Yes [ID:PubMedQA-25432938].,yes,1,1.0,1,0,0,2,304
+58,cot,yes,"Yes, ONLY the enactment of the traffic law reform in interaction with the number of traffic tickets per police officer is significantly associated with a decrease of 8% in traffic fatalities and 7% in severe injuries. [ID:PubMedQA-25432938].",yes,1,1.0,1,0,0,37,985
+59,direct,no,Not in context.,not in context,0,0.0,0,1,0,3,98
+59,cot,no,Not in context.,not in context,0,0.0,0,1,0,3,94
+60,direct,yes,Yes [ID:PubMedQA-15208005].,yes,1,1.0,1,0,0,2,304
+60,cot,yes,"Yes. The Omega-3 Index is a new risk factor for death from coronary heart disease. The Omega-3 Index is inversely associated with risk for CHD mortality. An Omega-3 Index of>or = 8% was associated with the greatest cardioprotection, whereas an index of<or = 4% was associated with the least. [ID:PubMedQA-15208005].",yes,1,1.0,1,0,0,50,1481
+61,direct,yes,Yes [ID:PubMedQA-10759659].,yes,1,1.0,1,0,0,2,302
+61,cot,yes,The sentence 2: “To compare the accuracy achieved by a trained urology nurse practitioner (UNP) and consultant urologist in detecting bladder tumours during flexible cystoscopy.” states that the accuracy of a trained urology nurse practitioner (UNP) and consultant urologist in detecting bladder tumours during flexible cystoscopy was compared.,not in context,0,0.0,0,1,0,48,1273
+62,direct,maybe,Yes.,yes,0,0.0,0,0,0,1,62
+62,cot,maybe,"PubMedQA-25277731: Yes, the study presents that sternal fractures in children are rare. The study includes 4 children aged 5-14 years with sternal fracture and the study period is 2 years.",yes,0,0.0,0,0,0,30,860
+63,direct,yes,Yes.,yes,1,1.0,0,0,0,1,75
+63,cot,yes,"Yes, the mean dose of 633 (600-700) mg/d of ZNS in adult pharmacoresistant epilepsy patients was higher than the usual dose of 500 mg/d for adult epilepsy patients, but was still lower than the maximum dose of 1200 mg/d.",yes,1,1.0,0,0,0,39,1156
+64,direct,yes,Yes.,yes,1,1.0,0,0,0,1,68
+64,cot,yes,"Yes. The aim of this study was to demonstrate the efficacy of three-dimensional (3D) ultrasound-validated large-core needle biopsy (LCNB) of the breast. A total of 360 core needle biopsies were obtained from 169 breast lesions in 146 patients. Additional open breast biopsy was performed in 111 women (127/169 breast lesions); the remaining 42 lesions were followed up for at least 24 months. 3D ultrasound visualization of the needle in the postfiring position was used to classify the biopsy as central, marginal or outside the lesion. Based on this classification, it was decided whether another sample had to be obtained. A median of two core samples per lesion provided for all the lesions a sensitivity for malignancy of 96.9%, specificity of 100%, false-positive rate of 0%, and false-negative rate of 3.1%. For the excised lesions, a sensitivity of 96.5%, specificity of 100%, false-positive rate of 0%, false-negative rate of 3.5% and underestimation rate of 3.4% was achieved. [ID:PubMedQA-15065192].",yes,1,1.0,1,0,0,157,4533
+65,direct,yes,Yes [ID:PubMedQA-24352924].,yes,1,1.0,1,0,0,2,309
+65,cot,yes,Q: Is portable ultrasonography accurate in the evaluation of Schanz pin placement during extremity fracture fixation in austere environments?,not in context,0,0.0,0,1,0,19,488
+66,direct,no,Yes [PubMedQA-17462393].,yes,0,0.0,0,0,0,2,286
+66,cot,no,PubMedQA-17462393: Normothermic normokalemic simultaneous antegrade/retrograde perfusion (NNSP) improved myocardial oxygenation and energy metabolism for hypertrophied hearts.,not in context,0,0.0,0,1,0,16,858
+67,direct,no,Yes [PubMedQA-22504515].,yes,0,0.0,0,0,0,2,285
+67,cot,no,PubMedQA-22504515. Endovenous laser ablation in the treatment of small saphenous varicose veins: does site of access influence early outcomes?,not in context,0,0.0,0,1,0,19,671
+68,direct,yes,Yes [ID:PubMedQA-25675614].,yes,1,1.0,1,0,0,2,308
+68,cot,yes,"Yes. The purpose of the study is to evaluate whether blood oozing from a gingival crevice during routine periodontal examination can be used for determining glucose levels. The comparison between gingival crevicular blood and finger-prick blood showed a very strong correlation, with a t value of 3.97 (at P value = 0.001). [ID:PubMedQA-25675614].",yes,1,1.0,1,0,0,53,1506
+69,direct,maybe,Not in context.,not in context,0,0.0,0,1,0,3,90
+69,cot,maybe,"In the given study (ID: PubMedQA-18235194) children with a history of hearing loss, actual hearing loss or pathologic middle ear findings profited most from the specialized training program. This means, that the special training was useful only in children with a hearing problem. Therefore, it would be not indicated to apply this special training to every preschool child. [ID:PubMedQA-18235194].",not in context,0,0.0,1,1,0,59,1540
+70,direct,yes,Yes [ID:PubMedQA-18005142].,yes,1,1.0,1,0,0,2,309
+70,cot,yes,"Final Answer: No, early treatment of migraines does not reduce the severity of the headache at its peak.",no,0,0.0,0,0,0,18,398
+71,direct,no,Yes [ID:PubMedQA-21823940].,yes,0,0.0,1,0,0,2,309
+71,cot,no,Not in context.,not in context,0,0.0,0,1,0,3,98
+72,direct,yes,Yes [PubMedQA-10331115].,yes,1,1.0,0,0,0,2,279
+72,cot,yes,"Yes. The Context states that ""All currently available atypical antipsychotics have, at clinically relevant doses: i) high serotonin (5-HT)2 occupancy; ii) greater 5-HT2 than dopamine (D)2 occupancy; and iii) a higher incidence of extrapyramidal side effects when their D2 occupancy exceeds 80%."" The final answer is: Yes, amoxapine is an atypical antipsychotic [ID:PubMedQA-10331115].",yes,1,1.0,1,0,0,53,1917
+73,direct,no,Not in context.,not in context,0,0.0,0,1,0,3,104
+73,cot,no,"If the preoperative hemoglobin level is below 13 g/dl, it is associated with a risk of transfusion. The risk of transfusion is estimated to be 0.10 (range: 0.10-0.84) for patients with an ASA score of III/IV and a preoperative Hb level of 11.3 g/dl (Q: Not in context).",not in context,0,0.0,0,1,0,48,1466
+74,direct,yes,Not in context.,not in context,0,0.0,0,1,0,3,99
+74,cot,yes,Not in context.,not in context,0,0.0,0,1,0,3,98
+75,direct,no,Yes,yes,0,0.0,0,0,0,1,53
+75,cot,no,Reasoning:,not in context,0,0.0,0,1,0,1,97
+76,direct,no,Yes [ID:PubMedQA-22972546].,yes,0,0.0,1,0,0,2,308
+76,cot,no,Not in context.,not in context,0,0.0,0,1,0,3,97
+77,direct,no,Not in context.,not in context,0,0.0,0,1,0,3,98
+77,cot,no,Final Answer:,not in context,0,0.0,0,1,0,2,97
+78,direct,no,Yes [ID:PubMedQA-15703931].,yes,0,0.0,1,0,0,2,317
+78,cot,no,Not in context.,not in context,0,0.0,0,1,0,3,106
+79,direct,yes,Yes [ID:PubMedQA-12913347].,yes,1,1.0,1,0,0,2,316
+79,cot,yes,"No, microbiological factors do not account for poor pregnancy outcome among unmarried pregnant women in Poland. The aim of the study was to assess the prevalence and risk of bacterial vaginosis (BV) and selected bacteria isolated from the lower genital tract and to determine the socioeconomic and microbiological characteristics that might be responsible for poor pregnancy outcome observed among unmarried pregnant women. The study did not conclude that the microbiological factors were responsible for poor pregnancy outcome among unmarried pregnant women.",no,0,0.0,0,0,0,81,1668
+80,direct,yes,Yes [ID:PubMedQA-9550200].,yes,1,1.0,1,0,0,2,285
+80,cot,yes,Not in context. [ID:PubMedQA-9550200],not in context,0,0.0,1,1,0,4,329
+81,direct,yes,Not in context.,not in context,0,0.0,0,1,0,3,106
+81,cot,yes,PubMedQA-26701174.,not in context,0,0.0,0,1,0,1,255
+82,direct,no,Yes.,yes,0,0.0,0,0,0,1,64
+82,cot,no,"No, a colonoscopy after acute diverticulitis does not affect its management.",no,1,1.0,0,0,0,11,339
+83,direct,yes,Yes.,yes,1,1.0,0,0,0,1,68
+83,cot,yes,The study of 35 young obese males and 23 age-matched healthy male volunteers looked at the early sonographic markers of obesity-related vascular dysfunction in the common carotid artery pulsatility index and resistance index. These were calculated from blood flow velocities curves obtained by pulsed Doppler ultrasonography.,not in context,0,0.0,0,1,0,46,1144
+84,direct,yes,Yes [ID:PubMedQA-22188074].,yes,1,1.0,1,0,0,2,315
+84,cot,yes,Q: Do instrumental activities of daily living predict dementia at 1- and 2-year follow-up?,not in context,0,0.0,0,1,0,14,420
+85,direct,yes,Not in context.,not in context,0,0.0,0,1,0,3,93
+85,cot,yes,Not in context.,not in context,0,0.0,0,1,0,3,90
+86,direct,yes,Yes [ID:PubMedQA-18041059].,yes,1,1.0,1,0,0,2,316
+86,cot,yes,"Yes. Based on the results of the review of seven eligible RCTs, the absolute difference of the primary endpoint (cardiovascular events) between the tamoxifen and aromatase inhibitor (AI) arms was statistically significant (0.52%), with an absolute difference in the aromatase inhibitor arm of 0.57%. This translated into an NNH value of 189 patients [ID:PubMedQA-18041059].",yes,1,1.0,1,0,0,54,1639
+87,direct,yes,Not in context.,not in context,0,0.0,0,1,0,3,106
+87,cot,yes,Not in context.,not in context,0,0.0,0,1,0,3,105
+88,direct,no,Not in context.,not in context,0,0.0,0,1,0,3,98
+88,cot,no,Not in context.,not in context,0,0.0,0,1,0,3,97
+89,direct,yes,Yes [PubMedQA-10430303].,yes,1,1.0,0,0,0,2,278
+89,cot,yes,1. Beta-N-acetyl hexosaminidase (beta-NAH) is a peri-sinusoidal cell enzyme released into the blood when these cells are damaged. Beta-NAH levels are normal in the healthy liver. [Not in context],not in context,0,0.0,0,1,0,29,978
+90,direct,maybe,Yes [ID:PubMedQA-24336869].,yes,0,0.0,1,0,0,2,315
+90,cot,maybe,"No, because the study by Gaudenz et al. is only descriptive and does not evaluate the effectiveness of police-ED interagency data-sharing for reducing community violence.",no,0,0.0,0,0,0,25,624
+91,direct,no,Not in context.,not in context,0,0.0,0,1,0,3,104
+91,cot,no,The aim of this study was to validate any or all of the 8 clinical identifiers of early-stage primary/idiopathic adhesive capsulitis established in an earlier Delphi study.,not in context,0,0.0,0,1,0,27,655
+92,direct,yes,Not in context.,not in context,0,0.0,0,1,0,3,98
+92,cot,yes,"I understand that the user is asking if Lloyd-Davies position with Trendelenburg is a ""disaster waiting to happen"". The user provides the following reasoning:",not in context,0,0.0,0,1,0,24,563
+93,direct,yes,Not in context.,not in context,0,0.0,0,1,0,3,105
+93,cot,yes,Reasoning:,not in context,0,0.0,0,1,0,1,105
+94,direct,yes,Yes [ID:PubMedQA-18179827].,yes,1,1.0,1,0,0,2,308
+94,cot,yes,Not in context.,not in context,0,0.0,0,1,0,3,97
+95,direct,no,Not in context.,not in context,0,0.0,0,1,0,3,105
+95,cot,no,Q: Does base deficit predict mortality in patients with severe traumatic brain injury?,not in context,0,0.0,0,1,0,13,330
+96,direct,yes,Yes [ID:PubMedQA-18388848].,yes,1,1.0,1,0,0,2,304
+96,cot,yes,Yes [ID:PubMedQA-18388848].,yes,1,1.0,1,0,0,2,304
+97,direct,no,Not in context.,not in context,0,0.0,0,1,0,3,105
+97,cot,no,Not in context.,not in context,0,0.0,0,1,0,3,105
+98,direct,yes,Yes [ID:PubMedQA-27592038].,yes,1,1.0,1,0,0,2,316
+98,cot,yes,Not in context.,not in context,0,0.0,0,1,0,3,105
+99,direct,yes,Yes [ID:PubMedQA-22453060].,yes,1,1.0,1,0,0,2,316
+99,cot,yes,"Yes, the 4 diagram manual enables laypersons to operate the Laryngeal Mask Supreme®.",yes,1,1.0,0,0,0,13,391
+100,direct,yes,Not in context.,not in context,0,0.0,0,1,0,3,105
+100,cot,yes,"Yes. The SYNTAX score is a method to quantify the complexity of coronary artery disease based on coronary angiography. It is a composite score that takes into account the total number of diseased vessels, the number of lesions, the lesion location, and the lesion characteristics. The SYNTAX score has been shown to be predictive of long-term outcomes in patients with stable coronary artery disease.",yes,1,1.0,0,0,0,64,1429
+101,direct,not in context,Not in context.,not in context,1,1.0,0,1,0,3,99
+101,cot,not in context,Not in context.,not in context,1,1.0,0,1,0,3,82
+102,direct,not in context,Not in context.,not in context,1,1.0,0,1,0,3,83
+102,cot,not in context,Not in context.,not in context,1,1.0,0,1,0,3,82
+103,direct,not in context,Not in context.,not in context,1,1.0,0,1,0,3,83
+103,cot,not in context,Not in context.,not in context,1,1.0,0,1,0,3,82
+104,direct,not in context,Not in context.,not in context,1,1.0,0,1,0,3,83
+104,cot,not in context,Not in context.,not in context,1,1.0,0,1,0,3,82
+105,direct,not in context,Not in context.,not in context,1,1.0,0,1,0,3,83
+105,cot,not in context,Not in context. [ID:Decoy-5],not in context,1,1.0,1,1,0,4,201
+106,direct,not in context,Not in context.,not in context,1,1.0,0,1,0,3,83
+106,cot,not in context,Not in context. [ID: Decoy-6],not in context,1,1.0,0,1,0,5,201
+107,direct,not in context,Not in context.,not in context,1,1.0,0,1,0,3,83
+107,cot,not in context,Not in context. [ID: Decoy-7],not in context,1,1.0,0,1,0,5,201
+108,direct,not in context,Not in context.,not in context,1,1.0,0,1,0,3,83
+108,cot,not in context,Not in context.,not in context,1,1.0,0,1,0,3,82
+109,direct,not in context,Not in context.,not in context,1,1.0,0,1,0,3,83
+109,cot,not in context,Not in context. [ID:Decoy-9],not in context,1,1.0,1,1,0,4,202
+110,direct,not in context,Not in context.,not in context,1,1.0,0,1,0,3,83
+110,cot,not in context,Not in context. [ID:Decoy-10],not in context,1,1.0,1,1,0,4,217

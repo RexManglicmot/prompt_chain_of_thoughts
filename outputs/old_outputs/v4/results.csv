@@ -1,0 +1,221 @@
+id,method,gold_answer,model_answer,correct_em,f1,grounded,abstained,hallucinated,tokens_out,latency_ms
+1,direct,yes,not in context,0,0.0,0,0,0,3,908
+1,cot,yes,no,0,0.0,0,0,0,1,365
+2,direct,no,no,1,1.0,0,0,0,1,49
+2,cot,no,no,1,1.0,0,0,0,1,48
+3,direct,yes,not in context,0,0.0,0,0,0,3,47
+3,cot,yes,not in context,0,0.0,0,0,0,3,47
+4,direct,yes,not in context,0,0.0,0,0,0,3,47
+4,cot,yes,not in context,0,0.0,0,0,0,3,365
+5,direct,yes,not in context,0,0.0,0,0,0,3,41
+5,cot,yes,not in context,0,0.0,0,0,0,3,35
+6,direct,yes,not in context,0,0.0,0,0,0,3,35
+6,cot,yes,not in context,0,0.0,0,0,0,3,38
+7,direct,no,no,1,1.0,0,0,0,1,46
+7,cot,no,no,1,1.0,0,0,0,1,380
+8,direct,yes,not in context,0,0.0,0,0,0,3,48
+8,cot,yes,not in context,0,0.0,0,0,0,3,49
+9,direct,yes,not in context,0,0.0,0,0,0,3,39
+9,cot,yes,not in context,0,0.0,0,0,0,3,251
+10,direct,yes,no,0,0.0,0,0,0,1,38
+10,cot,yes,no,0,0.0,0,0,0,1,129
+11,direct,yes,not in context,0,0.0,0,0,0,3,39
+11,cot,yes,not in context,0,0.0,0,0,0,3,107
+12,direct,yes,not in context,0,0.0,0,0,0,3,40
+12,cot,yes,not in context,0,0.0,0,0,0,3,34
+13,direct,yes,not in context,0,0.0,0,0,0,3,337
+13,cot,yes,not in context,0,0.0,0,0,0,3,84
+14,direct,yes,not in context,0,0.0,0,0,0,3,38
+14,cot,yes,not in context,0,0.0,0,0,0,3,38
+15,direct,yes,not in context,0,0.0,0,0,0,3,47
+15,cot,yes,not in context,0,0.0,0,0,0,3,184
+16,direct,no,not in context,0,0.0,0,0,0,3,39
+16,cot,no,not in context,0,0.0,0,0,0,3,40
+17,direct,yes,no,0,0.0,0,0,0,1,47
+17,cot,yes,no,0,0.0,0,0,0,1,47
+18,direct,yes,not in context,0,0.0,0,0,0,3,47
+18,cot,yes,not in context,0,0.0,0,0,0,3,155
+19,direct,no,not in context,0,0.0,0,0,0,3,38
+19,cot,no,not in context,0,0.0,0,0,0,3,39
+20,direct,yes,no,0,0.0,0,0,0,1,62
+20,cot,yes,no,0,0.0,0,0,0,1,94
+21,direct,no,no,1,1.0,0,0,0,1,381
+21,cot,no,no,1,1.0,0,0,0,1,228
+22,direct,yes,no,0,0.0,0,0,0,1,39
+22,cot,yes,no,0,0.0,0,0,0,1,238
+23,direct,yes,not in context,0,0.0,0,0,0,3,39
+23,cot,yes,not in context,0,0.0,0,0,0,3,1974
+24,direct,no,not in context,0,0.0,0,0,0,3,336
+24,cot,no,not in context,0,0.0,0,0,0,3,516
+25,direct,no,no,1,1.0,0,0,0,1,350
+25,cot,no,no,1,1.0,0,0,0,1,47
+26,direct,maybe,not in context,0,0.0,0,0,0,3,47
+26,cot,maybe,not in context,0,0.0,0,0,0,3,910
+27,direct,yes,not in context,0,0.0,0,0,0,3,47
+27,cot,yes,not in context,0,0.0,0,0,0,3,352
+28,direct,yes,not in context,0,0.0,0,0,0,3,39
+28,cot,yes,not in context,0,0.0,0,0,0,3,296
+29,direct,yes,no,0,0.0,0,0,0,1,46
+29,cot,yes,no,0,0.0,0,0,0,1,92
+30,direct,yes,no,0,0.0,0,0,0,1,477
+30,cot,yes,no,0,0.0,0,0,0,1,341
+31,direct,no,not in context,0,0.0,0,0,0,3,47
+31,cot,no,not in context,0,0.0,0,0,0,3,395
+32,direct,yes,not in context,0,0.0,0,0,0,3,40
+32,cot,yes,not in context,0,0.0,0,0,0,3,398
+33,direct,yes,not in context,0,0.0,0,0,0,3,35
+33,cot,yes,not in context,0,0.0,0,0,0,3,356
+34,direct,no,no,1,1.0,0,0,0,1,40
+34,cot,no,no,1,1.0,0,0,0,1,352
+35,direct,yes,not in context,0,0.0,0,0,0,3,46
+35,cot,yes,not in context,0,0.0,0,0,0,3,1969
+36,direct,yes,not in context,0,0.0,0,0,0,3,365
+36,cot,yes,not in context,0,0.0,0,0,0,3,46
+37,direct,no,not in context,0,0.0,0,0,0,3,144
+37,cot,no,no,1,1.0,0,0,0,1,84
+38,direct,no,no,1,1.0,0,0,0,1,39
+38,cot,no,no,1,1.0,0,0,0,1,83
+39,direct,no,no,1,1.0,0,0,0,1,60
+39,cot,no,no,1,1.0,0,0,0,1,60
+40,direct,yes,no,0,0.0,0,0,0,1,32
+40,cot,yes,no,0,0.0,0,0,0,1,30
+41,direct,no,not in context,0,0.0,0,0,0,3,44
+41,cot,no,not in context,0,0.0,0,0,0,3,303
+42,direct,yes,not in context,0,0.0,0,0,0,3,47
+42,cot,yes,not in context,0,0.0,0,0,0,3,46
+43,direct,yes,not in context,0,0.0,0,0,0,3,39
+43,cot,yes,not in context,0,0.0,0,0,0,3,275
+44,direct,yes,not in context,0,0.0,0,0,0,3,373
+44,cot,yes,not in context,0,0.0,0,0,0,3,288
+45,direct,yes,no,0,0.0,0,0,0,1,47
+45,cot,yes,no,0,0.0,0,0,0,1,47
+46,direct,yes,not in context,0,0.0,0,0,0,3,46
+46,cot,yes,not in context,0,0.0,0,0,0,3,378
+47,direct,yes,not in context,0,0.0,0,0,0,3,333
+47,cot,yes,not in context,0,0.0,0,0,0,3,500
+48,direct,yes,not in context,0,0.0,0,0,0,3,39
+48,cot,yes,not in context,0,0.0,0,0,0,3,387
+49,direct,yes,not in context,0,0.0,0,0,0,3,39
+49,cot,yes,not in context,0,0.0,0,0,0,3,397
+50,direct,yes,not in context,0,0.0,0,0,0,3,545
+50,cot,yes,not in context,0,0.0,0,0,0,3,545
+51,direct,yes,not in context,0,0.0,0,0,0,3,46
+51,cot,yes,not in context,0,0.0,0,0,0,3,348
+52,direct,yes,not in context,0,0.0,0,0,0,3,39
+52,cot,yes,not in context,0,0.0,0,0,0,3,211
+53,direct,yes,not in context,0,0.0,0,0,0,3,46
+53,cot,yes,not in context,0,0.0,0,0,0,3,424
+54,direct,yes,no,0,0.0,0,0,0,1,38
+54,cot,yes,no,0,0.0,0,0,0,1,37
+55,direct,yes,not in context,0,0.0,0,0,0,3,44
+55,cot,yes,not in context,0,0.0,0,0,0,3,105
+56,direct,no,not in context,0,0.0,0,0,0,3,38
+56,cot,no,not in context,0,0.0,0,0,0,3,84
+57,direct,yes,not in context,0,0.0,0,0,0,3,46
+57,cot,yes,not in context,0,0.0,0,0,0,3,365
+58,direct,yes,not in context,0,0.0,0,0,0,3,34
+58,cot,yes,not in context,0,0.0,0,0,0,3,37
+59,direct,no,not in context,0,0.0,0,0,0,3,37
+59,cot,no,not in context,0,0.0,0,0,0,3,128
+60,direct,yes,not in context,0,0.0,0,0,0,3,34
+60,cot,yes,not in context,0,0.0,0,0,0,3,185
+61,direct,yes,not in context,0,0.0,0,0,0,3,33
+61,cot,yes,not in context,0,0.0,0,0,0,3,32
+62,direct,maybe,not in context,0,0.0,0,0,0,3,31
+62,cot,maybe,not in context,0,0.0,0,0,0,3,347
+63,direct,yes,not in context,0,0.0,0,0,0,3,409
+63,cot,yes,not in context,0,0.0,0,0,0,3,91
+64,direct,yes,not in context,0,0.0,0,0,0,3,764
+64,cot,yes,not in context,0,0.0,0,0,0,3,483
+65,direct,yes,not in context,0,0.0,0,0,0,3,38
+65,cot,yes,not in context,0,0.0,0,0,0,3,265
+66,direct,no,not in context,0,0.0,0,0,0,3,46
+66,cot,no,not in context,0,0.0,0,0,0,3,1016
+67,direct,no,no,1,1.0,0,0,0,1,393
+67,cot,no,no,1,1.0,0,0,0,1,90
+68,direct,yes,not in context,0,0.0,0,0,0,3,37
+68,cot,yes,not in context,0,0.0,0,0,0,3,279
+69,direct,maybe,not in context,0,0.0,0,0,0,3,31
+69,cot,maybe,not in context,0,0.0,0,0,0,3,76
+70,direct,yes,no,0,0.0,0,0,0,1,38
+70,cot,yes,no,0,0.0,0,0,0,1,363
+71,direct,no,not in context,0,0.0,0,0,0,3,38
+71,cot,no,not in context,0,0.0,0,0,0,3,362
+72,direct,yes,not in context,0,0.0,0,0,0,3,39
+72,cot,yes,not in context,0,0.0,0,0,0,3,230
+73,direct,no,not in context,0,0.0,0,0,0,3,45
+73,cot,no,not in context,0,0.0,0,0,0,3,452
+74,direct,yes,not in context,0,0.0,0,0,0,3,386
+74,cot,yes,not in context,0,0.0,0,0,0,3,290
+75,direct,no,not in context,0,0.0,0,0,0,3,38
+75,cot,no,not in context,0,0.0,0,0,0,3,120
+76,direct,no,not in context,0,0.0,0,0,0,3,38
+76,cot,no,not in context,0,0.0,0,0,0,3,90
+77,direct,no,no,1,1.0,0,0,0,1,37
+77,cot,no,no,1,1.0,0,0,0,1,899
+78,direct,no,not in context,0,0.0,0,0,0,3,46
+78,cot,no,not in context,0,0.0,0,0,0,3,728
+79,direct,yes,not in context,0,0.0,0,0,0,3,46
+79,cot,yes,not in context,0,0.0,0,0,0,3,45
+80,direct,yes,not in context,0,0.0,0,0,0,3,31
+80,cot,yes,not in context,0,0.0,0,0,0,3,32
+81,direct,yes,not in context,0,0.0,0,0,0,3,45
+81,cot,yes,not in context,0,0.0,0,0,0,3,61
+82,direct,no,no,1,1.0,0,0,0,1,335
+82,cot,no,no,1,1.0,0,0,0,1,339
+83,direct,yes,not in context,0,0.0,0,0,0,3,38
+83,cot,yes,not in context,0,0.0,0,0,0,3,295
+84,direct,yes,not in context,0,0.0,0,0,0,3,362
+84,cot,yes,not in context,0,0.0,0,0,0,3,393
+85,direct,yes,not in context,0,0.0,0,0,0,3,33
+85,cot,yes,not in context,0,0.0,0,0,0,3,37
+86,direct,yes,not in context,0,0.0,0,0,0,3,377
+86,cot,yes,not in context,0,0.0,0,0,0,3,378
+87,direct,yes,no,0,0.0,0,0,0,1,45
+87,cot,yes,no,0,0.0,0,0,0,1,45
+88,direct,no,not in context,0,0.0,0,0,0,3,37
+88,cot,no,not in context,0,0.0,0,0,0,3,89
+89,direct,yes,no,0,0.0,0,0,0,1,37
+89,cot,yes,no,0,0.0,0,0,0,1,190
+90,direct,maybe,not in context,0,0.0,0,0,0,3,45
+90,cot,maybe,not in context,0,0.0,0,0,0,3,361
+91,direct,no,not in context,0,0.0,0,0,0,3,44
+91,cot,no,not in context,0,0.0,0,0,0,3,346
+92,direct,yes,no,0,0.0,0,0,0,1,38
+92,cot,yes,no,0,0.0,0,0,0,1,370
+93,direct,yes,not in context,0,0.0,0,0,0,3,45
+93,cot,yes,not in context,0,0.0,0,0,0,3,379
+94,direct,yes,no,0,0.0,0,0,0,1,38
+94,cot,yes,no,0,0.0,0,0,0,1,922
+95,direct,no,no,1,1.0,0,0,0,1,45
+95,cot,no,no,1,1.0,0,0,0,1,437
+96,direct,yes,not in context,0,0.0,0,0,0,3,34
+96,cot,yes,not in context,0,0.0,0,0,0,3,323
+97,direct,no,no,1,1.0,0,0,0,1,347
+97,cot,no,no,1,1.0,0,0,0,1,45
+98,direct,yes,no,0,0.0,0,0,0,1,45
+98,cot,yes,no,0,0.0,0,0,0,1,45
+99,direct,yes,no,0,0.0,0,0,0,1,45
+99,cot,yes,no,0,0.0,0,0,0,1,105
+100,direct,yes,no,0,0.0,0,0,0,1,45
+100,cot,yes,no,0,0.0,0,0,0,1,362
+101,direct,not in context,not in context,1,1.0,0,0,0,3,39
+101,cot,not in context,not in context,1,1.0,0,0,0,3,24
+102,direct,not in context,not in context,1,1.0,0,0,0,3,23
+102,cot,not in context,not in context,1,1.0,0,0,0,3,23
+103,direct,not in context,not in context,1,1.0,0,0,0,3,22
+103,cot,not in context,not in context,1,1.0,0,0,0,3,1927
+104,direct,not in context,not in context,1,1.0,0,0,0,3,23
+104,cot,not in context,not in context,1,1.0,0,0,0,3,23
+105,direct,not in context,not in context,1,1.0,0,0,0,3,22
+105,cot,not in context,not in context,1,1.0,0,0,0,3,23
+106,direct,not in context,not in context,1,1.0,0,0,0,3,22
+106,cot,not in context,not in context,1,1.0,0,0,0,3,23
+107,direct,not in context,not in context,1,1.0,0,0,0,3,22
+107,cot,not in context,not in context,1,1.0,0,0,0,3,337
+108,direct,not in context,not in context,1,1.0,0,0,0,3,23
+108,cot,not in context,not in context,1,1.0,0,0,0,3,23
+109,direct,not in context,not in context,1,1.0,0,0,0,3,23
+109,cot,not in context,not in context,1,1.0,0,0,0,3,187
+110,direct,not in context,not in context,1,1.0,0,0,0,3,23
+110,cot,not in context,not in context,1,1.0,0,0,0,3,23

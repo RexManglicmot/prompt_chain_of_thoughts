@@ -1,0 +1,221 @@
+id,method,gold_answer,model_raw,model_answer,correct_em,f1,grounded,abstained,hallucinated,tokens_out,latency_ms
+1,direct,yes,Yes [PubMedQA-26348845].,yes,1,1.0,0,0,0,2,795
+1,cot,yes,Final Answer: Yes.,yes,1,1.0,0,0,0,3,125
+2,direct,no,Yes [ID:PubMedQA-10973547].,yes,0,0.0,1,0,0,2,321
+2,cot,no,Final Answer: Yes,yes,0,0.0,0,0,0,3,109
+3,direct,yes,Yes [ID:PubMedQA-26163474].,yes,1,1.0,1,0,0,2,320
+3,cot,yes,Final Answer: Yes,yes,1,1.0,0,0,0,3,108
+4,direct,yes,Not in context.,not in context,0,0.0,0,1,0,3,108
+4,cot,yes,Final Answer: Yes.,yes,1,1.0,0,0,0,3,124
+5,direct,yes,Not in context.,not in context,0,0.0,0,1,0,3,96
+5,cot,yes,Final Answer: No,no,0,0.0,0,0,0,3,99
+6,direct,yes,Yes [ID:PubMedQA-23495128].,yes,1,1.0,1,0,0,2,312
+6,cot,yes,Final Answer: Not in context.,not in context,0,0.0,0,1,0,5,145
+7,direct,no,yes,yes,0,0.0,0,0,0,1,62
+7,cot,no,Final Answer: Yes,yes,0,0.0,0,0,0,3,108
+8,direct,yes,Yes [ID:PubMedQA-12163782].,yes,1,1.0,1,0,0,2,322
+8,cot,yes,Final Answer: Yes.,yes,1,1.0,0,0,0,3,125
+9,direct,yes,Yes [ID:PubMedQA-9582182].,yes,1,1.0,1,0,0,2,296
+9,cot,yes,"Final Answer: Yes. The SCL 90-R obsessive-compulsive dimension identifies cognitive impairments. The SCL 90-R obsessive-compulsive subscale was related to symptoms of depression (r = .81, P<.005), anxiety (r = .66, P<.005), and subjective complaints of memory problems (r = .75, P<.005). Multivariate analyses indicated that reported symptoms of depression contributed 66% of the variance in predicting SCL 90-R obsessive-compulsive scores, whereas symptoms of anxiety contributed an additional 6% (P<.0001).",yes,1,1.0,0,0,0,69,2459
+10,direct,yes,Yes [ID:PubMedQA-25588461].,yes,1,1.0,1,0,0,2,313
+10,cot,yes,Final Answer: Not in context.,not in context,0,0.0,0,1,0,5,146
+11,direct,yes,Not in context.,not in context,0,0.0,0,1,0,3,108
+11,cot,yes,Final Answer: No,no,0,0.0,0,0,0,3,108
+12,direct,yes,Yes [ID:PubMedQA-14518645].,yes,1,1.0,1,0,0,2,313
+12,cot,yes,Final Answer: Yes,yes,1,1.0,0,0,0,3,99
+13,direct,yes,Yes [ID:PubMedQA-21084567].,yes,1,1.0,1,0,0,2,308
+13,cot,yes,Final Answer: Yes. Reasoning: 1027 monitor and 716 booklet readings were recorded. Ninety per cent of booklet recordings were exactly the same as the BP monitor readings. Average booklet readings were 0.6 mmHg systolic [95% confidence interval (95% CI) -0.6 to 1.8] and 0.3 mmHg diastolic (95% CI -0.3 to 0.8) lower than those on the monitor.,yes,1,1.0,0,0,0,57,1861
+14,direct,yes,Yes [ID:PubMedQA-11601252].,yes,1,1.0,1,0,0,2,312
+14,cot,yes,Final Answer: Yes,yes,1,1.0,0,0,0,3,100
+15,direct,yes,Yes [ID:PubMedQA-20577124].,yes,1,1.0,1,0,0,2,320
+15,cot,yes,Reasoning:,not in context,0,0.0,0,1,0,1,108
+16,direct,no,Not in context.,not in context,0,0.0,0,1,0,3,101
+16,cot,no,Final Answer: No [ID:PubMedQA-16647887],no,1,1.0,1,0,0,4,352
+17,direct,yes,Not in context.,not in context,0,0.0,0,1,0,3,108
+17,cot,yes,"Reasoning: We are asked if high blood pressure reduces the risk of chronic low back pain. From the context, we see that the study suggests an inverse relationship between blood pressure and prevalence of low back pain, both in a cross-sectional study and in a prospective study. However, the study finds that the relationship is only statistically significant in women, and not in men.",not in context,0,0.0,0,1,0,64,1262
+18,direct,yes,Not in context.,not in context,0,0.0,0,1,0,3,107
+18,cot,yes,Final Answer:,not in context,0,0.0,0,1,0,2,92
+19,direct,no,Yes [PubMedQA-15137012].,yes,0,0.0,0,0,0,2,281
+19,cot,no,"Final Answer: Yes.Reasoning: Most pediatric surgeons perform oophorectomy in girls presenting with ovarian torsion in which the ovary appears necrotic. However, the adult gynecology literature suggests that many ovaries can be treated by detorsion alone. All children with ovarian torsion on the gynecology and general surgery services between 1988 and 2002 were reviewed. There were 36 torsions in 34 children. Seventeen underwent detorsion with or without ovarian cystectomy, and 19 had oophorectomy (mean age 10 years in both groups). Torsion was suspected preoperatively in 94% of the detorsion cases and in 47% of the oophorectomy patients. Median time from presentation to surgery was significantly lower in the detorsion than the oophorectomy group (median 14 v 27 hours; P =.04). Postoperative complications and length of stay were similar between the 2 groups. Despite the ovary being judged intraoperatively as moderately to severely ischemic in 53% of the detorsion cases, follow-up sonogram or ovarian biopsy available in 14 of the 17 cases showed normal ovary with follicular development in each case.Not in context.",yes,0,0.0,0,0,0,171,4862
+20,direct,yes,Not in context.,not in context,0,0.0,0,1,0,3,123
+20,cot,yes,Final Answer: No,no,0,0.0,0,0,0,3,123
+21,direct,no,Not in context.,not in context,0,0.0,0,1,0,3,106
+21,cot,no,Final Answer: Yes.,yes,0,0.0,0,0,0,3,122
+22,direct,yes,Yes [ID:PubMedQA-12846929].,yes,1,1.0,1,0,0,2,311
+22,cot,yes,"Final Answer: Yes. Reasoning: At baseline, physical mobility (P = 0.05), energy (P = 0.01), role functioning (P = 0.04), physical functioning (P = 0.03), and breathlessness (P = 0.02) were significant. At follow-up assessment, there was no significant difference between patient groups nor did any consistent pattern emerge. [ID:PubMedQA-12846929].",yes,1,1.0,1,0,0,50,1681
+23,direct,yes,Yes [ID:PubMedQA-18948835].,yes,1,1.0,1,0,0,2,311
+23,cot,yes,Final Answer: Yes.,yes,1,1.0,0,0,0,3,122
+24,direct,no,Yes [PubMedQA-23052500].,yes,0,0.0,0,0,0,2,288
+24,cot,no,"Final Answer: Yes.Reasoning: In this study, the authors aimed to determine whether staging laparoscopy (SL) for patients with HCC is useful. They reported that SL was unsuccessful because of intraabdominal adhesions in two patients, unresectability due to metastases or tumor progression in four patients, unresectability due to severe cirrhosis in two patients, and disease progression detected on imaging after SL in five patients. The accuracy of SL was 27% (95% CI, 11-52%), and the yield of SL was 7% (95% CI, 3-17%). However, the authors did not mention how many patients underwent laparotomy. Additionally, they reported that a biopsy of the contralateral liver was performed for 45 patients who underwent SL, leading to changes in management for 4 patients (17%) with cirrhosis.",yes,0,0.0,0,0,0,122,3254
+25,direct,no,Yes [ID:PubMedQA-25488308].,yes,0,0.0,1,0,0,2,319
+25,cot,no,"Reasoning: The inter-radicular spaces were evaluated 5 mm from the cement-enamel junction. The bone thicknesses were taken at 45°, 60°, and 90° in relation to the alveolar ridge, simulating a miniscrew insertion. Sexual dimorphism and malocclusion were evaluated with t tests. To compare the inter-radicular space and the thickness of bone between areas, an analysis of variance for repeated measures was used. The sample was composed of 100 patients with a mean age of 17.4 ± 6.74 years. There were 61 female and 39 male patients and 60 Class I and 40 Class II molar relationships. The inter-radicular space ranged from 2.46 to 3.31 mm, and alveolar bone thickness ranged from 8.01 to 13.77 mm. The thickness tended to decrease with the increase in insertion angle from 45° to 90°. No significant differences between the genders or types of malocclusion were found.",no,1,1.0,0,0,0,142,3835
+26,direct,maybe,Not in context.,not in context,0,0.0,0,1,0,3,107
+26,cot,maybe,Reasoning:,not in context,0,0.0,0,1,0,1,106
+27,direct,yes,Yes [PubMedQA-27456836].,yes,1,1.0,0,0,0,2,290
+27,cot,yes,Final Answer: No,no,0,0.0,0,0,0,3,107
+28,direct,yes,Yes [ID:PubMedQA-17244100].,yes,1,1.0,1,0,0,2,310
+28,cot,yes,Reasoning:,not in context,0,0.0,0,1,0,1,107
+29,direct,yes,Yes [ID:PubMedQA-23347337].,yes,1,1.0,1,0,0,2,318
+29,cot,yes,Final Answer: Yes.,yes,1,1.0,0,0,0,3,121
+30,direct,yes,Yes [ID:PubMedQA-24098953].,yes,1,1.0,1,0,0,2,310
+30,cot,yes,Final Answer: Yes [PubMedQA-24098953],yes,1,1.0,0,0,0,4,334
+31,direct,no,Yes [ID:PubMedQA-25274085].,yes,0,0.0,1,0,0,2,318
+31,cot,no,Final Answer: Not in context.,not in context,0,0.0,0,1,0,5,152
+32,direct,yes,Yes [ID:PubMedQA-12913878].,yes,1,1.0,1,0,0,2,306
+32,cot,yes,Final Answer: Yes.,yes,1,1.0,0,0,0,3,113
+33,direct,yes,Yes.,yes,1,1.0,0,0,0,1,64
+33,cot,yes,Final Answer: Yes,yes,1,1.0,0,0,0,3,98
+34,direct,no,Not in context.,not in context,0,0.0,0,1,0,3,99
+34,cot,no,Final Answer: Yes,yes,0,0.0,0,0,0,3,97
+35,direct,yes,Yes [ID:PubMedQA-22012962].,yes,1,1.0,1,0,0,2,316
+35,cot,yes,"Final Answer: Yes.Reasoning: According to the PubMedQA-22012962 Context, the benefit of being married is stronger for men than for women. The mortality patterns are similar for divorced and single individuals compared with widowed individuals (<80 years). After adjustment for living arrangements, the gender difference by marital status disappeared. Stratification by living arrangement revealed that mortality risks are highest for 45-64-year-old divorced men who live alone. In women of the same age, the highest mortality risk was observed for those who were single and living with a partner.",yes,1,1.0,0,0,0,87,2078
+36,direct,yes,Yes [ID:PubMedQA-8910148].,yes,1,1.0,1,0,0,2,302
+36,cot,yes,Final Answer: Yes [Reasoning: True. The study found that echocardiography is a reliable tool to assess left ventricular dysfunction in brain-dead donors. Not in context. ],yes,1,1.0,0,0,0,26,699
+37,direct,no,Yes [ID:PubMedQA-20337874].,yes,0,0.0,1,0,0,2,309
+37,cot,no,Final Answer: Yes.,yes,0,0.0,0,0,0,3,114
+38,direct,no,Not in context.,not in context,0,0.0,0,1,0,3,98
+38,cot,no,Final Answer: No,no,1,1.0,0,0,0,3,105
+39,direct,no,Yes [ID:PubMedQA-18439500].,yes,0,0.0,1,0,0,2,332
+39,cot,no,Final Answer: Not in context.,not in context,0,0.0,0,1,0,5,166
+40,direct,yes,Yes [ID:PubMedQA-27491658].,yes,1,1.0,1,0,0,2,302
+40,cot,yes,Final Answer: Yes. Reasoning: The aim of the study was to see whether or not balloon predilatation is necessary in transcatheter aortic valve replacement (TAVI). Sixty consecutive TAVI patients were randomized to the standard procedure or to a protocol where balloon predilatation was omitted. There were no significant differences between the groups regarding early hemodynamic results or complication rates. Not in context.,yes,1,1.0,0,0,0,62,1482
+41,direct,no,Yes [ID:PubMedQA-16962519].,yes,0,0.0,1,0,0,2,316
+41,cot,no,Reasoning:,not in context,0,0.0,0,1,0,1,105
+42,direct,yes,Yes [ID:PubMedQA-9199905].,yes,1,1.0,1,0,0,2,301
+42,cot,yes,Final Answer: Not in context.,not in context,0,0.0,0,1,0,5,151
+43,direct,yes,Yes [ID:PubMedQA-14745753].,yes,1,1.0,1,0,0,2,310
+43,cot,yes,Final Answer: Yes.,yes,1,1.0,0,0,0,3,113
+44,direct,yes,Yes [ID:PubMedQA-23506394].,yes,1,1.0,1,0,0,2,309
+44,cot,yes,Final Answer: Yes,yes,1,1.0,0,0,0,3,105
+45,direct,yes,Not in context.,not in context,0,0.0,0,1,0,3,107
+45,cot,yes,"Final Answer: No. Reasoning: The study used a Cox regression to identify baseline factors associated with the duration of steroid therapy. To identify predictors of relapse and the late development of GCA, the study used binary logistic regression.",no,0,0.0,0,0,0,38,865
+46,direct,yes,Yes [ID:PubMedQA-22683044].,yes,1,1.0,1,0,0,2,315
+46,cot,yes,Final Answer: No.,no,0,0.0,0,0,0,3,120
+47,direct,yes,Not in context.,not in context,0,0.0,0,1,0,3,105
+47,cot,yes,Final Answer: Yes,yes,1,1.0,0,0,0,3,105
+48,direct,yes,Not in context.,not in context,0,0.0,0,1,0,3,100
+48,cot,yes,Final Answer: Not in context.,not in context,0,0.0,0,1,0,5,138
+49,direct,yes,Yes [ID:PubMedQA-22117569].,yes,1,1.0,1,0,0,2,304
+49,cot,yes,"Final Answer: Yes. Reasoning: Yes, as it was feasible to embed the Model into the organizational structures of the three community palliative care services in Victoria, Australia. The services adapted and applied their own concept of community, which widened the impact of the model. Changes to quality audit processes were essential to consolidate the model into routine palliative care practice.",yes,1,1.0,0,0,0,60,1230
+50,direct,yes,Yes [ID:PubMedQA-10811329].,yes,1,1.0,1,0,0,2,316
+50,cot,yes,"Final Answer: Yes.Reasoning: The 99mTc-WBC scan was positive in all but three newly diagnosed Crohn's disease, ulcerative colitis, or miscellaneous colitis children. The 99mTc-WBC scans were positive in all but three newly diagnosed Crohn's disease, ulcerative colitis, or miscellaneous colitis children. The false-negative 99mTc-WBC studies were seen in children with mild inflammation on biopsies and normal UGI-SBFT studies. In the 46 children with a true-positive 99mTc-WBC scan, 81% (17/21) of UGI-SBFT studies were normal. In five children with equivocal UGI-SBFT studies, the 99mTc-WBC scan correctly predicted if inflammation was present in the terminal ileum.",yes,1,1.0,0,0,0,94,3182
+51,direct,yes,Not in context.,not in context,0,0.0,0,1,0,3,106
+51,cot,yes,Final Answer: Yes.,yes,1,1.0,0,0,0,3,121
+52,direct,yes,Yes [ID:PubMedQA-24318956].,yes,1,1.0,1,0,0,2,309
+52,cot,yes,Final Answer: Yes.,yes,1,1.0,0,0,0,3,120
+53,direct,yes,Yes [ID:PubMedQA-24014276].,yes,1,1.0,1,0,0,2,316
+53,cot,yes,"Final Answer: Yes.Reasoning: Optimism was found to be a predictor of survival among the oldest-old (92 or 93 years old) in the Danish 1905 Cohort Survey. Optimistic women were at lower risk of death compared to their neutral counterparts [HR 0.82, 95 % CI (0.73-0.93)] and optimistic men were at lower risk of death compared to their neutral counterparts [HR 0.81, 95 % CI (0.66-0.99)]. The association between optimism and survival weakened in both sexes, but the general pattern persisted. Optimistic women were still at lower risk of death compared to neutral women [HR 0.85, 95 % CI (0.74-0.97)]. The risk of death was also decreased for optimistic men compared to their neutral counterparts, but the effect was non-significant [HR 0.91, 95 % CI (0.73-1.13)]. [PubMedQA-24014276]",yes,1,1.0,0,0,0,126,3958
+54,direct,yes,Yes [ID:PubMedQA-26561905].,yes,1,1.0,1,0,0,2,309
+54,cot,yes,Final Answer: Yes.,yes,1,1.0,0,0,0,3,113
+55,direct,yes,Not in context.,not in context,0,0.0,0,1,0,3,105
+55,cot,yes,Final Answer: No,no,0,0.0,0,0,0,3,105
+56,direct,no,yes [ID:PubMedQA-7482275].,yes,0,0.0,1,0,0,2,294
+56,cot,no,Final Answer: Yes.,yes,0,0.0,0,0,0,3,120
+57,direct,yes,Yes [ID:PubMedQA-23072266].,yes,1,1.0,1,0,0,2,316
+57,cot,yes,Final Answer:,not in context,0,0.0,0,1,0,2,91
+58,direct,yes,Yes [ID:PubMedQA-25432938].,yes,1,1.0,1,0,0,2,304
+58,cot,yes,Final Answer: Yes.,yes,1,1.0,0,0,0,3,113
+59,direct,no,Not in context.,not in context,0,0.0,0,1,0,3,97
+59,cot,no,Final Answer: Not in context.,not in context,0,0.0,0,1,0,5,143
+60,direct,yes,Not in context.,not in context,0,0.0,0,1,0,3,94
+60,cot,yes,Final Answer: Not in context.,not in context,0,0.0,0,1,0,5,142
+61,direct,yes,Yes [ID:PubMedQA-10759659].,yes,1,1.0,1,0,0,2,303
+61,cot,yes,Final Answer: Yes,yes,1,1.0,0,0,0,3,98
+62,direct,maybe,Yes [ID:PubMedQA-25277731].,yes,0,0.0,1,0,0,2,300
+62,cot,maybe,Final Answer: Yes.,yes,0,0.0,0,0,0,3,107
+63,direct,yes,Yes [ID:PubMedQA-26818046].,yes,1,1.0,1,0,0,2,315
+63,cot,yes,Final Answer:,not in context,0,0.0,0,1,0,2,90
+64,direct,yes,Yes [ID:PubMedQA-15065192].,yes,1,1.0,1,0,0,2,308
+64,cot,yes,"Reasoning: The study found that 3D ultrasound-validated LCNB of the breast had a sensitivity for malignancy of 96.9%, specificity of 100%, false-positive rate of 0% and false-negative rate of 3.1%, and for the excised lesions a sensitivity of 96.5%, specificity of 100%, false-positive rate of 0%, false-negative rate of 3.5% and an underestimation rate of 3.4%.",not in context,0,0.0,0,1,0,56,1846
+65,direct,yes,Not in context.,not in context,0,0.0,0,1,0,3,98
+65,cot,yes,Final Answer: Yes,yes,1,1.0,0,0,0,3,105
+66,direct,no,Yes [PubMedQA-17462393].,yes,0,0.0,0,0,0,2,285
+66,cot,no,Final Answer: Yes,yes,0,0.0,0,0,0,3,106
+67,direct,no,Yes [ID:PubMedQA-22504515].,yes,0,0.0,1,0,0,2,315
+67,cot,no,Final Answer: Yes,yes,0,0.0,0,0,0,3,105
+68,direct,yes,Yes [ID:PubMedQA-25675614].,yes,1,1.0,1,0,0,2,307
+68,cot,yes,Reasoning: The study found a very strong correlation between the gingival crevicular blood and the finger-prick blood. Final Answer: Yes.,yes,1,1.0,0,0,0,20,518
+69,direct,maybe,Not in context.,not in context,0,0.0,0,1,0,3,90
+69,cot,maybe,Final Answer: yes,yes,0,0.0,0,0,0,3,92
+70,direct,yes,Not in context.,not in context,0,0.0,0,1,0,3,98
+70,cot,yes,Final Answer: Yes.,yes,1,1.0,0,0,0,3,120
+71,direct,no,Yes [ID:PubMedQA-21823940].,yes,0,0.0,1,0,0,2,308
+71,cot,no,"Final Answer: Yes. Reasoning: The first sentence of the study says the Department of Transportation of Ontario (MTO) provided the driving records. It also says self-reports were acquired via a semistructured interview. The word 'interview' means the interview was conducted by the authors. It did not say the self-reports were acquired from the MTO. So, the Department of Transportation of Ontario (MTO) provided the driving records, and the authors acquired the self-reports. [ID:PubMedQA-21823940]",yes,0,0.0,1,0,0,73,1921
+72,direct,yes,Yes [PubMedQA-10331115].,yes,1,1.0,0,0,0,2,279
+72,cot,yes,Final Answer: Yes,yes,1,1.0,0,0,0,3,97
+73,direct,no,Not in context.,not in context,0,0.0,0,1,0,3,105
+73,cot,no,Final Answer: No,no,1,1.0,0,0,0,3,105
+74,direct,yes,Not in context.,not in context,0,0.0,0,1,0,3,99
+74,cot,yes,Final Answer: Yes.,yes,1,1.0,0,0,0,3,112
+75,direct,no,Not in context.,not in context,0,0.0,0,1,0,3,98
+75,cot,no,Final Answer:,not in context,0,0.0,0,1,0,2,90
+76,direct,no,Not in context.,not in context,0,0.0,0,1,0,3,98
+76,cot,no,Final Answer:,not in context,0,0.0,0,1,0,2,105
+77,direct,no,Not in context.,not in context,0,0.0,0,1,0,3,97
+77,cot,no,Final Answer:,not in context,0,0.0,0,1,0,2,90
+78,direct,no,Yes [ID:PubMedQA-15703931].,yes,0,0.0,1,0,0,2,316
+78,cot,no,"Final Answer: No. The receiver operating characteristic curve method, with calculation of the area under the curve (AUC), was used to evaluate the discriminative power. From February 2001 to January 2003, 219 patients (75 with primary and 144 with recurrent cervical cancer) were eligible for analysis. Sixteen had hyperglycaemic DM, 12 had euglycaemic DM and 191 were in the non-DM group. The diagnostic power of PET in the hyperglycaemic DM, euglycaemic DM and non-DM groups did not differ significantly with regard to the identification of either metastatic lesions (AUC, 0.967/0.947/0.925, P>0.05) or primary tumours/local recurrence (AUC, 0.950/0.938/0.979, P>0.05). Considering all DM patients, PET showed a significantly higher detection power than MRI/CT scans in respect of metastatic lesions (AUC=0.956 vs 0.824, P=0.012).",no,1,1.0,0,0,0,121,4147
+79,direct,yes,Not in context.,not in context,0,0.0,0,1,0,3,106
+79,cot,yes,Reasoning: 1. This study investigated whether unmarried status is a risk factor for poor pregnancy outcome. 2. Microbiological factors were examined among unmarried pregnant women. 3. The study found that unmarried status was a borderline risk factor for BV. 4. The study also found that unmarried women had a higher risk for several types of pathological microflora. 5. The study did not find a significant association between unmarried status and poor pregnancy outcome. 6. The study did not find a significant association between microbiological factors and poor pregnancy outcome among unmarried pregnant women. 7. The study did find a significant association between unmarried status and microbiological factors. [ID:PubMedQA-12913347].,not in context,0,0.0,1,1,0,108,2645
+80,direct,yes,Yes [ID:PubMedQA-9550200].,yes,1,1.0,1,0,0,2,285
+80,cot,yes,Final Answer: Yes.,yes,1,1.0,0,0,0,3,113
+81,direct,yes,Not in context.,not in context,0,0.0,0,1,0,3,106
+81,cot,yes,Final Answer: No. No evidence that hospital type is associated with differences in total cost and outcomes for inpatient tonsillectomy. Reasoning: Inpatient Pediatric Tonsillectomy: Does Hospital Type Affect Cost and Outcomes of Care? Context (ID: PubMedQA-26701174).,no,0,0.0,0,0,0,36,1127
+82,direct,no,Yes [ID:PubMedQA-22186742].,yes,0,0.0,1,0,0,2,304
+82,cot,no,Final Answer: No,no,1,1.0,0,0,0,3,97
+83,direct,yes,Yes [ID:PubMedQA-22532370].,yes,1,1.0,1,0,0,2,308
+83,cot,yes,Final Answer: Yes,yes,1,1.0,0,0,0,3,93
+84,direct,yes,Yes [ID:PubMedQA-22188074].,yes,1,1.0,1,0,0,2,315
+84,cot,yes,Reasoning:,not in context,0,0.0,0,1,0,1,105
+85,direct,yes,Not in context.,not in context,0,0.0,0,1,0,3,92
+85,cot,yes,Final Answer: Yes.,yes,1,1.0,0,0,0,3,114
+86,direct,yes,Yes [ID:PubMedQA-18041059].,yes,1,1.0,1,0,0,2,315
+86,cot,yes,Final Answer: No,no,0,0.0,0,0,0,3,106
+87,direct,yes,Yes [ID:PubMedQA-21550158].,yes,1,1.0,1,0,0,2,315
+87,cot,yes,"Final Answer: Yes.Reasoning:60 patients aged 19 to 35 years (mean: 24.7 ± 3.6 years) were divided into both test and control groups of 30 patients each. The mean postoperative pain score (visual analog scale) was lower for the PRP group at all time points and this was statistically significant (P<.05). Similarly, the scores for lamina dura, trabecular pattern, and bone density were better among patients in the PRP group. This difference was also not statistically significant.Not in context. [ID:PubMedQA-21550158].",yes,1,1.0,1,0,0,79,2238
+88,direct,no,Not in context.,not in context,0,0.0,0,1,0,3,102
+88,cot,no,Final Answer: Not in context.,not in context,0,0.0,0,1,0,5,150
+89,direct,yes,Yes [ID:PubMedQA-10430303].,yes,1,1.0,1,0,0,2,308
+89,cot,yes,Final Answer: Yes,yes,1,1.0,0,0,0,3,99
+90,direct,maybe,Yes [ID:PubMedQA-24336869].,yes,0,0.0,1,0,0,2,315
+90,cot,maybe,Final Answer: Not in context.,not in context,0,0.0,0,1,0,5,150
+91,direct,no,Not in context.,not in context,0,0.0,0,1,0,3,104
+91,cot,no,Final Answer: No [ID:PubMedQA-24652474].,no,1,1.0,1,0,0,4,360
+92,direct,yes,Not in context.,not in context,0,0.0,0,1,0,3,99
+92,cot,yes,"Reasoning: Lower limb compartment syndrome has been reported to occur after colorectal, urological, and gynecological procedures during which the patient's lower limbs are elevated for prolonged periods of time. Lloyd-Davies position with Trendelenburg is a surgical positioning where the patient is tilted 30 degrees head down and 15 degrees leg down, and the patient is then on their side with the lower limbs elevated. This surgical positioning is similar to the Lloyd-Davies position.",not in context,0,0.0,0,1,0,73,1821
+93,direct,yes,Not in context.,not in context,0,0.0,0,1,0,3,105
+93,cot,yes,Final Answer: Yes.,yes,1,1.0,0,0,0,3,121
+94,direct,yes,Yes [ID:PubMedQA-18179827].,yes,1,1.0,1,0,0,2,308
+94,cot,yes,Final Answer: Yes,yes,1,1.0,0,0,0,3,106
+95,direct,no,Not in context.,not in context,0,0.0,0,1,0,3,106
+95,cot,no,Final Answer: No.,no,1,1.0,0,0,0,3,120
+96,direct,yes,Yes [ID:PubMedQA-18388848].,yes,1,1.0,1,0,0,2,307
+96,cot,yes,Final Answer: Yes.,yes,1,1.0,0,0,0,3,113
+97,direct,no,Yes [PubMedQA-24625433].,yes,0,0.0,0,0,0,2,285
+97,cot,no,Final Answer: Yes. The HFNC was found to be noisier than the BCPAP at low frequency (500 Hz) with 3.0 (0.3 to 5.7) dBA difference.,yes,0,0.0,0,0,0,25,796
+98,direct,yes,Not in context.,not in context,0,0.0,0,1,0,3,105
+98,cot,yes,Final Answer: Not in context.,not in context,0,0.0,0,1,0,5,150
+99,direct,yes,Yes [ID:PubMedQA-22453060].,yes,1,1.0,1,0,0,2,316
+99,cot,yes,Reasoning:,not in context,0,0.0,0,1,0,1,105
+100,direct,yes,Not in context.,not in context,0,0.0,0,1,0,3,105
+100,cot,yes,Final Answer: Yes.,yes,1,1.0,0,0,0,3,121
+101,direct,not in context,Not in context.,not in context,1,1.0,0,1,0,3,98
+101,cot,not in context,Reasoning:,not in context,1,1.0,0,1,0,1,84
+102,direct,not in context,Not in context.,not in context,1,1.0,0,1,0,3,82
+102,cot,not in context,"Reasoning: The context is related to nutrition and exercise, not condition X2. Therefore, there is no information about the treatment of condition X2.",no,0,0.0,0,0,1,23,500
+103,direct,not in context,Not in context.,not in context,1,1.0,0,1,0,3,82
+103,cot,not in context,Reasoning:,not in context,1,1.0,0,1,0,1,84
+104,direct,not in context,Not in context.,not in context,1,1.0,0,1,0,3,82
+104,cot,not in context,Final Answer: Not in context.,not in context,1,1.0,0,1,0,5,128
+105,direct,not in context,Not in context.,not in context,1,1.0,0,1,0,3,82
+105,cot,not in context,Final Answer: Not in context.,not in context,1,1.0,0,1,0,5,128
+106,direct,not in context,Not in context.,not in context,1,1.0,0,1,0,3,82
+106,cot,not in context,Final Answer: Not in context.,not in context,1,1.0,0,1,0,5,128
+107,direct,not in context,Not in context.,not in context,1,1.0,0,1,0,3,82
+107,cot,not in context,Final Answer: Not in context.,not in context,1,1.0,0,1,0,5,128
+108,direct,not in context,Not in context.,not in context,1,1.0,0,1,0,3,82
+108,cot,not in context,Reasoning:,not in context,1,1.0,0,1,0,1,83
+109,direct,not in context,Not in context.,not in context,1,1.0,0,1,0,3,82
+109,cot,not in context,Reasoning:,not in context,1,1.0,0,1,0,1,83
+110,direct,not in context,Not in context.,not in context,1,1.0,0,1,0,3,83
+110,cot,not in context,Reasoning:,not in context,1,1.0,0,1,0,1,83

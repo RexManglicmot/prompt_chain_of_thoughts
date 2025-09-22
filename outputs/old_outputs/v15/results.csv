@@ -1,0 +1,221 @@
+id,method,gold_answer,model_raw,model_answer,correct_em,f1,grounded,abstained,hallucinated,tokens_out,latency_ms
+1,direct,yes,Yes,yes,1,1.0,0,0,0,1,573
+1,cot,yes,No.,no,0,0.0,0,0,0,1,77
+2,direct,no,maybe,maybe,0,0.0,0,0,0,1,64
+2,cot,no,Yes.,yes,0,0.0,0,0,0,1,77
+3,direct,yes,Yes,yes,1,1.0,0,0,0,1,62
+3,cot,yes,Yes,yes,1,1.0,0,0,0,1,62
+4,direct,yes,Yes.,yes,1,1.0,0,0,0,1,77
+4,cot,yes,"Reasoning: The article reports a retrospective analysis of the effect of HIE on repeat imaging in EDs, comparing 37 EDs that initiated HIE during the study period to 410 EDs that did not participate in HIE during the same period. The article provides detailed information on the study design, study population, and the statistical methods used. The authors found that HIE was associated with a reduction in repeat imaging in all three modalities: -8.7 percentage points for computed tomography, -9.1 percentage points for ultrasound, and -13.0 percentage points for chest x-rays. These reductions were statistically significant and ranged from 44% to 67% relative to the sample means.",not in context,0,0.0,0,1,0,107,2510
+5,direct,yes,Not in context.,not in context,0,0.0,0,1,0,3,103
+5,cot,yes,Reasoning:,not in context,0,0.0,0,1,0,1,101
+6,direct,yes,Not in context.,not in context,0,0.0,0,1,0,3,101
+6,cot,yes,Reasoning:,not in context,0,0.0,0,1,0,1,95
+7,direct,no,no,no,1,1.0,0,0,0,1,62
+7,cot,no,Reasoning:,not in context,0,0.0,0,1,0,1,107
+8,direct,yes,Yes,yes,1,1.0,0,0,0,1,63
+8,cot,yes,Reasoning:,not in context,0,0.0,0,1,0,1,111
+9,direct,yes,Not in context.,not in context,0,0.0,0,1,0,3,95
+9,cot,yes,1) Reasoning:,not in context,0,0.0,0,1,0,2,141
+10,direct,yes,Not in context.,not in context,0,0.0,0,1,0,3,101
+10,cot,yes,Reasoning:,not in context,0,0.0,0,1,0,1,95
+11,direct,yes,Not in context.,not in context,0,0.0,0,1,0,3,101
+11,cot,yes,Reasoning:,not in context,0,0.0,0,1,0,1,99
+12,direct,yes,Not in context.,not in context,0,0.0,0,1,0,3,100
+12,cot,yes,1) Reasoning: step-by-step explanation using ONLY the Context.,not in context,0,0.0,0,1,0,8,327
+13,direct,yes,Not in context.,not in context,0,0.0,0,1,0,3,100
+13,cot,yes,Yes.,yes,1,1.0,0,0,0,1,70
+14,direct,yes,Yes,yes,1,1.0,0,0,0,1,55
+14,cot,yes,Reasoning:,not in context,0,0.0,0,1,0,1,110
+15,direct,yes,Yes,yes,1,1.0,0,0,0,1,62
+15,cot,yes,"Reasoning: The article shows that in obese patients, leptin and NADPH oxidase activity are both higher than in normal-weight individuals. This association remains significant in a multivariate analysis. The article also shows that leptin induces NADPH oxidase activation. Inhibition of the leptin-induced NADPH oxidase activity by wortmannin and bisindolyl maleimide suggests a direct involvement of the phosphatidylinositol 3-kinase and protein kinase C pathways, respectively. Finally, leptin-induced NADPH oxidase activation promotes macrophage proliferation. From these results, we can conclude that leptin is involved in NADPH oxidase overactivity in obesity.",not in context,0,0.0,0,1,0,88,2689
+16,direct,no,No,no,1,1.0,0,0,0,1,50
+16,cot,no,Reasoning:,not in context,0,0.0,0,1,0,1,99
+17,direct,yes,Not in context.,not in context,0,0.0,0,1,0,3,107
+17,cot,yes,Reasoning:,not in context,0,0.0,0,1,0,1,107
+18,direct,yes,No,no,0,0.0,0,0,0,1,54
+18,cot,yes,Reasoning:,not in context,0,0.0,0,1,0,1,107
+19,direct,no,no,no,1,1.0,0,0,0,1,50
+19,cot,no,"Reasoning: In the study, the majority of the patients with ovarian torsion were treated with detorsion rather than oophorectomy. This suggests that oophorectomy may not always be necessary for treating ovarian torsion in children. However, the study was conducted in the pediatric surgery department and there are other studies in the adult gynecology literature that suggest that detorsion alone is effective in treating ovarian torsion in children. Therefore, it is possible that detorsion is also effective in treating ovarian torsion in children.",not in context,0,0.0,0,1,0,82,1956
+20,direct,yes,Not in context.,not in context,0,0.0,0,1,0,3,123
+20,cot,yes,"1) The dataset is comprised of 61 patients who were all treated with transsphenoidal surgery for Cushing's disease. The patients were then divided into three groups based on their outcome: remission, failure, and relapse.",not in context,0,0.0,0,1,0,34,869
+21,direct,no,Not in context.,not in context,0,0.0,0,1,0,3,107
+21,cot,no,Reasoning:,not in context,0,0.0,0,1,0,1,107
+22,direct,yes,Not in context.,not in context,0,0.0,0,1,0,3,95
+22,cot,yes,Yes.,yes,1,1.0,0,0,0,1,69
+23,direct,yes,Not in context.,not in context,0,0.0,0,1,0,3,99
+23,cot,yes,Reasoning:,not in context,0,0.0,0,1,0,1,99
+24,direct,no,Yes,yes,0,0.0,0,0,0,1,62
+24,cot,no,Reasoning:,not in context,0,0.0,0,1,0,1,107
+25,direct,no,Not in context.,not in context,0,0.0,0,1,0,3,107
+25,cot,no,Yes,yes,0,0.0,0,0,0,1,62
+26,direct,maybe,no,no,0,0.0,0,0,0,1,61
+26,cot,maybe,Reasoning:,not in context,0,0.0,0,1,0,1,107
+27,direct,yes,Yes.,yes,1,1.0,0,0,0,1,76
+27,cot,yes,Reasoning:,not in context,0,0.0,0,1,0,1,107
+28,direct,yes,Yes.,yes,1,1.0,0,0,0,1,65
+28,cot,yes,"Reasoning: Minority patients with cancer experience worse control of their pain than do their white counterparts. This disparity may, in part, reflect more miscommunication between minority patients and their physicians. Experimental patients received a 20-minute individualized education and coaching session to increase knowledge of pain self-management, to redress personal misconceptions about pain treatment, and to rehearse an individually scripted patient-physician dialog about pain control. The control group received standardized information on controlling pain. At enrollment, minority patients had significantly more pain than their white counterparts (6.0 vs 5.0, P = 0.05). At follow-up, minorities in the control group continued to have more pain (6.4 vs 4.7, P = 0.01), whereas in the experimental group, disparities were eliminated (4.0 vs 4.3, P = 0.71). The effect of the intervention on reducing disparities was significant (P = 0.04).",not in context,0,0.0,0,1,0,136,3407
+29,direct,yes,Not in context.,not in context,0,0.0,0,1,0,3,100
+29,cot,yes,Reasoning:,not in context,0,0.0,0,1,0,1,99
+30,direct,yes,Not in context.,not in context,0,0.0,0,1,0,3,95
+30,cot,yes,Final Answer: yes,yes,1,1.0,0,0,0,3,95
+31,direct,no,Not in context.,not in context,0,0.0,0,1,0,3,106
+31,cot,no,Reasoning:,not in context,0,0.0,0,1,0,1,123
+32,direct,yes,Yes.,yes,1,1.0,0,0,0,1,69
+32,cot,yes,Reasoning: The main question of the study is whether local disruption of the blood-brain barrier by laser-induced thermo therapy (LITT) could possibly allow a locoregional passage of chemotherapeutic agents into brain tissue to treat malignant glioma. This question is addressed by performing LITT on Fischer rats and then perfusing these rats with paclitaxel. The passage of paclitaxel across the disrupted BBB was determined by high-pressure liquid chromatography. The results show that HPLC proved the passage of paclitaxel across the disrupted BBB.,not in context,0,0.0,0,1,0,81,2081
+33,direct,yes,maybe,maybe,0,0.0,0,0,0,1,55
+33,cot,yes,Reasoning:,not in context,0,0.0,0,1,0,1,99
+34,direct,no,no,no,1,1.0,0,0,0,1,53
+34,cot,no,"No. Retrospective comparison of neuropsychological test results for patients who suffered traumatic LOC, no LOC, or uncertain LOC. No significant differences were found between the LOC, no LOC, or uncertain LOC groups for any of the neuropsychological measures used.",no,1,1.0,0,0,0,39,976
+35,direct,yes,No,no,0,0.0,0,0,0,1,53
+35,cot,yes,"Reasoning: The study includes men and women, who were married, divorced, single or widowed. The study finds that men benefit more from being married than women in middle age, but the mortality patterns are similar for men and women with higher mortality risks in divorced and single individuals compared to widowed individuals. However, the study does not provide information on the gender differences in mortality risks in older individuals, widowed, divorced and single individuals. Therefore, it is not possible to answer the question based on the given context.",not in context,0,0.0,0,1,0,88,1735
+36,direct,yes,Not in context.,not in context,0,0.0,0,1,0,3,106
+36,cot,yes,Yes.,yes,1,1.0,0,0,0,1,76
+37,direct,no,no,no,1,1.0,0,0,0,1,49
+37,cot,no,1) Yes,yes,0,0.0,0,0,0,2,94
+38,direct,no,Yes,yes,0,0.0,0,0,0,1,53
+38,cot,no,No,no,1,1.0,0,0,0,1,67
+39,direct,no,Yes,yes,0,0.0,0,0,0,1,74
+39,cot,no,Reasoning:,not in context,0,0.0,0,1,0,1,120
+40,direct,yes,maybe,maybe,0,0.0,0,0,0,1,40
+40,cot,yes,Reasoning:,not in context,0,0.0,0,1,0,1,85
+41,direct,no,no,no,1,1.0,0,0,0,1,53
+41,cot,no,Reasoning:,not in context,0,0.0,0,1,0,1,105
+42,direct,yes,Yes,yes,1,1.0,0,0,0,1,53
+42,cot,yes,Reasoning:,not in context,0,0.0,0,1,0,1,105
+43,direct,yes,maybe,maybe,0,0.0,0,0,0,1,53
+43,cot,yes,Yes,yes,1,1.0,0,0,0,1,53
+44,direct,yes,Not in context.,not in context,0,0.0,0,1,0,3,98
+44,cot,yes,Maybe.,maybe,0,0.0,0,0,0,1,67
+45,direct,yes,Yes,yes,1,1.0,0,0,0,1,62
+45,cot,yes,Final Answer:,not in context,0,0.0,0,1,0,2,106
+46,direct,yes,Yes,yes,1,1.0,0,0,0,1,53
+46,cot,yes,Reasoning:,not in context,0,0.0,0,1,0,1,105
+47,direct,yes,Yes,yes,1,1.0,0,0,0,1,53
+47,cot,yes,Yes,yes,1,1.0,0,0,0,1,53
+48,direct,yes,no,no,0,0.0,0,0,0,1,48
+48,cot,yes,Reasoning:,not in context,0,0.0,0,1,0,1,98
+49,direct,yes,Yes,yes,1,1.0,0,0,0,1,53
+49,cot,yes,Yes,yes,1,1.0,0,0,0,1,54
+50,direct,yes,Yes.,yes,1,1.0,0,0,0,1,74
+50,cot,yes,Yes. 99mTc leukocyte scintigraphy and SBFT studies are useful in children suspected of having inflammatory bowel disease.,yes,1,1.0,0,0,0,17,589
+51,direct,yes,Not in context.,not in context,0,0.0,0,1,0,3,106
+51,cot,yes,"Reasoning: At baseline, participants consumed more saturated fat (11.8 g/1000 kcal) than recommended (7% of total energy intake). At follow-up, this number was 12.7 g/1000 kcal. The difference is small, so it is not clear if European people with type 1 diabetes consume a high atherogenic diet.",not in context,0,0.0,0,1,0,47,1379
+52,direct,yes,Not in context.,not in context,0,0.0,0,1,0,3,98
+52,cot,yes,Reasoning:,not in context,0,0.0,0,1,0,1,99
+53,direct,yes,Not in context.,not in context,0,0.0,0,1,0,3,107
+53,cot,yes,Yes.,yes,1,1.0,0,0,0,1,75
+54,direct,yes,no,no,0,0.0,0,0,0,1,54
+54,cot,yes,Reasoning:,not in context,0,0.0,0,1,0,1,94
+55,direct,yes,Yes,yes,1,1.0,0,0,0,1,59
+55,cot,yes,"Reasoning: A previous study showed that several nomograms could predict aggressive biochemical recurrence (prostate-specific antigen doubling time [PSADT] <9 months) more accurately than biochemical recurrence (BCR). However, it remains unknown if they can predict more definitive endpoints, such as prostate cancer-specific mortality (PCSM). The authors performed Cox analyses to examine the ability of 4 postoperative nomograms, the Duke Prostate Center (DPC) nomogram, the Kattan postoperative nomogram, the Johns Hopkins Hospital (JHH) nomogram, and the joint Center for Prostate Disease Research (CPDR)/Cancer of the Prostate Strategic Urologic Research Endeavor (CaPSURE) nomogram to predict BCR and PCSM among 1778 men in the Shared Equal Access Regional Cancer Hospital (SEARCH) database who underwent radical prostatectomy (RP) between 1990 and 2009. They calculated the c-index for each nomogram to determine its predictive accuracy for estimating actual outcomes. They found that each nomogram could predict aggressive BCR and PCSM in a statistically significant manner and that they all predicted PCSM more accurately than they predicted BCR (ie, with higher c-index values).",not in context,0,0.0,0,1,0,166,4552
+56,direct,no,Yes.,yes,0,0.0,0,0,0,1,65
+56,cot,no,Reasoning:,not in context,0,0.0,0,1,0,1,97
+57,direct,yes,Yes.,yes,1,1.0,0,0,0,1,75
+57,cot,yes,Yes.,yes,1,1.0,0,0,0,1,75
+58,direct,yes,Not in context.,not in context,0,0.0,0,1,0,3,99
+58,cot,yes,Yes,yes,1,1.0,0,0,0,1,54
+59,direct,no,Not in context.,not in context,0,0.0,0,1,0,3,93
+59,cot,no,Not in context.,not in context,0,0.0,0,1,0,3,93
+60,direct,yes,Not in context.,not in context,0,0.0,0,1,0,3,98
+60,cot,yes,Reasoning:,not in context,0,0.0,0,1,0,1,99
+61,direct,yes,maybe,maybe,0,0.0,0,0,0,1,47
+61,cot,yes,Yes,yes,1,1.0,0,0,0,1,45
+62,direct,maybe,No,no,0,0.0,0,0,0,1,39
+62,cot,maybe,"Sternal fractures in children are rare. The aim of the study was to investigate the accident mechanism, the detection of radiological and sonographical criteria, and consideration of associated injuries. In the period from January 2010 to December 2012, all inpatients and outpatients with sternal fractures were recorded according to the documentation. A total of 4 children aged 5-14 years with a sternal fracture were treated in 2 years, 2 children were hospitalized for pain management, and 2 remained in outpatient care.",not in context,0,0.0,0,1,0,81,1834
+63,direct,yes,Yes,yes,1,1.0,0,0,0,1,52
+63,cot,yes,"Reasoning: To answer the question, we need to determine if higher doses of zonisamide (ZNS) are effective in treating adult European patients with pharmacoresistant epilepsy. The study mentions that a total of 9 patients were treated with high doses of ZNS (>500 mg/d) and that 55% of these patients had at least a 50% reduction in seizures. However, it is not explicitly stated whether these 5 patients had pharmacoresistant epilepsy. Therefore, we cannot conclude with certainty that higher doses of ZNS are effective in treating adult European patients with pharmacoresistant epilepsy. Final Answer: Maybe",maybe,0,0.0,0,0,0,94,2311
+64,direct,yes,yes,yes,1,1.0,0,0,0,1,52
+64,cot,yes,Yes,yes,1,1.0,0,0,0,1,52
+65,direct,yes,Not in context.,not in context,0,0.0,0,1,0,3,94
+65,cot,yes,"Reasoning: The study investigated the accuracy of portable ultrasonography in assessing Schanz pin placement compared to direct measurement post dissection. The study concluded that ultrasound underestimates pin protrusion length by an average of 10% in the range of 5 to 18 mm and the under reporting increases as the magnitude of pin protrusion increases. The study also found that the ultrasound methodology was repeatable among different examiners. Therefore, the accuracy of portable ultrasonography in the evaluation of Schanz pin placement in austere environments cannot be assessed based on the provided context.",not in context,0,0.0,0,1,0,91,2047
+66,direct,no,no,no,1,1.0,0,0,0,1,61
+66,cot,no,Reasoning:,not in context,0,0.0,0,1,0,1,105
+67,direct,no,Not in context.,not in context,0,0.0,0,1,0,3,97
+67,cot,no,Reasoning:,not in context,0,0.0,0,1,0,1,97
+68,direct,yes,Yes,yes,1,1.0,0,0,0,1,54
+68,cot,yes,"Reasoning:The study conducted by the authors showed that the patient’s blood glucose values ranged from 74 to 256 mg/dl. The authors also showed that the comparison between gingival crevicular blood and finger-prick blood had a very strong correlation, with a t value of 3.97 (at P value = 0.001). Based on this information, it can be said that the gingival crevicular blood can be relied upon for assessment of blood glucose level.",not in context,0,0.0,0,1,0,72,1768
+69,direct,maybe,Not in context.,not in context,0,0.0,0,1,0,3,85
+69,cot,maybe,Reasoning:,not in context,0,0.0,0,1,0,1,91
+70,direct,yes,Not in context.,not in context,0,0.0,0,1,0,3,97
+70,cot,yes,Yes.,yes,1,1.0,0,0,0,1,67
+71,direct,no,Not in context.,not in context,0,0.0,0,1,0,3,97
+71,cot,no,Yes,yes,0,0.0,0,0,0,1,52
+72,direct,yes,yes,yes,1,1.0,0,0,0,1,52
+72,cot,yes,Reasoning:,not in context,0,0.0,0,1,0,1,98
+73,direct,no,Not in context.,not in context,0,0.0,0,1,0,3,97
+73,cot,no,"Yes. Out of the 784 patients who meet the inclusion criteria, risk of transfusion was associated with poorer performance status, as measured by the America Association of Anestesiology (ASA) score III/IV (OR: 3·3, P < 0·001) and lower preoperative Hb level (OR 3·8 for each g/dl below 13 g/dl; P < 0·001). According to the Hb level, the estimated probability of transfusion was 0·03 (range: 0·03-0·64) for ASA I/II patients and 0·10 (range: 0·10-0·84) for ASA III/IV.",yes,0,0.0,0,0,0,77,2575
+74,direct,yes,Not in context.,not in context,0,0.0,0,1,0,3,98
+74,cot,yes,"Reasoning: The question asks if CT can predict the level of CSF block in tuberculous hydrocephalus. The reasoning presented in this article is that the shape of the third ventricle in CT scans can differentiate communicating and non-communicating hydrocephalus. The authors found that significantly more children with non-communicating hydrocephalus had a rounded third ventricle than those with communicating hydrocephalus. However, this article does not provide evidence that CT can predict the level of CSF block in tuberculous hydrocephalus.",not in context,0,0.0,0,1,0,78,2001
+75,direct,no,Not in context.,not in context,0,0.0,0,1,0,3,97
+75,cot,no,Reasoning:,not in context,0,0.0,0,1,0,1,98
+76,direct,no,Not in context.,not in context,0,0.0,0,1,0,3,97
+76,cot,no,Reasoning:,not in context,0,0.0,0,1,0,1,97
+77,direct,no,No.,no,1,1.0,0,0,0,1,63
+77,cot,no,Reasoning:,not in context,0,0.0,0,1,0,1,97
+78,direct,no,Not in context.,not in context,0,0.0,0,1,0,3,105
+78,cot,no,"1) Reasoning: In this study, the authors aimed to compare the diagnostic ability of PET in patients with cervical cancer complicated by DM and those without DM. The study included 219 patients (75 with primary and 144 with recurrent cervical cancer) who were categorised into three groups: hyperglycaemic DM, euglycaemic DM and non-DM. The authors showed that the diagnostic power of PET in the hyperglycaemic DM, euglycaemic DM and non-DM groups did not differ significantly with regard to the identification of either metastatic lesions or primary tumours/local recurrence. Considering all DM patients, PET showed a significantly higher detection power than MRI/CT scans in respect of metastatic lesions.",not in context,0,0.0,0,1,0,107,2629
+79,direct,yes,Yes,yes,1,1.0,0,0,0,1,60
+79,cot,yes,"Reasoning: The context is a clinical study that aims to determine if there are microbiological risk factors for poor pregnancy outcome in Poland. The study finds that unmarried pregnant women have a borderline risk of bacterial vaginosis, but this risk is not associated with poor pregnancy outcome. The study also finds that unmarried pregnant women have a significantly higher rate of Mycoplasma hominis infections. Therefore, the microbiological factors that cause poor pregnancy outcomes are not present in unmarried pregnant women in Poland.",not in context,0,0.0,0,1,0,82,1695
+80,direct,yes,yes,yes,1,1.0,0,0,0,1,46
+80,cot,yes,Reasoning:,not in context,0,0.0,0,1,0,1,90
+81,direct,yes,No.,no,0,0.0,0,0,0,1,75
+81,cot,yes,"Reasoning: The study aims to determine the association between hospital type and cost, length of stay, and complications of inpatient tonsillectomy. The study included 25,685 inpatient tonsillectomies in the US between 2006 and 2012, performed in 3 hospital types: non-children's teaching hospitals (NCTHs), children's teaching hospitals (CTHs), and nonteaching hospitals (NTHs).",not in context,0,0.0,0,1,0,51,1636
+82,direct,no,No,no,1,1.0,0,0,0,1,54
+82,cot,no,Reasoning:,not in context,0,0.0,0,1,0,1,99
+83,direct,yes,Yes,yes,1,1.0,0,0,0,1,47
+83,cot,yes,Reasoning:,not in context,0,0.0,0,1,0,1,92
+84,direct,yes,Yes,yes,1,1.0,0,0,0,1,59
+84,cot,yes,Yes,yes,1,1.0,0,0,0,1,59
+85,direct,yes,Not in context.,not in context,0,0.0,0,1,0,3,90
+85,cot,yes,Reasoning:,not in context,0,0.0,0,1,0,1,106
+86,direct,yes,No,no,0,0.0,0,0,0,1,60
+86,cot,yes,No.,no,0,0.0,0,0,0,1,75
+87,direct,yes,Not in context.,not in context,0,0.0,0,1,0,3,105
+87,cot,yes,Yes,yes,1,1.0,0,0,0,1,60
+88,direct,no,Not in context.,not in context,0,0.0,0,1,0,3,97
+88,cot,no,Reasoning:,not in context,0,0.0,0,1,0,1,113
+89,direct,yes,Not in context.,not in context,0,0.0,0,1,0,3,92
+89,cot,yes,Reasoning:,not in context,0,0.0,0,1,0,1,92
+90,direct,maybe,Yes,yes,0,0.0,0,0,0,1,53
+90,cot,maybe,"Reasoning: The study is a 12-month (2012) descriptive study and analysis of spatiotemporal clusters of police and emergency calls for service using hotspots methodology and assessing the degree of incident overlap. 3775 violent crime incidents and 775 assault incidents analysed using spatiotemporal clustering with k-means++ algorithm and Spearman's rho. Spatiotemporal location of calls for services to the police and the ambulance service are equally highly concentrated in a small number of geographical areas, primarily within intra-agency hotspots (33% and 53%, respectively) but across agencies' hotspots as well (25% and 15%, respectively). Datasets are statistically correlated with one another at the 0.57 and 0.34 levels, with 50% overlap when adjusted for the number of hotspots. At least one in every two police hotspots does not have an ambulance hotspot overlapping with it, suggesting half of assault spatiotemporal concentrations are unknown to the police. Data further suggest that more severely injured patients, as estimated by transfer to hospital, tend to be injured in the places with the highest number of police-recorded crimes. The study does not specifically answer the question, however it provides some evidence that routinely collected ambulance data about assaults can be used to reduce community violence.",not in context,0,0.0,0,1,0,197,4837
+91,direct,no,Not in context.,not in context,0,0.0,0,1,0,3,99
+91,cot,no,"Reasoning: In this study, 64 patients diagnosed with early-stage primary/idiopathic adhesive capsulitis by a physical therapist or medical practitioner were included. 16 participants (25%) demonstrated a PAR. Univariate logistic regression identified that of the proposed identifiers, pain at the end range of all measured active movements was associated with a PAR. However, it was not a valid clinical identifier for early-stage primary/idiopathic adhesive capsulitis.",not in context,0,0.0,0,1,0,64,1661
+92,direct,yes,Not in context.,not in context,0,0.0,0,1,0,3,93
+92,cot,yes,Reasoning:,not in context,0,0.0,0,1,0,1,98
+93,direct,yes,Not in context.,not in context,0,0.0,0,1,0,3,105
+93,cot,yes,Yes,yes,1,1.0,0,0,0,1,60
+94,direct,yes,Not in context.,not in context,0,0.0,0,1,0,3,97
+94,cot,yes,Reasoning:,not in context,0,0.0,0,1,0,1,97
+95,direct,no,Not in context.,not in context,0,0.0,0,1,0,3,104
+95,cot,no,"Yes. Base deficit is a marker of tissue hypoxia in polytrauma patients, and it guides resuscitative measures, and predicts outcomes, complications and mortality. It is an important tool for clinical decision-making in trauma patients. The presence of base deficit was found to be statistically significant in this study, but it was not a good predictor of mortality in patients with isolated severe traumatic brain injury.",yes,0,0.0,0,0,0,65,1412
+96,direct,yes,Not in context.,not in context,0,0.0,0,1,0,3,99
+96,cot,yes,Reasoning:,not in context,0,0.0,0,1,0,1,93
+97,direct,no,Not in context.,not in context,0,0.0,0,1,0,3,104
+97,cot,no,Reasoning:,not in context,0,0.0,0,1,0,1,106
+98,direct,yes,Not in context.,not in context,0,0.0,0,1,0,3,105
+98,cot,yes,Reasoning:,not in context,0,0.0,0,1,0,1,105
+99,direct,yes,Yes.,yes,1,1.0,0,0,0,1,75
+99,cot,yes,Reasoning:,not in context,0,0.0,0,1,0,1,104
+100,direct,yes,Not in context.,not in context,0,0.0,0,1,0,3,105
+100,cot,yes,Reasoning:,not in context,0,0.0,0,1,0,1,120
+101,direct,not in context,Not in context.,not in context,1,1.0,0,1,0,3,104
+101,cot,not in context,Reasoning:,not in context,1,1.0,0,1,0,1,82
+102,direct,not in context,Not in context.,not in context,1,1.0,0,1,0,3,82
+102,cot,not in context,Reasoning:,not in context,1,1.0,0,1,0,1,82
+103,direct,not in context,Not in context.,not in context,1,1.0,0,1,0,3,82
+103,cot,not in context,Reasoning:,not in context,1,1.0,0,1,0,1,82
+104,direct,not in context,Not in context.,not in context,1,1.0,0,1,0,3,82
+104,cot,not in context,Reasoning:,not in context,1,1.0,0,1,0,1,82
+105,direct,not in context,Not in context.,not in context,1,1.0,0,1,0,3,81
+105,cot,not in context,Reasoning:,not in context,1,1.0,0,1,0,1,83
+106,direct,not in context,Not in context.,not in context,1,1.0,0,1,0,3,82
+106,cot,not in context,Reasoning:,not in context,1,1.0,0,1,0,1,82
+107,direct,not in context,Not in context.,not in context,1,1.0,0,1,0,3,82
+107,cot,not in context,Reasoning:,not in context,1,1.0,0,1,0,1,82
+108,direct,not in context,Not in context.,not in context,1,1.0,0,1,0,3,82
+108,cot,not in context,Reasoning:,not in context,1,1.0,0,1,0,1,82
+109,direct,not in context,Not in context.,not in context,1,1.0,0,1,0,3,82
+109,cot,not in context,Reasoning: Not in context.,not in context,1,1.0,0,1,0,4,142
+110,direct,not in context,Not in context.,not in context,1,1.0,0,1,0,3,82
+110,cot,not in context,Reasoning:,not in context,1,1.0,0,1,0,1,83

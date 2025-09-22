@@ -1,0 +1,325 @@
+id,method,gold_answer,model_raw,model_answer,correct_em,f1,grounded,abstained,hallucinated,tokens_out,latency_ms
+1,direct,yes,Yes [ID:PubMedQA-26348845].,yes,1,1.0,1,0,0,2,815
+1,cot,yes,"Reasoning: (model skipped reasoning)
+Yes",yes,1,1.0,0,0,0,5,62
+2,direct,no,Yes [ID:PubMedQA-10973547].,yes,0,0.0,1,0,0,2,323
+2,cot,no,"Reasoning: (model skipped reasoning)
+Yes",yes,0,0.0,0,0,0,5,63
+3,direct,yes,Yes [ID:PubMedQA-26163474].,yes,1,1.0,1,0,0,2,320
+3,cot,yes,"Reasoning: (model skipped reasoning)
+maybe  [PubMedQA-26163474]",maybe,0,0.0,0,0,0,6,305
+4,direct,yes,Not in context.,not in context,0,0.0,0,1,0,3,108
+4,cot,yes,"Reasoning: (model skipped reasoning)
+Yes [PubMedQA-24374414].",yes,1,1.0,0,0,0,6,289
+5,direct,yes,Not in context.,not in context,0,0.0,0,1,0,3,96
+5,cot,yes,"Reasoning: (model skipped reasoning)
+Not in context.",not in context,0,0.0,0,1,0,7,95
+6,direct,yes,Not in context.,not in context,0,0.0,0,1,0,3,99
+6,cot,yes,"Reasoning: (model skipped reasoning)
+Not in context.",not in context,0,0.0,0,1,0,7,99
+7,direct,no,yes,yes,0,0.0,0,0,0,1,62
+7,cot,no,"Reasoning: (model skipped reasoning)
+not in context",not in context,0,0.0,0,1,0,7,92
+8,direct,yes,Yes [ID:PubMedQA-12163782].,yes,1,1.0,1,0,0,2,322
+8,cot,yes,"Reasoning: (model skipped reasoning)
+Yes [ID:PubMedQA-12163782].",yes,1,1.0,1,0,0,6,322
+9,direct,yes,Yes [ID:PubMedQA-9582182].,yes,1,1.0,1,0,0,2,296
+9,cot,yes,"Reasoning: (model skipped reasoning)
+Yes.",yes,1,1.0,0,0,0,5,69
+10,direct,yes,Yes [ID:PubMedQA-25588461].,yes,1,1.0,1,0,0,2,312
+10,cot,yes,"Reasoning: (model skipped reasoning)
+Not in context.",not in context,0,0.0,0,1,0,7,100
+11,direct,yes,Not in context.,not in context,0,0.0,0,1,0,3,107
+11,cot,yes,"Reasoning: (model skipped reasoning)
+yes [PubMedQA-23453079]",yes,1,1.0,0,0,0,6,292
+12,direct,yes,Not in context.,not in context,0,0.0,0,1,0,3,101
+12,cot,yes,"Reasoning: (model skipped reasoning)
+Yes",yes,1,1.0,0,0,0,5,55
+13,direct,yes,Yes [ID:PubMedQA-21084567].,yes,1,1.0,1,0,0,2,307
+13,cot,yes,"Reasoning: (model skipped reasoning)
+Not in context.",not in context,0,0.0,0,1,0,7,96
+14,direct,yes,Yes [ID:PubMedQA-11601252].,yes,1,1.0,1,0,0,2,311
+14,cot,yes,"Reasoning: (model skipped reasoning)
+Not in context.",not in context,0,0.0,0,1,0,7,99
+15,direct,yes,Yes [ID:PubMedQA-20577124].,yes,1,1.0,1,0,0,2,320
+15,cot,yes,"Reasoning: (model skipped reasoning)
+Not in context.",not in context,0,0.0,0,1,0,7,108
+16,direct,no,Not in context.,not in context,0,0.0,0,1,0,3,100
+16,cot,no,"Reasoning: (model skipped reasoning)
+Not in context.",not in context,0,0.0,0,1,0,7,100
+17,direct,yes,Not in context.,not in context,0,0.0,0,1,0,3,108
+17,cot,yes,"Reasoning: (model skipped reasoning)
+Not in context.",not in context,0,0.0,0,1,0,7,108
+18,direct,yes,Not in context.,not in context,0,0.0,0,1,0,3,107
+18,cot,yes,"Reasoning: (model skipped reasoning)
+Maybe [PubMedQA-18670651].",maybe,0,0.0,0,0,0,6,289
+19,direct,no,Yes [ID:PubMedQA-15137012].,yes,0,0.0,1,0,0,2,311
+19,cot,no,"Reasoning: (model skipped reasoning)
+Not in context.",not in context,0,0.0,0,1,0,7,99
+20,direct,yes,Not in context.,not in context,0,0.0,0,1,0,3,124
+20,cot,yes,"Reasoning: (model skipped reasoning)
+yes [ID:PubMedQA-11380492].",yes,1,1.0,1,0,0,6,337
+21,direct,no,Not in context.,not in context,0,0.0,0,1,0,3,107
+21,cot,no,"Reasoning: (model skipped reasoning)
+no [PubMedQA-17274051].",no,1,1.0,0,0,0,6,290
+22,direct,yes,Yes [ID:PubMedQA-12846929].,yes,1,1.0,1,0,0,2,311
+22,cot,yes,"Reasoning: (model skipped reasoning)
+Yes.",yes,1,1.0,0,0,0,5,69
+23,direct,yes,Yes [ID:PubMedQA-18948835].,yes,1,1.0,1,0,0,2,312
+23,cot,yes,"Reasoning: (model skipped reasoning)
+no [PubMedQA-18948835].",no,0,0.0,0,0,0,6,281
+24,direct,no,Yes [PubMedQA-23052500].,yes,0,0.0,0,0,0,2,289
+24,cot,no,"Reasoning: (model skipped reasoning)
+No [PubMedQA-23052500].",no,1,1.0,0,0,0,6,290
+25,direct,no,Yes [ID:PubMedQA-25488308].,yes,0,0.0,1,0,0,2,321
+25,cot,no,"Reasoning: (model skipped reasoning)
+PubMedQA-25488308.",not in context,0,0.0,0,1,0,5,259
+26,direct,maybe,Yes [ID:PubMedQA-24946973].,yes,0,0.0,1,0,0,2,320
+26,cot,maybe,"Reasoning: (model skipped reasoning)
+Yes [PubMedQA-24946973].",yes,0,0.0,0,0,0,6,289
+27,direct,yes,Yes [PubMedQA-27456836].,yes,1,1.0,0,0,0,2,291
+27,cot,yes,"Reasoning: (model skipped reasoning)
+Yes [PubMedQA-27456836].",yes,1,1.0,0,0,0,6,291
+28,direct,yes,Yes [ID:PubMedQA-17244100].,yes,1,1.0,1,0,0,2,312
+28,cot,yes,"Reasoning: (model skipped reasoning)
+Yes [PubMedQA-17244100].",yes,1,1.0,0,0,0,6,281
+29,direct,yes,Yes [ID:PubMedQA-23347337].,yes,1,1.0,1,0,0,2,320
+29,cot,yes,"Reasoning: (model skipped reasoning)
+Not in context.",not in context,0,0.0,0,1,0,7,107
+30,direct,yes,Yes [ID:PubMedQA-24098953].,yes,1,1.0,1,0,0,2,311
+30,cot,yes,"Reasoning: (model skipped reasoning)
+Not in context.",not in context,0,0.0,0,1,0,7,99
+31,direct,no,Not in context.,not in context,0,0.0,0,1,0,3,107
+31,cot,no,"Reasoning: (model skipped reasoning)
+Yes [PubMedQA-25274085].",yes,0,0.0,0,0,0,6,289
+32,direct,yes,Yes [ID:PubMedQA-12913878].,yes,1,1.0,1,0,0,2,307
+32,cot,yes,"Reasoning: (model skipped reasoning)
+Yes.",yes,1,1.0,0,0,0,5,65
+33,direct,yes,Yes [ID:PubMedQA-16097998].,yes,1,1.0,1,0,0,2,307
+33,cot,yes,"Reasoning: (model skipped reasoning)
+Not in context.",not in context,0,0.0,0,1,0,7,99
+34,direct,no,Yes [ID:PubMedQA-10593212].,yes,0,0.0,1,0,0,2,312
+34,cot,no,"Reasoning: (model skipped reasoning)
+Not in context.",not in context,0,0.0,0,1,0,7,95
+35,direct,yes,Not in context.,not in context,0,0.0,0,1,0,3,106
+35,cot,yes,"Reasoning: (model skipped reasoning)
+No [PubMedQA-22012962].",no,0,0.0,0,0,0,6,289
+36,direct,yes,Yes [ID:PubMedQA-8910148].,yes,1,1.0,1,0,0,2,304
+36,cot,yes,"Reasoning: (model skipped reasoning)
+Not in context.",not in context,0,0.0,0,1,0,7,107
+37,direct,no,Yes [ID:PubMedQA-20337874].,yes,0,0.0,1,0,0,2,311
+37,cot,no,"Reasoning: (model skipped reasoning)
+Yes [PubMedQA-20337874].",yes,0,0.0,0,0,0,6,281
+38,direct,no,Not in context.,not in context,0,0.0,0,1,0,3,100
+38,cot,no,"Reasoning: (model skipped reasoning)
+yes",yes,0,0.0,0,0,0,5,54
+39,direct,no,Yes [ID:PubMedQA-18439500].,yes,0,0.0,1,0,0,2,335
+39,cot,no,"Reasoning: (model skipped reasoning)
+Not in context.",not in context,0,0.0,0,1,0,7,122
+40,direct,yes,yes [ID:PubMedQA-27491658].,yes,1,1.0,1,0,0,2,305
+40,cot,yes,"Reasoning: (model skipped reasoning)
+yes [PubMedQA-27491658].",yes,1,1.0,0,0,0,6,274
+41,direct,no,Yes.,yes,0,0.0,0,0,0,1,76
+41,cot,no,"Reasoning: (model skipped reasoning)
+yes [PubMedQA-16962519].",yes,0,0.0,0,0,0,6,288
+42,direct,yes,Yes [ID:PubMedQA-9199905].,yes,1,1.0,1,0,0,2,304
+42,cot,yes,"Reasoning: (model skipped reasoning)
+Not in context.",not in context,0,0.0,0,1,0,7,106
+43,direct,yes,Not in context.,not in context,0,0.0,0,1,0,3,100
+43,cot,yes,"Reasoning: (model skipped reasoning)
+Not in context.",not in context,0,0.0,0,1,0,7,95
+44,direct,yes,Not in context.,not in context,0,0.0,0,1,0,3,99
+44,cot,yes,"Reasoning: (model skipped reasoning)
+maybe [ID:PubMedQA-23506394]",maybe,0,0.0,1,0,0,6,312
+45,direct,yes,Yes [ID:PubMedQA-20064872].,yes,1,1.0,1,0,0,2,322
+45,cot,yes,"Reasoning: (model skipped reasoning)
+The prognosis of polymyalgia rheumatica cannot be predicted at disease onset [PubMedQA-20064872].",not in context,0,0.0,0,1,0,16,610
+46,direct,yes,Yes [ID:PubMedQA-22683044].,yes,1,1.0,1,0,0,2,319
+46,cot,yes,"Reasoning: (model skipped reasoning)
+maybe [ID:PubMedQA-22683044].",maybe,0,0.0,1,0,0,6,319
+47,direct,yes,Not in context.,not in context,0,0.0,0,1,0,3,106
+47,cot,yes,"Reasoning: (model skipped reasoning)
+maybe",maybe,0,0.0,0,0,0,5,61
+48,direct,yes,Not in context.,not in context,0,0.0,0,1,0,3,100
+48,cot,yes,"Reasoning:What is the aim of this study?The aim of this study is to compare ultrasound and X-ray beyond their use solely for the identification of fractures, i.e., for the detection of fracture type and dislocation for pediatric fracture diagnosis.Limb bones of dead young pigs served as a model for pediatric bones. What is the sample size?There were 248 bones that were fractured and examined with ultrasound, X-ray, and CT.How many bones were fractured?There were 162 of 248 bones that were fractured.How many fractures were identified using ultrasound?There were 130 fractures identified using ultrasound.How many fractures were identified using X-ray?There were 148 fractures identified using X-ray.What is the result of comparing ultrasound and X-ray in the detection of fracture type?There were some advantages of X-ray over ultrasound in the detection of fracture type (80 correct results using X-ray, 66 correct results using ultrasound).What is the result of comparing ultrasound and X-ray in the identification of dislocation?There were some advantages of ultrasound over X-ray for dislocation identification (41 correct results using X-ray, 51 correct results using ultrasound).After adjustment for multiple testing, what are the results of comparing ultrasound and X-ray in the detection of fracture type and in the identification of dislocation?Both findings were not statistically significant after adjustment for multiple testing.What is the conclusion?Is ultrasound equal to X-ray in pediatric fracture diagnosis?",not in context,0,0.0,0,1,0,221,5666
+49,direct,yes,Yes [ID:PubMedQA-22117569].,yes,1,1.0,1,0,0,2,307
+49,cot,yes,"Reasoning: (model skipped reasoning)
+Not in context.",not in context,0,0.0,0,1,0,7,94
+50,direct,yes,Yes [ID:PubMedQA-10811329].,yes,1,1.0,1,0,0,2,318
+50,cot,yes,"Reasoning: (model skipped reasoning)
+Not in context.",not in context,0,0.0,0,1,0,7,106
+51,direct,yes,Not in context.,not in context,0,0.0,0,1,0,3,105
+51,cot,yes,"Reasoning: (model skipped reasoning)
+Not in context.",not in context,0,0.0,0,1,0,7,106
+52,direct,yes,Not in context.,not in context,0,0.0,0,1,0,3,98
+52,cot,yes,"Reasoning: (model skipped reasoning)
+maybe  [PubMedQA-24318956]",maybe,0,0.0,0,0,0,6,303
+53,direct,yes,Yes [ID:PubMedQA-24014276].,yes,1,1.0,1,0,0,2,319
+53,cot,yes,"Reasoning: (model skipped reasoning)
+maybe",maybe,0,0.0,0,0,0,5,61
+54,direct,yes,Yes [ID:PubMedQA-26561905].,yes,1,1.0,1,0,0,2,309
+54,cot,yes,"Reasoning: (model skipped reasoning)
+Not in context.",not in context,0,0.0,0,1,0,7,98
+55,direct,yes,Yes [ID:PubMedQA-23806388].,yes,1,1.0,1,0,0,2,318
+55,cot,yes,"Reasoning: (model skipped reasoning)
+Yes.",yes,1,1.0,0,0,0,5,76
+56,direct,no,Yes [ID:PubMedQA-7482275].,yes,0,0.0,1,0,0,2,294
+56,cot,no,"Reasoning: (model skipped reasoning)
+maybe  [/pubmedqaa-7482275]",maybe,0,0.0,0,0,0,6,295
+57,direct,yes,Yes [ID:PubMedQA-23072266].,yes,1,1.0,1,0,0,2,319
+57,cot,yes,"Reasoning: (model skipped reasoning)
+The PubMedQA-23072266 is related to the question: Has the use of complementary and alternative medicine therapies by U.S. adults with chronic disease-related functional limitations changed from 2002 to 2007?",not in context,0,0.0,0,1,0,33,929
+58,direct,yes,Yes [ID:PubMedQA-25432938].,yes,1,1.0,1,0,0,2,307
+58,cot,yes,"Reasoning: (model skipped reasoning)
+Yes [PubMedQA-25432938].",yes,1,1.0,0,0,0,6,276
+59,direct,no,Not in context.,not in context,0,0.0,0,1,0,3,98
+59,cot,no,"Reasoning: (model skipped reasoning)
+Not in context.",not in context,0,0.0,0,1,0,7,99
+60,direct,yes,Not in context.,not in context,0,0.0,0,1,0,3,94
+60,cot,yes,"Reasoning: (model skipped reasoning)
+yes [PubMedQA-15208005]",yes,1,1.0,0,0,0,6,275
+61,direct,yes,Yes [ID:PubMedQA-10759659].,yes,1,1.0,1,0,0,2,305
+61,cot,yes,"Reasoning: (model skipped reasoning)
+no  [ID:PubMedQA-10759659].",no,0,0.0,1,0,0,6,320
+62,direct,maybe,Not in context.,not in context,0,0.0,0,1,0,3,92
+62,cot,maybe,"Reasoning: (model skipped reasoning)
+Yes",yes,0,0.0,0,0,0,5,46
+63,direct,yes,Yes [ID:PubMedQA-26818046].,yes,1,1.0,1,0,0,2,316
+63,cot,yes,"Reasoning: (model skipped reasoning)
+Yes",yes,1,1.0,0,0,0,5,60
+64,direct,yes,Yes.,yes,1,1.0,0,0,0,1,67
+64,cot,yes,"Reasoning: (model skipped reasoning)
+Yes [PubMedQA-15065192].",yes,1,1.0,0,0,0,6,279
+65,direct,yes,Not in context.,not in context,0,0.0,0,1,0,3,98
+65,cot,yes,"Reasoning: (model skipped reasoning)
+maybe [ID:PubMedQA-24352924].",maybe,0,0.0,1,0,0,6,310
+66,direct,no,Yes [PubMedQA-17462393].,yes,0,0.0,0,0,0,2,287
+66,cot,no,"Reasoning: (model skipped reasoning)
+Not in context.",not in context,0,0.0,0,1,0,7,105
+67,direct,no,Yes [ID:PubMedQA-22504515].,yes,0,0.0,1,0,0,2,316
+67,cot,no,"Reasoning: (model skipped reasoning)
+Not in context.",not in context,0,0.0,0,1,0,7,105
+68,direct,yes,Yes [ID:PubMedQA-25675614].,yes,1,1.0,1,0,0,2,308
+68,cot,yes,"Reasoning: (model skipped reasoning)
+maybe",maybe,0,0.0,0,0,0,5,52
+69,direct,maybe,Not in context.,not in context,0,0.0,0,1,0,3,90
+69,cot,maybe,"Reasoning: (model skipped reasoning)
+maybe",maybe,1,1.0,0,0,0,5,46
+70,direct,yes,Not in context.,not in context,0,0.0,0,1,0,3,97
+70,cot,yes,"Reasoning: (model skipped reasoning)
+PubMedQA-18005142.",not in context,0,0.0,0,1,0,5,249
+71,direct,no,Yes [ID:PubMedQA-21823940].,yes,0,0.0,1,0,0,2,310
+71,cot,no,"Reasoning: (model skipped reasoning)
+yes [PubMedQA-21823940]",yes,0,0.0,0,0,0,6,287
+72,direct,yes,Yes [PubMedQA-10331115].,yes,1,1.0,0,0,0,2,280
+72,cot,yes,"Reasoning: (model skipped reasoning)
+Yes",yes,1,1.0,0,0,0,5,48
+73,direct,no,Not in context.,not in context,0,0.0,0,1,0,3,104
+73,cot,no,"Reasoning: (model skipped reasoning)
+Not in context.",not in context,0,0.0,0,1,0,7,104
+74,direct,yes,Yes [ID:PubMedQA-14968373].,yes,1,1.0,1,0,0,2,310
+74,cot,yes,"Reasoning: (model skipped reasoning)
+Yes [PubMedQA-14968373].",yes,1,1.0,0,0,0,6,275
+75,direct,no,Yes [ID:PubMedQA-20187289].,yes,0,0.0,1,0,0,2,309
+75,cot,no,Reasoning:,not in context,0,0.0,0,1,0,1,104
+76,direct,no,Not in context.,not in context,0,0.0,0,1,0,3,98
+76,cot,no,"Reasoning: (model skipped reasoning)
+Yes [PubMedQA-22972546].",yes,0,0.0,0,0,0,6,279
+77,direct,no,Not in context.,not in context,0,0.0,0,1,0,3,98
+77,cot,no,"Reasoning: (model skipped reasoning)
+maybe  [/pubmedqaa_12095973]",maybe,0,0.0,0,0,0,6,309
+78,direct,no,Not in context.,not in context,0,0.0,0,1,0,3,106
+78,cot,no,"Reasoning: (model skipped reasoning)
+Not in context.",not in context,0,0.0,0,1,0,7,106
+79,direct,yes,Not in context.,not in context,0,0.0,0,1,0,3,105
+79,cot,yes,"Reasoning: (model skipped reasoning)
+The study examined the association between being unmarried and the prevalence and risk of bacterial vaginosis (BV) among pregnant women in Poland. The authors found that unmarried women had a higher risk of BV, an independent risk factor for poor pregnancy outcome.",not in context,0,0.0,0,1,0,46,905
+80,direct,yes,Not in context.,not in context,0,0.0,0,1,0,3,91
+80,cot,yes,"Reasoning: (model skipped reasoning)
+yes  [PubMedQA-9550200]",yes,1,1.0,0,0,0,6,272
+81,direct,yes,Not in context.,not in context,0,0.0,0,1,0,3,106
+81,cot,yes,"Reasoning: (model skipped reasoning)
+Not in context.",not in context,0,0.0,0,1,0,7,106
+82,direct,no,Not in context.,not in context,0,0.0,0,1,0,3,94
+82,cot,no,"Reasoning: (model skipped reasoning)
+PubMedQA-22186742.",not in context,0,0.0,0,1,0,5,245
+83,direct,yes,Not in context.,not in context,0,0.0,0,1,0,3,99
+83,cot,yes,"Reasoning: (model skipped reasoning)
+Yes [PubMedQA-22532370].",yes,1,1.0,0,0,0,6,278
+84,direct,yes,Yes [ID:PubMedQA-22188074].,yes,1,1.0,1,0,0,2,317
+84,cot,yes,"Reasoning: (model skipped reasoning)
+Yes [ID:PubMedQA-22188074].",yes,1,1.0,1,0,0,6,315
+85,direct,yes,Not in context.,not in context,0,0.0,0,1,0,3,92
+85,cot,yes,"Reasoning: (model skipped reasoning)
+Maybe [ID:PubMedQA-19653482].",maybe,0,0.0,1,0,0,6,302
+86,direct,yes,Yes [ID:PubMedQA-18041059].,yes,1,1.0,1,0,0,2,316
+86,cot,yes,"Reasoning: (model skipped reasoning)
+no [PubMedQA-18041059].",no,0,0.0,0,0,0,6,286
+87,direct,yes,Yes [ID:PubMedQA-21550158].,yes,1,1.0,1,0,0,2,315
+87,cot,yes,"Reasoning: (model skipped reasoning)
+Yes",yes,1,1.0,0,0,0,5,60
+88,direct,no,Yes [ID:PubMedQA-21849531].,yes,0,0.0,1,0,0,2,309
+88,cot,no,"Reasoning: (model skipped reasoning)
+Not in context.",not in context,0,0.0,0,1,0,7,105
+89,direct,yes,Yes [ID:PubMedQA-10430303].,yes,1,1.0,1,0,0,2,308
+89,cot,yes,"Reasoning: (model skipped reasoning)
+Not in context.",not in context,0,0.0,0,1,0,7,98
+90,direct,maybe,Yes [ID:PubMedQA-24336869].,yes,0,0.0,1,0,0,2,315
+90,cot,maybe,"Reasoning: (model skipped reasoning)
+Not in context.",not in context,0,0.0,0,1,0,7,105
+91,direct,no,Not in context.,not in context,0,0.0,0,1,0,3,104
+91,cot,no,"Reasoning: (model skipped reasoning)
+Not in context.",not in context,0,0.0,0,1,0,7,105
+92,direct,yes,Not in context.,not in context,0,0.0,0,1,0,3,98
+92,cot,yes,"Reasoning: (model skipped reasoning)
+yes",yes,1,1.0,0,0,0,5,54
+93,direct,yes,Yes [ID:PubMedQA-12221908].,yes,1,1.0,1,0,0,2,315
+93,cot,yes,"Reasoning: (model skipped reasoning)
+Yes [ID:PubMedQA-12221908].",yes,1,1.0,1,0,0,6,317
+94,direct,yes,Yes [ID:PubMedQA-18179827].,yes,1,1.0,1,0,0,2,309
+94,cot,yes,"Reasoning: (model skipped reasoning)
+no  [PubMedQA-18179827]",no,0,0.0,0,0,0,6,300
+95,direct,no,Not in context.,not in context,0,0.0,0,1,0,3,106
+95,cot,no,"Reasoning: (model skipped reasoning)
+Not in context.",not in context,0,0.0,0,1,0,7,105
+96,direct,yes,Yes [ID:PubMedQA-18388848].,yes,1,1.0,1,0,0,2,307
+96,cot,yes,"Reasoning: (model skipped reasoning)
+Maybe [ID:PubMedQA-18388848].",maybe,0,0.0,1,0,0,6,308
+97,direct,no,Yes [ID:PubMedQA-24625433].,yes,0,0.0,1,0,0,2,315
+97,cot,no,"Reasoning: (model skipped reasoning)
+no  [PubMedQA-24625433]",no,1,1.0,0,0,0,6,300
+98,direct,yes,Yes [ID:PubMedQA-27592038].,yes,1,1.0,1,0,0,2,315
+98,cot,yes,"Reasoning: (model skipped reasoning)
+maybe [ID:PubMedQA-27592038].",maybe,0,0.0,1,0,0,6,315
+99,direct,yes,Yes [ID:PubMedQA-22453060].,yes,1,1.0,1,0,0,2,316
+99,cot,yes,"Reasoning: (model skipped reasoning)
+Yes [ID:PubMedQA-22453060].",yes,1,1.0,1,0,0,6,315
+100,direct,yes,Not in context.,not in context,0,0.0,0,1,0,3,105
+100,cot,yes,"Reasoning: (model skipped reasoning)
+maybe",maybe,0,0.0,0,0,0,5,60
+101,direct,not in context,Not in context.,not in context,1,1.0,0,1,0,3,97
+101,cot,not in context,"Reasoning: (model skipped reasoning)
+I am unable to provide any information about condition X1 as there is no context about this condition in the given passage. [ID: Decoy-1]",no,0,0.0,0,0,1,28,501
+102,direct,not in context,Not in context.,not in context,1,1.0,0,1,0,3,83
+102,cot,not in context,Reasoning:,not in context,1,1.0,0,1,0,1,83
+103,direct,not in context,Not in context.,not in context,1,1.0,0,1,0,3,82
+103,cot,not in context,"Reasoning: (model skipped reasoning)
+Not in context.",not in context,1,1.0,0,1,0,7,83
+104,direct,not in context,Not in context.,not in context,1,1.0,0,1,0,3,82
+104,cot,not in context,Reasoning:,not in context,1,1.0,0,1,0,1,83
+105,direct,not in context,Not in context.,not in context,1,1.0,0,1,0,3,82
+105,cot,not in context,"Reasoning: (model skipped reasoning)
+Not in context.",not in context,1,1.0,0,1,0,7,83
+106,direct,not in context,Not in context.,not in context,1,1.0,0,1,0,3,82
+106,cot,not in context,"Reasoning: (model skipped reasoning)
+No [ID:Decoy-6].",no,0,0.0,1,0,0,6,157
+107,direct,not in context,Not in context.,not in context,1,1.0,0,1,0,3,82
+107,cot,not in context,"Reasoning: (model skipped reasoning)
+Not in context.",not in context,1,1.0,0,1,0,7,83
+108,direct,not in context,Not in context.,not in context,1,1.0,0,1,0,3,82
+108,cot,not in context,"Reasoning: (model skipped reasoning)
+Not in context.",not in context,1,1.0,0,1,0,7,83
+109,direct,not in context,Not in context.,not in context,1,1.0,0,1,0,3,82
+109,cot,not in context,"Reasoning: I am a clinical assistant that can answer questions about clinical guidelines. However, I do not have access to clinical guidelines that are not included in the context. I am unable to create new information. I can only respond with information that is included in the context. Therefore, I cannot answer this question since there is no information about condition X9 included in the context.",no,0,0.0,0,0,1,66,1169
+110,direct,not in context,Not in context.,not in context,1,1.0,0,1,0,3,83
+110,cot,not in context,"Reasoning: I don't know what condition X10 is, so I can't answer this question. Maybe I could answer if condition X10 was defined in the context.",maybe,0,0.0,0,0,1,26,619

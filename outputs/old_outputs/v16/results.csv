@@ -1,0 +1,222 @@
+id,method,gold_answer,model_raw,model_answer,correct_em,f1,grounded,abstained,hallucinated,tokens_out,latency_ms
+1,direct,yes,Yes,yes,1,1.0,0,0,0,1,564
+1,cot,yes,"Reasoning: The study investigated the efficacy of rapid prescreening (RPS) in detecting glandular cell abnormalities (GCAs). The sensitivity of RPS for detecting GCAs is 90.5% according to the study. RPS identified 99.1% of all abnormal smears. The study also found that RPS missed 11 AGC cases, which were picked up by full screening and represented false-negative cases. 13 AGC cases were flagged as R+ and not by full screening. 2 of these 13 AGC cases were found to have endometrial adenocarcinoma on histologic follow-up. Overall, the sensitivity of RPS for detecting GCAs is 90.5% according to the study.",not in context,0,0.0,0,1,0,98,2683
+2,direct,no,Yes.,yes,0,0.0,0,0,0,1,79
+2,cot,no,Reasoning:,not in context,0,0.0,0,1,0,1,108
+3,direct,yes,Yes.,yes,1,1.0,0,0,0,1,80
+3,cot,yes,Reasoning:,not in context,0,0.0,0,1,0,1,108
+4,direct,yes,Yes.,yes,1,1.0,0,0,0,1,77
+4,cot,yes,"Reasoning: The context provides a description of a study where the authors evaluated whether health information exchange (HIE) is associated with reductions in redundant imaging. The authors evaluated three types of imaging: computed tomography (CT), ultrasound, and chest x-ray. The authors used regression with emergency department (ED) fixed effects and trends to evaluate the impact of HIE participation on repeat imaging, comparing EDs that initiated HIE participation during the study period to EDs that did not. They found that HIE was associated with reduced probability of repeat CT, ultrasound, and chest x-ray imaging.",not in context,0,0.0,0,1,0,93,2080
+5,direct,yes,Not in context.,not in context,0,0.0,0,1,0,3,101
+5,cot,yes,"Yes, specialty pharmaceuticals are worth the price.",yes,1,1.0,0,0,0,7,222
+6,direct,yes,Not in context.,not in context,0,0.0,0,1,0,3,102
+6,cot,yes,"Reasoning: The context describes a study on patients with knee osteoarthritis, who were asked about their views on using color to describe pain. The study involved 6 group interviews with 17 patients. The interviews were analyzed using the framework approach. The majority of participants chose red to describe high intensity pain, because it symbolized inflammation, fire, anger and the stop signal in a traffic light system. Colors used to describe the absence of pain were chosen because of their association with positive emotional feelings. The study concluded that the majority of participants thought that they would be able to use color to describe their pain to healthcare professionals.",not in context,0,0.0,0,1,0,108,2059
+7,direct,no,Yes,yes,0,0.0,0,0,0,1,62
+7,cot,no,Reasoning:,not in context,0,0.0,0,1,0,1,108
+8,direct,yes,Yes.,yes,1,1.0,0,0,0,1,78
+8,cot,yes,Reasoning:,not in context,0,0.0,0,1,0,1,109
+9,direct,yes,Not in context.,not in context,0,0.0,0,1,0,3,101
+9,cot,yes,Reasoning:,not in context,0,0.0,0,1,0,1,96
+10,direct,yes,Not in context.,not in context,0,0.0,0,1,0,3,101
+10,cot,yes,Reasoning:,not in context,0,0.0,0,1,0,1,95
+11,direct,yes,Not in context.,not in context,0,0.0,0,1,0,3,99
+11,cot,yes,Reasoning:,not in context,0,0.0,0,1,0,1,99
+12,direct,yes,Not in context.,not in context,0,0.0,0,1,0,3,95
+12,cot,yes,"Reasoning: In the context, the study was conducted to determine the factors associated with deaths by injury and poisoning among young men aged 15-39 years in Merseyside and Cheshire during 1995. The study found that the most common cause of death was poisoning by alcohol and drugs (29.1%, n = 78). A high proportion of cases were unemployed (39.4%, n = 106) and were also more likely to be single compared to the general population (74.2% vs 55.5%). Self-destructive behavior was evident in 77% of deaths (n = 206).",not in context,0,0.0,0,1,0,89,2296
+13,direct,yes,Not in context.,not in context,0,0.0,0,1,0,3,100
+13,cot,yes,Reasoning:,not in context,0,0.0,0,1,0,1,100
+14,direct,yes,Yes.,yes,1,1.0,0,0,0,1,70
+14,cot,yes,Reasoning:,not in context,0,0.0,0,1,0,1,95
+15,direct,yes,Yes,yes,1,1.0,0,0,0,1,62
+15,cot,yes,"Reasoning: The study of 258 participants (164 obese, 94 normal-weight controls) showed that leptin was positively associated with NADPH oxidase activity in obese patients and that NADPH oxidase activity correlated with cIMT. cIMT was higher in obese patients than in controls. The authors suggest that leptin stimulates NADPH oxidase activity, leading to increased cIMT.",not in context,0,0.0,0,1,0,54,1576
+16,direct,no,Not in context.,not in context,0,0.0,0,1,0,3,94
+16,cot,no,Reasoning:,not in context,0,0.0,0,1,0,1,94
+17,direct,yes,Not in context.,not in context,0,0.0,0,1,0,3,100
+17,cot,yes,Reasoning:,not in context,0,0.0,0,1,0,1,107
+18,direct,yes,"Yes. The changes in the serum levels of IL-2, IL-4, TNFalpha, and IL-6 reflect the inflammatory activity in the patients with post-ERCP pancreatitis.",yes,1,1.0,0,0,0,23,735
+18,cot,yes,Reasoning:,not in context,0,0.0,0,1,0,1,100
+19,direct,no,Not in context.,not in context,0,0.0,0,1,0,3,101
+19,cot,no,"Reasoning: The first step of reasoning is to understand the study design. The study is a retrospective analysis of children who underwent ovarian torsion surgery. The control group was the oophorectomy group. The treatment group was the detorsion group. The primary outcome was the length of hospital stay, and secondary outcomes were complications. The study found no significant difference in length of hospital stay or complications between the two groups. The second step is to look at the patient population. The pediatric population was 34 children with ovarian torsion. The age range was 1.8 to 16 years old. The third step is to look at the main results of the study. The main results were that the length of hospital stay and complications were not significantly different between the two groups. The fourth step is to look at the conclusion of the study. The conclusion of the study is that oophorectomy is not necessary for ovarian torsion in children. Therefore, the final answer is no.",no,1,1.0,0,0,0,165,3398
+20,direct,yes,Not in context.,not in context,0,0.0,0,1,0,3,123
+20,cot,yes,Yes,yes,1,1.0,0,0,0,1,75
+21,direct,no,Yes.,yes,0,0.0,0,0,0,1,76
+21,cot,no,Reasoning:,not in context,0,0.0,0,1,0,1,106
+22,direct,yes,Not in context.,not in context,0,0.0,0,1,0,3,95
+22,cot,yes,Reasoning:,not in context,0,0.0,0,1,0,1,95
+23,direct,yes,Yes.,yes,1,1.0,0,0,0,1,65
+23,cot,yes,"Reasoning: In the first statement, the authors state that the aim of their study is to investigate the role of somatostatin at mediating the effects of NmU on insulin secretion. Then, the authors state that NmU reduces insulin secretion from isolated pancreatic islets. The authors then state that they have recently demonstrated that NmU reduces insulin secretion from isolated pancreatic islets. Finally, the authors state that they have demonstrated that NmU reduces insulin secretion from in situ perfused rat pancreas.",not in context,0,0.0,0,1,0,80,1885
+24,direct,no,Yes,yes,0,0.0,0,0,0,1,61
+24,cot,no,Reasoning:,not in context,0,0.0,0,1,0,1,106
+25,direct,no,Yes,yes,0,0.0,0,0,0,1,61
+25,cot,no,Reasoning:,not in context,0,0.0,0,1,0,1,106
+26,direct,maybe,Yes.,yes,0,0.0,0,0,0,1,68
+26,cot,maybe,Reasoning:,not in context,0,0.0,0,1,0,1,106
+27,direct,yes,Yes.,yes,1,1.0,0,0,0,1,76
+27,cot,yes,"Reasoning: In the context, the authors compare the accuracy of two methods for measuring the presence of insulin autoantibodies: the traditional radioimmunoassay (RIA) and a newer method called electrochemiluminescence (ECL). The authors find that the ECL method is more accurate at predicting progression to type 1 diabetes.",not in context,0,0.0,0,1,0,47,1229
+28,direct,yes,Yes.,yes,1,1.0,0,0,0,1,64
+28,cot,yes,"Reasoning: In the PubMedQA-17244100 context, the intervention of patient coaching is compared between two groups of minority and white patients. The minority patients have more pain at enrollment compared to white patients. At follow-up, the minority patients in the control group still have more pain compared to white patients, while the minority patients in the experimental group have the same level of pain as white patients. Therefore, the intervention of patient coaching can reduce racial/ethnic disparities in cancer pain control.",not in context,0,0.0,0,1,0,80,1699
+29,direct,yes,Yes,yes,1,1.0,0,0,0,1,53
+29,cot,yes,"Reasoning: Yes, intensive chemotherapy is safe for rural cancer patients. The rate of adverse events in rural patients was similar to that in urban patients. The rate of febrile neutropenia was 9.3% vs 7.4% (P = 0.56), the rate of diarrhea was 20% vs 19% (P = 0.66), and the rate of vomiting was 20% vs 11% (P = 0.11). Only 2 patients were transferred to Townsville for admission, and no toxic death occurred.",yes,1,1.0,0,0,0,74,2083
+30,direct,yes,Not in context.,not in context,0,0.0,0,1,0,3,101
+30,cot,yes,Reasoning:,not in context,0,0.0,0,1,0,1,109
+31,direct,no,Not in context.,not in context,0,0.0,0,1,0,3,106
+31,cot,no,Reasoning:,not in context,0,0.0,0,1,0,1,106
+32,direct,yes,Yes.,yes,1,1.0,0,0,0,1,69
+32,cot,yes,Reasoning:,not in context,0,0.0,0,1,0,1,99
+33,direct,yes,Not in context.,not in context,0,0.0,0,1,0,3,99
+33,cot,yes,Reasoning:,not in context,0,0.0,0,1,0,1,99
+34,direct,no,Not in context.,not in context,0,0.0,0,1,0,3,93
+34,cot,no,Reasoning:,not in context,0,0.0,0,1,0,1,99
+35,direct,yes,Yes.,yes,1,1.0,0,0,0,1,68
+35,cot,yes,Reasoning:,not in context,0,0.0,0,1,0,1,98
+36,direct,yes,Not in context.,not in context,0,0.0,0,1,0,3,105
+36,cot,yes,Reasoning:,not in context,0,0.0,0,1,0,1,106
+37,direct,no,Yes,yes,0,0.0,0,0,0,1,54
+37,cot,no,Reasoning:,not in context,0,0.0,0,1,0,1,94
+38,direct,no,Not in context.,not in context,0,0.0,0,1,0,3,94
+38,cot,no,Reasoning:,not in context,0,0.0,0,1,0,1,98
+39,direct,no,Yes,yes,0,0.0,0,0,0,1,75
+39,cot,no,Reasoning:,not in context,0,0.0,0,1,0,1,120
+40,direct,yes,No.,no,0,0.0,0,0,0,1,54
+40,cot,yes,Reasoning:,not in context,0,0.0,0,1,0,1,84
+41,direct,no,Yes.,yes,0,0.0,0,0,0,1,68
+41,cot,no,Reasoning:,not in context,0,0.0,0,1,0,1,98
+42,direct,yes,Yes.,yes,1,1.0,0,0,0,1,68
+42,cot,yes,Reasoning:,not in context,0,0.0,0,1,0,1,98
+43,direct,yes,Yes.,yes,1,1.0,0,0,0,1,63
+43,cot,yes,Reasoning:,not in context,0,0.0,0,1,0,1,98
+44,direct,yes,Not in context.,not in context,0,0.0,0,1,0,3,94
+44,cot,yes,Reasoning:,not in context,0,0.0,0,1,0,1,99
+45,direct,yes,Yes,yes,1,1.0,0,0,0,1,61
+45,cot,yes,Reasoning: 1) Patients with PV>or = 2.00 mPa s have a lower probability of stopping steroids within 5 years. 2) Patients with PV>or = 2.00 mPa s have a higher probability of developing GCA. 3) The first time that GCA is mentioned in the context is in the conclusion. 4) The conclusion states that either of these independently reduced the chances of stopping steroids within a given time interval between 27 and 51%. 5) The first time that the time interval between 27 and 51 is mentioned in the context is in the conclusion. 6) The conclusion states that no significant predictors of relapse were identified. 7) The study does not mention the time interval between the first time that the patients were diagnosed with PV>or = 2.00 mPa s and the first time that GCA is diagnosed. 8) The study does not mention the time interval between the first time that the patients were diagnosed with PV>or = 2.00 mPa s and the first time that relapse is diagnosed. 9) The study does not mention the time interval between the first time that the patients were diagnosed with PV>or = 2.00 mPa s and the first time that steroid therapy is started. 10) The study does not mention the time interval between the first time that the patients were diagnosed with PV>or = 2.00 mPa s and the first time that steroid therapy is stopped. 11) The study does not mention the time interval between the first time that the patients were diagnosed with PV>or = 2.00 mPa s and the first,no,0,0.0,0,0,0,263,5886
+46,direct,yes,Yes,yes,1,1.0,0,0,0,1,53
+46,cot,yes,"Reasoning: The study compares two types of articles, open access and non-open access, which are published in the same year (2008). It then follows up the citations received by the articles for 3 years. The articles are divided into two groups based on the number of citations received: the first group includes articles that have between 4 and 12 citations, the second group includes articles that have more than 8 citations. The study finds that in both groups, open access articles have received more citations than non-open access articles. The study also finds that in the 30-35 months after publication, open access articles continue to receive more citations than non-open access articles. The study adjusts for confounding variables such as the number of authors, the impact factor of the journal and the Hirsch index of the first signing author.",not in context,0,0.0,0,1,0,139,2853
+47,direct,yes,Yes,yes,1,1.0,0,0,0,1,53
+47,cot,yes,Reasoning:,not in context,0,0.0,0,1,0,1,98
+48,direct,yes,Yes.,yes,1,1.0,0,0,0,1,62
+48,cot,yes,"Reasoning: The study by Eckstein et al. compares ultrasound and X-ray in pediatric fracture diagnosis in dead pigs. The authors compared the fracture type and dislocation detection between the two modalities. The authors found that ultrasound is slightly inferior to X-ray in detecting the fracture type (80 correct results using X-ray, 66 correct results using ultrasound) but superior to X-ray for dislocation identification (41 correct results using X-ray, 51 correct results using ultrasound). However, the results were not statistically significant after adjustment for multiple testing. Therefore, ultrasound is not equal to X-ray in pediatric fracture diagnosis.",not in context,0,0.0,0,1,0,96,2422
+49,direct,yes,Not in context.,not in context,0,0.0,0,1,0,3,98
+49,cot,yes,Reasoning:,not in context,0,0.0,0,1,0,1,98
+50,direct,yes,Yes,yes,1,1.0,0,0,0,1,53
+50,cot,yes,Reasoning: The population of interest is children who are suspected of having inflammatory bowel disease (IBD). The goal of the study is to assess whether 99mTc-white blood cell (WBC) scintigraphy and upper gastrointestinal small bowel follow-through (UGI-SBFT) can exclude inflammation in children suspected of having IBD.,not in context,0,0.0,0,1,0,46,1357
+51,direct,yes,Not in context.,not in context,0,0.0,0,1,0,3,105
+51,cot,yes,"Reasoning: The context is a report about the diet of individuals with type 1 diabetes from the EURODIAB Prospective Complications Study. The report analyses how nutrient intake and adherence to current European nutritional recommendations evolved over a period of seven years. The report compared the diet of individuals with type 1 diabetes at baseline and after seven years. The reported nutrient intake (protein, fat, saturated fat, cholesterol, carbohydrate, and fibre) was measured in % of energy intake (en). The reported diet of individuals with type 1 diabetes was compared to the European recommendations for adequate nutrient intake. The recommendations were: protein (76% at baseline and 78% at follow-up), fat (34% at baseline and 40% at follow-up), carbohydrate (34% at baseline and 41% at follow-up), cholesterol (39% at baseline and 47% at follow-up), and saturated fat (11% at baseline and 13% at follow-up). The baseline and follow-up intakes of protein, fat, saturated fat, and cholesterol were lower than the European recommendations, while the baseline and follow-up intakes of carbohydrate and fibre were higher than the European recommendations. The diet of individuals with type 1 diabetes was not a high atherogenic diet.",not in context,0,0.0,0,1,0,190,4879
+52,direct,yes,Not in context.,not in context,0,0.0,0,1,0,3,99
+52,cot,yes,Reasoning:,not in context,0,0.0,0,1,0,1,113
+53,direct,yes,Not in context.,not in context,0,0.0,0,1,0,3,105
+53,cot,yes,Reasoning:,not in context,0,0.0,0,1,0,1,105
+54,direct,yes,Not in context.,not in context,0,0.0,0,1,0,3,99
+54,cot,yes,Reasoning:,not in context,0,0.0,0,1,0,1,108
+55,direct,yes,Yes.,yes,1,1.0,0,0,0,1,68
+55,cot,yes,Reasoning:,not in context,0,0.0,0,1,0,1,105
+56,direct,no,Yes.,yes,0,0.0,0,0,0,1,64
+56,cot,no,"Reasoning: In the PubMed abstract, there are two groups of patients: one received HBO therapy, and one didn’t. The HBO group had higher mortality and more surgeries, but the length of hospitalization is lower than the other group. However, this is a small study. A bigger study is needed to make sure the results are valid.",not in context,0,0.0,0,1,0,56,1197
+57,direct,yes,Yes.,yes,1,1.0,0,0,0,1,75
+57,cot,yes,Reasoning:,not in context,0,0.0,0,1,0,1,105
+58,direct,yes,Not in context.,not in context,0,0.0,0,1,0,3,98
+58,cot,yes,Reasoning:,not in context,0,0.0,0,1,0,1,99
+59,direct,no,Not in context.,not in context,0,0.0,0,1,0,3,99
+59,cot,no,"Reasoning: The study compared the cost of AAPs to that of other second line treatments for depression. The study found that AAPs had higher costs than the other second line treatments. Therefore, the study does not support the statement that AAPs result in cost savings.",not in context,0,0.0,0,1,0,45,909
+60,direct,yes,Not in context.,not in context,0,0.0,0,1,0,3,98
+60,cot,yes,Reasoning:,not in context,0,0.0,0,1,0,1,98
+61,direct,yes,The nurse cystoscopist: a feasible option?,not in context,0,0.0,0,1,0,6,226
+61,cot,yes,"Reasoning: The article mentions that both the nurse practitioner and the urologist are blind to each other's findings. So, the nurse practitioner's findings are independent of the urologist's findings. Therefore, we cannot say that the nurse practitioner is a feasible option.",not in context,0,0.0,0,1,0,41,992
+62,direct,maybe,Not in context.,not in context,0,0.0,0,1,0,3,84
+62,cot,maybe,Reasoning:,not in context,0,0.0,0,1,0,1,84
+63,direct,yes,Not in context.,not in context,0,0.0,0,1,0,3,98
+63,cot,yes,Reasoning:,not in context,0,0.0,0,1,0,1,98
+64,direct,yes,Yes.,yes,1,1.0,0,0,0,1,64
+64,cot,yes,Reasoning:,not in context,0,0.0,0,1,0,1,112
+65,direct,yes,Not in context.,not in context,0,0.0,0,1,0,3,94
+65,cot,yes,"Reasoning: The context states that there is a study with four examiners (an orthopaedic traumatologist and resident, and two general surgery traumatologists) who measured the protrusion length of Schanz pins using ultrasonography and then by direct measurement post dissection. The study found that ultrasonography underestimated the protrusion length by 10% on average and there was a proportional bias that increased with the magnitude of protrusion. The study also found that ultrasound data demonstrated good linear correlation with actual protrusion values in the 5–12 mm range and that the interobserver repeatability analysis demonstrated that all examiners were not statistically different in their measurements.",not in context,0,0.0,0,1,0,102,2417
+66,direct,no,Yes.,yes,0,0.0,0,0,0,1,75
+66,cot,no,Reasoning:,not in context,0,0.0,0,1,0,1,120
+67,direct,no,Yes,yes,0,0.0,0,0,0,1,52
+67,cot,no,Reasoning:,not in context,0,0.0,0,1,0,1,97
+68,direct,yes,Yes.,yes,1,1.0,0,0,0,1,69
+68,cot,yes,Reasoning:,not in context,0,0.0,0,1,0,1,93
+69,direct,maybe,Not in context.,not in context,0,0.0,0,1,0,3,84
+69,cot,maybe,Reasoning:,not in context,0,0.0,0,1,0,1,84
+70,direct,yes,Not in context.,not in context,0,0.0,0,1,0,3,94
+70,cot,yes,Reasoning:,not in context,0,0.0,0,1,0,1,97
+71,direct,no,Not in context.,not in context,0,0.0,0,1,0,3,94
+71,cot,no,Reasoning:,not in context,0,0.0,0,1,0,1,97
+72,direct,yes,Yes.,yes,1,1.0,0,0,0,1,62
+72,cot,yes,Reasoning:,not in context,0,0.0,0,1,0,1,97
+73,direct,no,Not in context.,not in context,0,0.0,0,1,0,3,97
+73,cot,no,Reasoning:,not in context,0,0.0,0,1,0,1,97
+74,direct,yes,Yes. The study shows that a rounded third ventricle is a predictor of non-communicating hydrocephalus.,yes,1,1.0,0,0,0,15,452
+74,cot,yes,Reasoning:,not in context,0,0.0,0,1,0,1,98
+75,direct,no,Yes.,yes,0,0.0,0,0,0,1,67
+75,cot,no,Reasoning:,not in context,0,0.0,0,1,0,1,97
+76,direct,no,Not in context.,not in context,0,0.0,0,1,0,3,93
+76,cot,no,Reasoning:,not in context,0,0.0,0,1,0,1,97
+77,direct,no,Yes.,yes,0,0.0,0,0,0,1,64
+77,cot,no,"Reasoning: The study evaluated the effect of chemoradiation on low and mid rectal tumors. It showed that 10 patients with low rectal tumors had a complete response after chemoradiation. However, all of these patients developed local recurrence within 3.7 to 8.8 months. The patients did not have surgery, but they are still alive without cancer after 37 and 58 months. This shows that chemoradiation alone can be effective in treating low rectal tumors.",not in context,0,0.0,0,1,0,73,1705
+78,direct,no,Yes.,yes,0,0.0,0,0,0,1,75
+78,cot,no,Reasoning:,not in context,0,0.0,0,1,0,1,105
+79,direct,yes,Not in context.,not in context,0,0.0,0,1,0,3,105
+79,cot,yes,"Reasoning: We are given a study regarding the risk of poor pregnancy outcome among unmarried women in Poland. The study suggests that unmarried women are more likely to have bacterial vaginosis and are at increased risk for other microbial infections. Therefore, it is reasonable to conclude that microbial factors are responsible for poor pregnancy outcome among unmarried women in Poland.",not in context,0,0.0,0,1,0,60,1264
+80,direct,yes,Yes.,yes,1,1.0,0,0,0,1,61
+80,cot,yes,Reasoning:,not in context,0,0.0,0,1,0,1,91
+81,direct,yes,Yes.,yes,1,1.0,0,0,0,1,75
+81,cot,yes,Reasoning:,not in context,0,0.0,0,1,0,1,105
+82,direct,no,Yes.,yes,0,0.0,0,0,0,1,68
+82,cot,no,Reasoning:,not in context,0,0.0,0,1,0,1,98
+83,direct,yes,Not in context.,not in context,0,0.0,0,1,0,3,91
+83,cot,yes,Reasoning:,not in context,0,0.0,0,1,0,1,92
+84,direct,yes,Yes,yes,1,1.0,0,0,0,1,52
+84,cot,yes,Reasoning:,not in context,0,0.0,0,1,0,1,104
+85,direct,yes,Not in context.,not in context,0,0.0,0,1,0,3,91
+85,cot,yes,"Reasoning: 
+The context discusses the factors that influence teammates requesting and accepting backup from one another in air traffic control. The context discusses the role of transactive memory theory, which states that as teammates gain more experience working together, they develop consensus regarding the distribution of their relative expertise and confidence in that expertise. This consensus likely leads to teammates feeling more comfortable requesting and accepting backup from one another, as they have more familiarity and confidence in their teammates’ abilities.",not in context,0,0.0,0,1,0,81,1580
+86,direct,yes,Yes,yes,1,1.0,0,0,0,1,60
+86,cot,yes,Reasoning:,not in context,0,0.0,0,1,0,1,105
+87,direct,yes,Not in context.,not in context,0,0.0,0,1,0,3,98
+87,cot,yes,Reasoning:,not in context,0,0.0,0,1,0,1,105
+88,direct,no,Not in context.,not in context,0,0.0,0,1,0,3,97
+88,cot,no,Reasoning:,not in context,0,0.0,0,1,0,1,97
+89,direct,yes,Not in context.,not in context,0,0.0,0,1,0,3,90
+89,cot,yes,Reasoning:,not in context,0,0.0,0,1,0,1,93
+90,direct,maybe,Not in context.,not in context,0,0.0,0,1,0,3,98
+90,cot,maybe,Reasoning:,not in context,0,0.0,0,1,0,1,98
+91,direct,no,Not in context.,not in context,0,0.0,0,1,0,3,97
+91,cot,no,"Reasoning:The study aims to validate any or all of the 8 clinical identifiers of early-stage primary/idiopathic adhesive capsulitis established in an earlier Delphi study. The reference standard is an intra-articular injection of corticosteroid and local anesthetic. They used univariate and multivariate logistic regression. The final answer is ""maybe"" because the clinical identifiers were not able to be validated.",maybe,0,0.0,0,0,0,58,1539
+92,direct,yes,Not in context.,not in context,0,0.0,0,1,0,3,92
+92,cot,yes,Reasoning:,not in context,0,0.0,0,1,0,1,92
+93,direct,yes,Not in context.,not in context,0,0.0,0,1,0,3,105
+93,cot,yes,Reasoning:,not in context,0,0.0,0,1,0,1,105
+94,direct,yes,Not in context.,not in context,0,0.0,0,1,0,3,97
+94,cot,yes,"Reasoning: The given context is a full text clinical trial of a prospective, randomized, double-blind study conducted on 41 children aged 4-16 years who underwent tonsillectomy. The children were divided into two groups, one received 1.0% ropivacaine hydrochloride soaked swabs while the other group received saline-soaked swabs. The McGrath's face scale was used to compare the two groups in respect of pain control.",not in context,0,0.0,0,1,0,63,1689
+95,direct,no,Not in context.,not in context,0,0.0,0,1,0,3,104
+95,cot,no,Reasoning:,not in context,0,0.0,0,1,0,1,105
+96,direct,yes,Not in context.,not in context,0,0.0,0,1,0,3,98
+96,cot,yes,Reasoning:  The question asks whether having a regular primary care clinician improves the quality of preventive care for young children. The study measures two aspects of quality of preventive care: interpersonal quality (how parents perceive the interaction with their child’s clinician) and anticipatory guidance (the content of the interaction).,not in context,0,0.0,0,1,0,49,1074
+97,direct,no,Not in context.,not in context,0,0.0,0,1,0,3,97
+97,cot,no,Reasoning:,not in context,0,0.0,0,1,0,1,104
+98,direct,yes,Not in context.,not in context,0,0.0,0,1,0,3,104
+98,cot,yes,Reasoning:,not in context,0,0.0,0,1,0,1,105
+99,direct,yes,Yes.,yes,1,1.0,0,0,0,1,74
+99,cot,yes,"Reasoning: 1. The study showed that an instruction manual consisting of four diagrams enables laypersons to operate a Laryngeal Mask Supreme® in the manikin. 2. The insertion was successful in 145 out of 150 attempts. 3. Eight participants corrected the position of the device after recognizing that it was inserted inverted or twisted. 4. Within the first 2 minutes, 119 (79.3%) applicants were able to insert the Laryngeal Mask Supreme® and provide tidal volumes greater than 150 ml (estimated dead space). 5. There was no significant difference related to previous BLS training, technical education or gender. Final Answer: Yes",yes,1,1.0,0,0,0,99,2461
+100,direct,yes,Yes.,yes,1,1.0,0,0,0,1,75
+100,cot,yes,Reasoning:,not in context,0,0.0,0,1,0,1,105
+101,direct,not in context,Not in context.,not in context,1,1.0,0,1,0,3,101
+101,cot,not in context,"Reasoning: We see the word ""condition"" and ""X"" in the question. We also see the word ""condition"" in the context, but we do not see the word ""X"" in the context. Therefore, we are not able to answer the question based on the context.",not in context,1,1.0,0,1,0,44,915
+102,direct,not in context,Not in context.,not in context,1,1.0,0,1,0,3,81
+102,cot,not in context,Reasoning:,not in context,1,1.0,0,1,0,1,82
+103,direct,not in context,Not in context.,not in context,1,1.0,0,1,0,3,81
+103,cot,not in context,Reasoning:,not in context,1,1.0,0,1,0,1,82
+104,direct,not in context,Not in context.,not in context,1,1.0,0,1,0,3,81
+104,cot,not in context,Reasoning: Not in context.,not in context,1,1.0,0,1,0,4,141
+105,direct,not in context,Not in context.,not in context,1,1.0,0,1,0,3,81
+105,cot,not in context,Reasoning:,not in context,1,1.0,0,1,0,1,82
+106,direct,not in context,Not in context.,not in context,1,1.0,0,1,0,3,81
+106,cot,not in context,Reasoning:,not in context,1,1.0,0,1,0,1,96
+107,direct,not in context,Not in context.,not in context,1,1.0,0,1,0,3,81
+107,cot,not in context,"Reasoning: This is a random guideline-like passage about nutrition and exercise, not related to condition X7. This does not provide any information about the treatment of condition X7. Final Answer: Not in context.",not in context,1,1.0,0,1,0,33,707
+108,direct,not in context,Not in context.,not in context,1,1.0,0,1,0,3,81
+108,cot,not in context,Reasoning:,not in context,1,1.0,0,1,0,1,82
+109,direct,not in context,Not in context.,not in context,1,1.0,0,1,0,3,81
+109,cot,not in context,Reasoning:,not in context,1,1.0,0,1,0,1,96
+110,direct,not in context,Not in context.,not in context,1,1.0,0,1,0,3,82
+110,cot,not in context,"Reasoning: No information is provided about condition X10 in the context. There is a sentence that mentions 'condition X' but no details about condition X10 are given. The context also does not contain information about any treatment for condition X10. Therefore, it is not possible to answer the question based on the context.",no,0,0.0,0,0,1,53,1064

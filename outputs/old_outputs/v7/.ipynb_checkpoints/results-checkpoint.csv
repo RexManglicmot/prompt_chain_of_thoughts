@@ -1,0 +1,221 @@
+id,method,gold_answer,model_raw,model_answer,correct_em,f1,grounded,abstained,hallucinated,tokens_out,latency_ms
+1,direct,yes,Yes [ID:PubMedQA-26348845].,yes,1,1.0,1,0,0,2,819
+1,cot,yes,Final Answer: yes [PubMedQA-26348845],yes,1,1.0,0,0,0,4,337
+2,direct,no,Yes [ID:PubMedQA-10973547].,yes,0,0.0,1,0,0,2,323
+2,cot,no,Final Answer: yes [PubMedQA-10973547],yes,0,0.0,0,0,0,4,337
+3,direct,yes,Yes [ID:PubMedQA-26163474].,yes,1,1.0,1,0,0,2,320
+3,cot,yes,Final Answer:,,0,0.0,0,0,0,2,108
+4,direct,yes,Not in context.,not in context,0,0.0,0,1,0,3,108
+4,cot,yes,Yes.,yes,1,1.0,0,0,0,1,78
+5,direct,yes,Not in context.,not in context,0,0.0,0,1,0,3,96
+5,cot,yes,Reasoning:,reasoning:,0,0.0,0,0,0,1,96
+6,direct,yes,Not in context.,not in context,0,0.0,0,1,0,3,100
+6,cot,yes,Not in context.,not in context,0,0.0,0,1,0,3,100
+7,direct,no,Yes [ID:PubMedQA-17192736].,yes,0,0.0,1,0,0,2,320
+7,cot,no,Final Answer: yes,yes,0,0.0,0,0,0,3,108
+8,direct,yes,Yes [ID:PubMedQA-12163782].,yes,1,1.0,1,0,0,2,323
+8,cot,yes,"Reasoning: Neutrophils isolated from major trauma patients exhibited an enhanced migratory response to high concentrations of interleukin-8 throughout the first 24 hrs of admission, in contrast to the normal physiologic attenuation of migration seen in neutrophils isolated from normal laboratory volunteers.",reasoning:,0,0.0,0,0,0,41,1100
+9,direct,yes,Yes [ID:PubMedQA-9582182].,yes,1,1.0,1,0,0,2,298
+9,cot,yes,Yes [PubMedQA-9582182].,yes,1,1.0,0,0,0,2,267
+10,direct,yes,Not in context.,not in context,0,0.0,0,1,0,3,100
+10,cot,yes,Final Answer: yes,yes,1,1.0,0,0,0,3,100
+11,direct,yes,Yes [PubMedQA-23453079].,yes,1,1.0,0,0,0,2,289
+11,cot,yes,Final Answer: no,no,0,0.0,0,0,0,3,108
+12,direct,yes,Not in context.,not in context,0,0.0,0,1,0,3,103
+12,cot,yes,Yes [PubMedQA-14518645].,yes,1,1.0,0,0,0,2,278
+13,direct,yes,Not in context.,not in context,0,0.0,0,1,0,3,96
+13,cot,yes,Final Answer: yes [ID:PubMedQA-21084567].,yes,1,1.0,1,0,0,4,358
+14,direct,yes,Yes [ID:PubMedQA-11601252].,yes,1,1.0,1,0,0,2,314
+14,cot,yes,Final Answer: yes,yes,1,1.0,0,0,0,3,99
+15,direct,yes,Yes [ID:PubMedQA-20577124].,yes,1,1.0,1,0,0,2,320
+15,cot,yes,"Reasoning: In the second paragraph of the introduction, the authors state that ""Hyperleptinemia and oxidative stress play a major role in the development of cardiovascular diseases in obesity."" In the third paragraph of the introduction, the authors state that ""we aimed to investigate whether there is a relationship between plasma levels of leptin and phagocytic nicotinamide adenine dinucleotide phosphate (NADPH) oxidase activity."" Finally, the authors state that ""we aimed to investigate whether there is a relationship between plasma levels of leptin and phagocytic NADPH oxidase activity, and its potential relevance in the vascular remodeling in obese patients."" Based on these statements, the authors are asking whether leptin is involved in phagocytic NADPH oxidase overactivity in obesity. The authors then go on to perform experiments to test this hypothesis. Therefore, the authors are asking whether leptin is involved in phagocytic NADPH oxidase overactivity in obesity.",reasoning:,0,0.0,0,0,0,144,3687
+16,direct,no,Yes [ID:PubMedQA-16647887].,yes,0,0.0,1,0,0,2,313
+16,cot,no,yes [PubMedQA-16647887].,yes,0,0.0,0,0,0,2,283
+17,direct,yes,Not in context.,not in context,0,0.0,0,1,0,3,108
+17,cot,yes,Final Answer: no [PubMedQA-24019262],no,0,0.0,0,0,0,4,335
+18,direct,yes,Yes [PubMedQA-18670651].,yes,1,1.0,0,0,0,2,290
+18,cot,yes,Reasoning:,reasoning:,0,0.0,0,0,0,1,108
+19,direct,no,Yes [ID:PubMedQA-15137012].,yes,0,0.0,1,0,0,2,312
+19,cot,no,Final Answer:  no,no,1,1.0,0,0,0,3,130
+20,direct,yes,Not in context.,not in context,0,0.0,0,1,0,3,123
+20,cot,yes,Reasoning:,reasoning:,0,0.0,0,0,0,1,123
+21,direct,no,Not in context.,not in context,0,0.0,0,1,0,3,107
+21,cot,no,yes,yes,0,0.0,0,0,0,1,62
+22,direct,yes,Yes [ID:PubMedQA-12846929].,yes,1,1.0,1,0,0,2,312
+22,cot,yes,Yes [PubMedQA-12846929].,yes,1,1.0,0,0,0,2,282
+23,direct,yes,Not in context.,not in context,0,0.0,0,1,0,3,100
+23,cot,yes,Final Answer: yes [ID:PubMedQA-18948835].,yes,1,1.0,1,0,0,4,365
+24,direct,no,Yes [PubMedQA-23052500].,yes,0,0.0,0,0,0,2,290
+24,cot,no,Final Answer: yes,yes,0,0.0,0,0,0,3,107
+25,direct,no,Yes [ID:PubMedQA-25488308].,yes,0,0.0,1,0,0,2,320
+25,cot,no,Reasoning:,reasoning:,0,0.0,0,0,0,1,109
+26,direct,maybe,Yes [ID:PubMedQA-24946973].,yes,0,0.0,1,0,0,2,321
+26,cot,maybe,Reasoning:,reasoning:,0,0.0,0,0,0,1,110
+27,direct,yes,Yes [PubMedQA-27456836].,yes,1,1.0,0,0,0,2,294
+27,cot,yes,Reasoning:,reasoning:,0,0.0,0,0,0,1,108
+28,direct,yes,Yes [ID:PubMedQA-17244100].,yes,1,1.0,1,0,0,2,312
+28,cot,yes,Reasoning:,reasoning:,0,0.0,0,0,0,1,100
+29,direct,yes,Yes [ID:PubMedQA-23347337].,yes,1,1.0,1,0,0,2,319
+29,cot,yes,Not in context.,not in context,0,0.0,0,1,0,3,107
+30,direct,yes,Yes [ID:PubMedQA-24098953].,yes,1,1.0,1,0,0,2,311
+30,cot,yes,Yes.,yes,1,1.0,0,0,0,1,69
+31,direct,no,Not in context.,not in context,0,0.0,0,1,0,3,107
+31,cot,no,PubMedQA-25274085.,pubmedqa-25274085.,0,0.0,0,0,0,1,259
+32,direct,yes,Yes [ID:PubMedQA-12913878].,yes,1,1.0,1,0,0,2,307
+32,cot,yes,Yes [PubMedQA-12913878].,yes,1,1.0,0,0,0,2,278
+33,direct,yes,Yes.,yes,1,1.0,0,0,0,1,65
+33,cot,yes,"Reasoning: The study has many different comparisons. It is not clear which one is the most relevant for the question. Also, the answer to the question is not explicitly stated in the text. [PubMedQA-16097998]",reasoning:,0,0.0,0,0,0,34,888
+34,direct,no,Not in context.,not in context,0,0.0,0,1,0,3,101
+34,cot,no,Final Answer: no [PubMedQA-10593212].,no,1,1.0,0,0,0,4,322
+35,direct,yes,Not in context.,not in context,0,0.0,0,1,0,3,106
+35,cot,yes,Final Answer: no [PubMedQA-22012962].,no,0,0.0,0,0,0,4,334
+36,direct,yes,Not in context.,not in context,0,0.0,0,1,0,3,106
+36,cot,yes,Final Answer:  maybe [ID:PubMedQA-8910148].,maybe,0,0.0,1,0,0,4,367
+37,direct,no,Yes [ID:PubMedQA-20337874].,yes,0,0.0,1,0,0,2,311
+37,cot,no,Final Answer: no [PubMedQA-20337874].,no,1,1.0,0,0,0,4,327
+38,direct,no,Not in context.,not in context,0,0.0,0,1,0,3,99
+38,cot,no,Not in context.,not in context,0,0.0,0,1,0,3,106
+39,direct,no,Yes [ID:PubMedQA-18439500].,yes,0,0.0,1,0,0,2,336
+39,cot,no,Reasoning:,reasoning:,0,0.0,0,0,0,1,122
+40,direct,yes,yes [ID:PubMedQA-27491658].,yes,1,1.0,1,0,0,2,305
+40,cot,yes,Final Answer: yes.,yes,1,1.0,0,0,0,3,108
+41,direct,no,Yes [ID:PubMedQA-16962519].,yes,0,0.0,1,0,0,2,319
+41,cot,no,Maybe [ID:PubMedQA-16962519].,maybe,0,0.0,1,0,0,2,319
+42,direct,yes,Yes [ID:PubMedQA-9199905].,yes,1,1.0,1,0,0,2,304
+42,cot,yes,yes,yes,1,1.0,0,0,0,1,61
+43,direct,yes,Not in context.,not in context,0,0.0,0,1,0,3,99
+43,cot,yes,[ID:PubMedQA-14745753].,[id:pubmedqa-14745753].,0,0.0,1,0,0,1,292
+44,direct,yes,Not in context.,not in context,0,0.0,0,1,0,3,100
+44,cot,yes,Maybe [ID:PubMedQA-23506394].,maybe,0,0.0,1,0,0,2,318
+45,direct,yes,Not in context.,not in context,0,0.0,0,1,0,3,108
+45,cot,yes,Reasoning:,reasoning:,0,0.0,0,0,0,1,108
+46,direct,yes,Yes [ID:PubMedQA-22683044].,yes,1,1.0,1,0,0,2,318
+46,cot,yes,Yes [PubMedQA-22683044].,yes,1,1.0,0,0,0,2,289
+47,direct,yes,Yes [ID:PubMedQA-23870157].,yes,1,1.0,1,0,0,2,319
+47,cot,yes,Final Answer: yes [PubMedQA-23870157],yes,1,1.0,0,0,0,4,334
+48,direct,yes,Not in context.,not in context,0,0.0,0,1,0,3,101
+48,cot,yes,Reasoning:,reasoning:,0,0.0,0,0,0,1,94
+49,direct,yes,Yes [ID:PubMedQA-22117569].,yes,1,1.0,1,0,0,2,307
+49,cot,yes,yes [ID:PubMedQA-22117569].,yes,1,1.0,1,0,0,2,307
+50,direct,yes,Yes [ID:PubMedQA-10811329].,yes,1,1.0,1,0,0,2,319
+50,cot,yes,"The main task is to determine whether 99mTc leukocyte scintigraphy and small bowel follow-through (SBFT) studies are useful in children suspected of having inflammatory bowel disease. The article discusses the accuracy of 99mTc leukocyte scintigraphy and SBFT in determining whether a child has inflammatory bowel disease. The article concludes that 99mTc leukocyte scintigraphy and SBFT are useful in children suspected of having inflammatory bowel disease, with a sensitivity of 81% and a specificity of 100%. Therefore, the answer is yes.",yes,1,1.0,0,0,0,80,2343
+51,direct,yes,Not in context.,not in context,0,0.0,0,1,0,3,107
+51,cot,yes,Yes [PubMedQA-23224030].,yes,1,1.0,0,0,0,2,288
+52,direct,yes,Not in context.,not in context,0,0.0,0,1,0,3,99
+52,cot,yes,PubMedQA-24318956: Yes,yes,1,1.0,0,0,0,2,273
+53,direct,yes,Yes [ID:PubMedQA-24014276].,yes,1,1.0,1,0,0,2,318
+53,cot,yes,Final Answer: maybe,maybe,0,0.0,0,0,0,3,106
+54,direct,yes,Yes [ID:PubMedQA-26561905].,yes,1,1.0,1,0,0,2,310
+54,cot,yes,Not in context.,not in context,0,0.0,0,1,0,3,98
+55,direct,yes,Yes [ID:PubMedQA-23806388].,yes,1,1.0,1,0,0,2,318
+55,cot,yes,"Reasoning: The study in the context examined the ability of various postoperative nomograms to predict prostate cancer-specific mortality and whether they could predict aggressive biochemical recurrence (PSA doubling time < 9 months) after radical prostatectomy. The study found that the DPC, Kattan postoperative, JHH, and joint CPDR/CaPSURE nomograms could predict aggressive biochemical recurrence in a statistically significant manner and that they predicted prostate cancer-specific mortality more accurately than biochemical recurrence. Therefore, yes. [ID:PubMedQA-23806388].",yes,1,1.0,1,0,0,73,2261
+56,direct,no,Yes [ID:PubMedQA-7482275].,yes,0,0.0,1,0,0,2,295
+56,cot,no,Final Answer: yes,yes,0,0.0,0,0,0,3,99
+57,direct,yes,Yes [ID:PubMedQA-23072266].,yes,1,1.0,1,0,0,2,319
+57,cot,yes,Yes [ID:PubMedQA-23072266].,yes,1,1.0,1,0,0,2,319
+58,direct,yes,Yes [ID:PubMedQA-25432938].,yes,1,1.0,1,0,0,2,306
+58,cot,yes,Final Answer: no,no,0,0.0,0,0,0,3,98
+59,direct,no,Not in context.,not in context,0,0.0,0,1,0,3,98
+59,cot,no,No [PubMedQA-26485091].,no,1,1.0,0,0,0,2,280
+60,direct,yes,Yes [ID:PubMedQA-15208005].,yes,1,1.0,1,0,0,2,306
+60,cot,yes,Yes,yes,1,1.0,0,0,0,1,53
+61,direct,yes,yes [ID:PubMedQA-10759659].,yes,1,1.0,1,0,0,2,305
+61,cot,yes,Final Answer: yes,yes,1,1.0,0,0,0,3,99
+62,direct,maybe,Not in context.,not in context,0,0.0,0,1,0,3,92
+62,cot,maybe,Final Answer: maybe,maybe,1,1.0,0,0,0,3,90
+63,direct,yes,Yes [ID:PubMedQA-26818046].,yes,1,1.0,1,0,0,2,317
+63,cot,yes,Final Answer: no [PubMedQA-26818046],no,0,0.0,0,0,0,4,334
+64,direct,yes,Yes [ID:PubMedQA-15065192].,yes,1,1.0,1,0,0,2,311
+64,cot,yes,Final Answer:  yes [ID:PubMedQA-15065192].,yes,1,1.0,1,0,0,4,377
+65,direct,yes,Yes [ID:PubMedQA-24352924].,yes,1,1.0,1,0,0,2,310
+65,cot,yes,Not in context.,not in context,0,0.0,0,1,0,3,105
+66,direct,no,Yes [PubMedQA-17462393].,yes,0,0.0,0,0,0,2,286
+66,cot,no,Not in context.,not in context,0,0.0,0,1,0,3,106
+67,direct,no,Yes [ID:PubMedQA-22504515].,yes,0,0.0,1,0,0,2,316
+67,cot,no,Final Answer: yes [ID:PubMedQA-22504515].,yes,0,0.0,1,0,0,4,362
+68,direct,yes,Yes [ID:PubMedQA-25675614].,yes,1,1.0,1,0,0,2,308
+68,cot,yes,Not in context.,not in context,0,0.0,0,1,0,3,98
+69,direct,maybe,Not in context.,not in context,0,0.0,0,1,0,3,90
+69,cot,maybe,"Reasoning: In the whole group of preschool children, a slight difference was found between both training modalities concerning their writing abilities. However, children with a history of hearing loss, actual hearing loss or pathologic middle ear findings profited most from the specialized training program compared to the control in their reading abilities.",reasoning:,0,0.0,0,0,0,52,1030
+70,direct,yes,Not in context.,not in context,0,0.0,0,1,0,3,99
+70,cot,yes,Not in context.,not in context,0,0.0,0,1,0,3,105
+71,direct,no,Yes [ID:PubMedQA-21823940].,yes,0,0.0,1,0,0,2,308
+71,cot,no,yes [ID:PubMedQA-21823940],yes,0,0.0,1,0,0,2,316
+72,direct,yes,Yes [ID:PubMedQA-10331115].,yes,1,1.0,1,0,0,2,311
+72,cot,yes,Not in context.,not in context,0,0.0,0,1,0,3,94
+73,direct,no,Not in context.,not in context,0,0.0,0,1,0,3,105
+73,cot,no,Final Answer: yes. [ID:PubMedQA-24684514],yes,0,0.0,1,0,0,4,377
+74,direct,yes,Yes [ID:PubMedQA-14968373].,yes,1,1.0,1,0,0,2,310
+74,cot,yes,Reasoning:,reasoning:,0,0.0,0,0,0,1,94
+75,direct,no,Not in context.,not in context,0,0.0,0,1,0,3,98
+75,cot,no,Reasoning:,reasoning:,0,0.0,0,0,0,1,105
+76,direct,no,Not in context.,not in context,0,0.0,0,1,0,3,98
+76,cot,no,Final Answer: no [PubMedQA-22972546],no,1,1.0,0,0,0,4,330
+77,direct,no,Yes [ID:PubMedQA-12095973].,yes,0,0.0,1,0,0,2,309
+77,cot,no,Final Answer: yes. [ID:PubMedQA-12095973],yes,0,0.0,1,0,0,4,376
+78,direct,no,Yes [ID:PubMedQA-15703931].,yes,0,0.0,1,0,0,2,317
+78,cot,no,"PubMedQA-15703931: no [92, 93, 94, 95, 96]",no,1,1.0,0,0,0,7,572
+79,direct,yes,Not in context.,not in context,0,0.0,0,1,0,3,106
+79,cot,yes,Final Answer: yes [PubMedQA-12913347],yes,1,1.0,0,0,0,4,332
+80,direct,yes,Yes [PubMedQA-9550200].,yes,1,1.0,0,0,0,2,255
+80,cot,yes,Final Answer: no [PubMedQA-9550200],no,0,0.0,0,0,0,4,302
+81,direct,yes,Not in context.,not in context,0,0.0,0,1,0,3,106
+81,cot,yes,Final Answer: yes [PubMedQA-26701174].,yes,1,1.0,0,0,0,4,332
+82,direct,no,Not in context.,not in context,0,0.0,0,1,0,3,94
+82,cot,no,Reasoning:,reasoning:,0,0.0,0,0,0,1,97
+83,direct,yes,Yes [ID:PubMedQA-22532370].,yes,1,1.0,1,0,0,2,309
+83,cot,yes,Final Answer: yes [PubMedQA-22532370].,yes,1,1.0,0,0,0,4,324
+84,direct,yes,Yes [ID:PubMedQA-22188074].,yes,1,1.0,1,0,0,2,316
+84,cot,yes,Final Answer: yes [ID:PubMedQA-22188074].,yes,1,1.0,1,0,0,4,361
+85,direct,yes,Not in context.,not in context,0,0.0,0,1,0,3,93
+85,cot,yes,Final Answer: Not in context.,not in context,0,0.0,0,1,0,5,143
+86,direct,yes,Yes [ID:PubMedQA-18041059].,yes,1,1.0,1,0,0,2,316
+86,cot,yes,PubMedQA-18041059.,pubmedqa-18041059.,0,0.0,0,0,0,1,256
+87,direct,yes,Yes [ID:PubMedQA-21550158].,yes,1,1.0,1,0,0,2,316
+87,cot,yes,Yes. [PubMedQA-21550158],yes,1,1.0,0,0,0,2,301
+88,direct,no,Not in context.,not in context,0,0.0,0,1,0,3,99
+88,cot,no,Final Answer: yes,yes,0,0.0,0,0,0,3,105
+89,direct,yes,Yes [ID:PubMedQA-10430303].,yes,1,1.0,1,0,0,2,309
+89,cot,yes,Yes,yes,1,1.0,0,0,0,1,54
+90,direct,maybe,Yes [ID:PubMedQA-24336869].,yes,0,0.0,1,0,0,2,315
+90,cot,maybe,Reasoning:,reasoning:,0,0.0,0,0,0,1,105
+91,direct,no,Not in context.,not in context,0,0.0,0,1,0,3,105
+91,cot,no,Final Answer: no [ID:PubMedQA-24652474],no,1,1.0,1,0,0,4,361
+92,direct,yes,Not in context.,not in context,0,0.0,0,1,0,3,99
+92,cot,yes,Final Answer: no,no,0,0.0,0,0,0,3,99
+93,direct,yes,Not in context.,not in context,0,0.0,0,1,0,3,105
+93,cot,yes,Yes.,yes,1,1.0,0,0,0,1,76
+94,direct,yes,Yes [ID:PubMedQA-18179827].,yes,1,1.0,1,0,0,2,308
+94,cot,yes,Final Answer: yes [PubMedQA-18179827],yes,1,1.0,0,0,0,4,330
+95,direct,no,Not in context.,not in context,0,0.0,0,1,0,3,106
+95,cot,no,Not in context.,not in context,0,0.0,0,1,0,3,105
+96,direct,yes,Not in context.,not in context,0,0.0,0,1,0,3,97
+96,cot,yes,Final Answer: yes,yes,1,1.0,0,0,0,3,98
+97,direct,no,Not in context.,not in context,0,0.0,0,1,0,3,105
+97,cot,no,Final Answer: yes,yes,0,0.0,0,0,0,3,105
+98,direct,yes,Not in context.,not in context,0,0.0,0,1,0,3,105
+98,cot,yes,Final Answer: yes,yes,1,1.0,0,0,0,3,105
+99,direct,yes,Yes [ID:PubMedQA-22453060].,yes,1,1.0,1,0,0,2,316
+99,cot,yes,Yes.,yes,1,1.0,0,0,0,1,75
+100,direct,yes,Not in context.,not in context,0,0.0,0,1,0,3,105
+100,cot,yes,Final Answer: yes [ID:PubMedQA-24671913].,yes,1,1.0,1,0,0,4,361
+101,direct,not in context,Not in context.,not in context,1,1.0,0,1,0,3,98
+101,cot,not in context,Final Answer: maybe,maybe,0,0.0,0,0,1,3,83
+102,direct,not in context,Not in context.,not in context,1,1.0,0,1,0,3,82
+102,cot,not in context,Reasoning:,reasoning:,0,0.0,0,0,1,1,83
+103,direct,not in context,Not in context.,not in context,1,1.0,0,1,0,3,82
+103,cot,not in context,Reasoning:,reasoning:,0,0.0,0,0,1,1,83
+104,direct,not in context,Not in context.,not in context,1,1.0,0,1,0,3,82
+104,cot,not in context,Final Answer: yes.,yes,0,0.0,0,0,1,3,98
+105,direct,not in context,Not in context.,not in context,1,1.0,0,1,0,3,82
+105,cot,not in context,Reasoning:,reasoning:,0,0.0,0,0,1,1,83
+106,direct,not in context,Not in context.,not in context,1,1.0,0,1,0,3,82
+106,cot,not in context,Reasoning:,reasoning:,0,0.0,0,0,1,1,83
+107,direct,not in context,Not in context.,not in context,1,1.0,0,1,0,3,82
+107,cot,not in context,Final Answer: yes,yes,0,0.0,0,0,1,3,83
+108,direct,not in context,Not in context.,not in context,1,1.0,0,1,0,3,82
+108,cot,not in context,Reasoning:,reasoning:,0,0.0,0,0,1,1,83
+109,direct,not in context,Not in context.,not in context,1,1.0,0,1,0,3,82
+109,cot,not in context,Final Answer: No [ID:Decoy-9],no,0,0.0,1,0,0,4,203
+110,direct,not in context,Not in context.,not in context,1,1.0,0,1,0,3,83
+110,cot,not in context,Reasoning:,reasoning:,0,0.0,0,0,1,1,83
